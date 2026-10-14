@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "49e1f9f212e9f2964f6163a32936a658a058ae1609f8505ac09b8119ca67ad21",
-      "bytes": 9070
+      "sha256": "37a93c17db4e25221366f457a44025b360700e48a873435ded1132ea10717643",
+      "bytes": 11842
     },
     {
       "path": "cases.json",
@@ -15,6 +15,11 @@
       "path": "evidence/devmode-observations.json",
       "sha256": "1182a10043734311462ce6a57767d74557dc48282d6317913fbd035150df1dc4",
       "bytes": 143665
+    },
+    {
+      "path": "evidence/export-source-variables.json",
+      "sha256": "e73d378868b99756824bb2f460f2937f4b2972a8be201946c1a07314ae165abc",
+      "bytes": 9408
     },
     {
       "path": "evidence/figma-state.json",
@@ -47,6 +52,31 @@
       "bytes": 273
     },
     {
+      "path": "evidence/original-node-hierarchy.json",
+      "sha256": "419fe0bb54e010c6a6b7fdbabe6e673d879d4276dbc4f5b5b3c465dcb4c22b20",
+      "bytes": 8849
+    },
+    {
+      "path": "evidence/restored-file-state.json",
+      "sha256": "8748ef6f9e1bb12fa4c21481cf086481d6b91d050c0e7ee441bcb39f56ae00b6",
+      "bytes": 37822
+    },
+    {
+      "path": "evidence/restored-overlay-literal.txt",
+      "sha256": "b9e36aa0d0e6221db1ed68a63f78ff086680e27c6985b293ec3f91ebba6b99e2",
+      "bytes": 9329
+    },
+    {
+      "path": "evidence/restored-overlay-variable.txt",
+      "sha256": "684c818ff92afb8dac2cca6d148a2eeb32bbf21bbb8981b51b9cb2ffd72b0da1",
+      "bytes": 9684
+    },
+    {
+      "path": "evidence/restored-profile.txt",
+      "sha256": "070cb977fe92d01ff7d64940a5184e1209be17fa9bbb723578522543366a0efb",
+      "bytes": 1103
+    },
+    {
       "path": "evidence/variable-details.txt",
       "sha256": "35382f28dc73f1704a6ffb2ecc3e1c9e1d8e03912531e71e37a3d5051ea942e6",
       "bytes": 4497
@@ -57,9 +87,34 @@
       "bytes": 3427
     },
     {
+      "path": "figma/Codex-Color-P3-Transforms.fig",
+      "sha256": "dd272fcd5c6bf597d7b2a14b13475bc7523f856ebdac414279e5bc2edf45ed8d",
+      "bytes": 51663
+    },
+    {
+      "path": "figma/export-meta.json",
+      "sha256": "f412e1cec579c5794963d4a98ef8b476078b1b9ef58f7cc39e0606ef93ff6b23",
+      "bytes": 465
+    },
+    {
+      "path": "figma/local-copy-thumbnail.png",
+      "sha256": "410f6e86245a7950b70f6b9b98199139f2ad640b401bb2c89f03a93bb1477051",
+      "bytes": 3982
+    },
+    {
+      "path": "figma/local-copy.json",
+      "sha256": "6c6fe27ae3e2d03ac8f4c518a4c54a14ca2ec79437139d866eb52447a11ea59d",
+      "bytes": 1398
+    },
+    {
       "path": "metadata.json",
       "sha256": "a4b0a66a3e6c5b55edeab86720889343fd5bf3a0fb82ec96385e4503c6e62f0c",
       "bytes": 1026
+    },
+    {
+      "path": "node-registry.json",
+      "sha256": "8e36c7358c722a36508b3156d44657ef1efbd22ff3ae609435399a492ebc1cb5",
+      "bytes": 32341
     },
     {
       "path": "screenshots/inverse-variable-inputs.jpg",
@@ -92,9 +147,34 @@
       "bytes": 102067
     },
     {
+      "path": "screenshots/restored-overlay-literal.jpg",
+      "sha256": "c1e3738ffe31a8798300bfd2b75c39209f36ea000dd19f203abb88febfde932a",
+      "bytes": 110348
+    },
+    {
+      "path": "screenshots/restored-overlay-variable.jpg",
+      "sha256": "70cf97e25eea54fb0c49d9b2b384810c318759100e51a2d1b66bbfdb6c05682f",
+      "bytes": 111284
+    },
+    {
+      "path": "screenshots/restored-overview.jpg",
+      "sha256": "46461f371b682ceaf246e68b3853baa44a799a1201c1a34e6736d7685bbe95c9",
+      "bytes": 82952
+    },
+    {
+      "path": "screenshots/restored-profile.jpg",
+      "sha256": "a84f098f448fb331839767cbed66e4763c7195a63be8d59b677fca4e74f7400f",
+      "bytes": 89281
+    },
+    {
       "path": "screenshots/variable-details.jpg",
       "sha256": "09d4bcd62ba5a7ce5ccb0947daacefa2a02883c63c4e95da28ab69706cd0d496",
       "bytes": 106144
+    },
+    {
+      "path": "test-registry.json",
+      "sha256": "357253d7ecccc158d4358c4ba6704dc69bbceed4837eb028fd47fe10711d3e41",
+      "bytes": 18496
     }
   ]
 }

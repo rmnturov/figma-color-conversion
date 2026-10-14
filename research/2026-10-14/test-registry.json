@@ -1,0 +1,583 @@
+{
+  "sourceFileKey": "OWBuzmv9GDKdGpPkzbqMk0",
+  "profile": "Display-P3",
+  "units": "RGB coordinates 0..1; deltaEOK not multiplied by 100",
+  "tests": [
+    {
+      "testId": "FWD-overlay-literal",
+      "kind": "dev-mode",
+      "nodeId": "4:11",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay literal > overlay-literal",
+      "inputP3": [
+        0.11372549019607843,
+        0.17647058823529413,
+        0.4196078431372549
+      ],
+      "variableId": null,
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: #182E6F;background: color(display-p3 0.1137 0.1765 0.4196);"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-overlay-variable",
+      "kind": "dev-mode",
+      "nodeId": "4:14",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay variable > overlay-variable",
+      "inputP3": [
+        0.11372549019607843,
+        0.17647058823529413,
+        0.4196078431372549
+      ],
+      "variableId": "VariableID:4:6",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--primitive-overlay, #102F73);background: var(--primitive-overlay, color(display-p3 0.1137 0.1765 0.4196));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-overlay-alias2",
+      "kind": "dev-mode",
+      "nodeId": "4:17",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay alias2 > overlay-alias2",
+      "inputP3": [
+        0.11372549019607843,
+        0.17647058823529413,
+        0.4196078431372549
+      ],
+      "variableId": "VariableID:4:8",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--role-overlay, #102F73);background: var(--role-overlay, color(display-p3 0.1137 0.1765 0.4196));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-light-literal",
+      "kind": "dev-mode",
+      "nodeId": "4:24",
+      "path": "Page 1 > P3 conversion experiments > light > light literal > light-literal",
+      "inputP3": [
+        0.7686274509803922,
+        0.8588235294117647,
+        0.9882352941176471
+      ],
+      "variableId": null,
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: #BEDCFF;background: color(display-p3 0.7686 0.8588 0.9882);"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-light-variable",
+      "kind": "dev-mode",
+      "nodeId": "4:27",
+      "path": "Page 1 > P3 conversion experiments > light > light variable > light-variable",
+      "inputP3": [
+        0.7686274509803922,
+        0.8588235294117647,
+        0.9882352941176471
+      ],
+      "variableId": "VariableID:4:19",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--primitive-light, #B6DDFF);background: var(--primitive-light, color(display-p3 0.7686 0.8588 0.9882));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-light-alias2",
+      "kind": "dev-mode",
+      "nodeId": "4:30",
+      "path": "Page 1 > P3 conversion experiments > light > light alias2 > light-alias2",
+      "inputP3": [
+        0.7686274509803922,
+        0.8588235294117647,
+        0.9882352941176471
+      ],
+      "variableId": "VariableID:4:21",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--role-light, #B6DDFF);background: var(--role-light, color(display-p3 0.7686 0.8588 0.9882));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-red-literal",
+      "kind": "dev-mode",
+      "nodeId": "4:37",
+      "path": "Page 1 > P3 conversion experiments > red > red literal > red-literal",
+      "inputP3": [
+        0.9,
+        0.2,
+        0.2
+      ],
+      "variableId": null,
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: #FA0525;background: color(display-p3 0.9 0.2 0.2);"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-red-variable",
+      "kind": "dev-mode",
+      "nodeId": "4:40",
+      "path": "Page 1 > P3 conversion experiments > red > red variable > red-variable",
+      "inputP3": [
+        0.9,
+        0.2,
+        0.2
+      ],
+      "variableId": "VariableID:4:32",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--primitive-red, #FF0005);background: var(--primitive-red, color(display-p3 0.9 0.2 0.2));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-red-alias2",
+      "kind": "dev-mode",
+      "nodeId": "4:43",
+      "path": "Page 1 > P3 conversion experiments > red > red alias2 > red-alias2",
+      "inputP3": [
+        0.9,
+        0.2,
+        0.2
+      ],
+      "variableId": "VariableID:4:34",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--role-red, #FF0005);background: var(--role-red, color(display-p3 0.9 0.2 0.2));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-green-literal",
+      "kind": "dev-mode",
+      "nodeId": "4:50",
+      "path": "Page 1 > P3 conversion experiments > green > green literal > green-literal",
+      "inputP3": [
+        0,
+        1,
+        0
+      ],
+      "variableId": null,
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: #0F0;background: color(display-p3 0 1 0);"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-green-variable",
+      "kind": "dev-mode",
+      "nodeId": "4:53",
+      "path": "Page 1 > P3 conversion experiments > green > green variable > green-variable",
+      "inputP3": [
+        0,
+        1,
+        0
+      ],
+      "variableId": "VariableID:4:45",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--primitive-green, #0F0);background: var(--primitive-green, color(display-p3 0 1 0));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-green-alias2",
+      "kind": "dev-mode",
+      "nodeId": "4:56",
+      "path": "Page 1 > P3 conversion experiments > green > green alias2 > green-alias2",
+      "inputP3": [
+        0,
+        1,
+        0
+      ],
+      "variableId": "VariableID:4:47",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--role-green, #0F0);background: var(--role-green, color(display-p3 0 1 0));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-gray-literal",
+      "kind": "dev-mode",
+      "nodeId": "4:63",
+      "path": "Page 1 > P3 conversion experiments > gray > gray literal > gray-literal",
+      "inputP3": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "variableId": null,
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: #808080;background: color(display-p3 0.5 0.5 0.5);"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-gray-variable",
+      "kind": "dev-mode",
+      "nodeId": "4:66",
+      "path": "Page 1 > P3 conversion experiments > gray > gray variable > gray-variable",
+      "inputP3": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "variableId": "VariableID:4:58",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--primitive-gray, #808080);background: var(--primitive-gray, color(display-p3 0.5 0.5 0.5));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-gray-alias2",
+      "kind": "dev-mode",
+      "nodeId": "4:69",
+      "path": "Page 1 > P3 conversion experiments > gray > gray alias2 > gray-alias2",
+      "inputP3": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "variableId": "VariableID:4:60",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--role-gray, #808080);background: var(--role-gray, color(display-p3 0.5 0.5 0.5));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-thread-literal",
+      "kind": "dev-mode",
+      "nodeId": "4:76",
+      "path": "Page 1 > P3 conversion experiments > thread > thread literal > thread-literal",
+      "inputP3": [
+        0.9416559669901806,
+        0.7243055641961562,
+        0.7258952497986969
+      ],
+      "variableId": null,
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: #FAB6B8;background: color(display-p3 0.9417 0.7243 0.7259);"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-thread-variable",
+      "kind": "dev-mode",
+      "nodeId": "4:79",
+      "path": "Page 1 > P3 conversion experiments > thread > thread variable > thread-variable",
+      "inputP3": [
+        0.9416559669901806,
+        0.7243055641961562,
+        0.7258952497986969
+      ],
+      "variableId": "VariableID:4:71",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--primitive-thread, #FFB2B7);background: var(--primitive-thread, color(display-p3 0.9417 0.7243 0.7259));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "FWD-thread-alias2",
+      "kind": "dev-mode",
+      "nodeId": "4:82",
+      "path": "Page 1 > P3 conversion experiments > thread > thread alias2 > thread-alias2",
+      "inputP3": [
+        0.9416559669901806,
+        0.7243055641961562,
+        0.7258952497986969
+      ],
+      "variableId": "VariableID:4:73",
+      "expectedCSS": [
+        "width: 256px;height: 100px;",
+        "background: var(--role-thread, #FFB2B7);background: var(--role-thread, color(display-p3 0.9417 0.7243 0.7259));"
+      ],
+      "evidence": "evidence/devmode-observations.json"
+    },
+    {
+      "testId": "INV-overlay-p3-hex",
+      "kind": "variable-input",
+      "nodeId": "36:10",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-p3-hex",
+      "variableId": "VariableID:31:3",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "HEX",
+      "input": "#1D2D6B",
+      "sourceOKLCH": "oklch(32.6% 0.117 266)",
+      "expectedStoredRGBA": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "INV-overlay-srgb-hex",
+      "kind": "variable-input",
+      "nodeId": "36:13",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-srgb-hex",
+      "variableId": "VariableID:34:2",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "HEX",
+      "input": "182E6F",
+      "sourceOKLCH": "oklch(32.6% 0.117 266)",
+      "expectedStoredRGBA": {
+        "r": 0.0941176488995552,
+        "g": 0.18039216101169586,
+        "b": 0.43529412150382996,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "INV-overlay-css-oklch",
+      "kind": "variable-input",
+      "nodeId": "36:16",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-css-oklch",
+      "variableId": "VariableID:34:3",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "CSS",
+      "input": "oklch(32.6% 0.117 266)",
+      "sourceOKLCH": "oklch(32.6% 0.117 266)",
+      "expectedStoredRGBA": {
+        "r": 0.11302462965250015,
+        "g": 0.17683282494544983,
+        "b": 0.419991672039032,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "INV-thread-p3-hex",
+      "kind": "variable-input",
+      "nodeId": "36:23",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-p3-hex",
+      "variableId": "VariableID:34:4",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "HEX",
+      "input": "F0B9B9",
+      "sourceOKLCH": "oklch(84% 0.08 17)",
+      "expectedStoredRGBA": {
+        "r": 0.9411764740943909,
+        "g": 0.7254902124404907,
+        "b": 0.7254902124404907,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "INV-thread-srgb-hex",
+      "kind": "variable-input",
+      "nodeId": "36:26",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-srgb-hex",
+      "variableId": "VariableID:34:5",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "HEX",
+      "input": "FAB6B8",
+      "sourceOKLCH": "oklch(84% 0.08 17)",
+      "expectedStoredRGBA": {
+        "r": 0.9803921580314636,
+        "g": 0.7137255072593689,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "INV-thread-css-oklch",
+      "kind": "variable-input",
+      "nodeId": "36:29",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-css-oklch",
+      "variableId": "VariableID:34:6",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "CSS",
+      "input": "oklch(84% 0.08 17)",
+      "sourceOKLCH": "oklch(84% 0.08 17)",
+      "expectedStoredRGBA": {
+        "r": 0.9416559934616089,
+        "g": 0.7243054509162903,
+        "b": 0.7258951663970947,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "INV-outside-p3-clipped",
+      "kind": "variable-input",
+      "nodeId": "36:36",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-p3-clipped",
+      "variableId": "VariableID:34:7",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "HEX",
+      "input": "00CE00",
+      "sourceOKLCH": "oklch(70% 0.4 145)",
+      "expectedStoredRGBA": {
+        "r": 0,
+        "g": 0.8078431487083435,
+        "b": 0,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "INV-outside-srgb-hex",
+      "kind": "variable-input",
+      "nodeId": "36:39",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-srgb-hex",
+      "variableId": "VariableID:34:8",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "HEX",
+      "input": "00D200",
+      "sourceOKLCH": "oklch(70% 0.4 145)",
+      "expectedStoredRGBA": {
+        "r": 0,
+        "g": 0.8235294222831726,
+        "b": 0,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "INV-outside-css-oklch",
+      "kind": "variable-input",
+      "nodeId": "36:42",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-css-oklch",
+      "variableId": "VariableID:34:9",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "CSS",
+      "input": "oklch(70% 0.4 145)",
+      "sourceOKLCH": "oklch(70% 0.4 145)",
+      "expectedStoredRGBA": {
+        "r": 0,
+        "g": 0.8064367771148682,
+        "b": 0,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "INV-outside-p3-mapped",
+      "kind": "variable-input",
+      "nodeId": "36:45",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-p3-mapped",
+      "variableId": "VariableID:34:10",
+      "collectionId": "VariableCollectionId:31:2",
+      "modeId": "31:0",
+      "inputFormat": "HEX",
+      "input": "00C700",
+      "sourceOKLCH": "oklch(70% 0.4 145)",
+      "expectedStoredRGBA": {
+        "r": 0,
+        "g": 0.7803921699523926,
+        "b": 0,
+        "a": 1
+      },
+      "tolerancePerChannel": 2e-7,
+      "evidence": "evidence/inverse-values.json"
+    },
+    {
+      "testId": "REF-overlay",
+      "kind": "literal-reference",
+      "nodeId": "36:7",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-reference",
+      "sourceOKLCH": "oklch(32.6% 0.117 266)",
+      "expectedFill": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.11302463710308075,
+          "g": 0.17683281004428864,
+          "b": 0.41999173164367676
+        },
+        "boundVariables": {}
+      },
+      "evidence": "evidence/figma-state.json"
+    },
+    {
+      "testId": "REF-thread",
+      "kind": "literal-reference",
+      "nodeId": "36:20",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-reference",
+      "sourceOKLCH": "oklch(84% 0.08 17)",
+      "expectedFill": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9416559934616089,
+          "g": 0.7243055701255798,
+          "b": 0.7258952260017395
+        },
+        "boundVariables": {}
+      },
+      "evidence": "evidence/figma-state.json"
+    },
+    {
+      "testId": "REF-outside",
+      "kind": "literal-reference",
+      "nodeId": "36:33",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-reference",
+      "sourceOKLCH": "oklch(70% 0.4 145)",
+      "expectedFill": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.8064367175102234,
+          "b": 0
+        },
+        "boundVariables": {}
+      },
+      "evidence": "evidence/figma-state.json"
+    },
+    {
+      "testId": "PERSIST-native-css",
+      "kind": "reload",
+      "nodeId": "23:4",
+      "path": "Page 1 > P3 conversion experiments > Native CSS input > native-css-input",
+      "input": "oklch(84% 0.08 17)",
+      "expectedBeforeReload": "oklch(84% 0.08 17deg)",
+      "expectedAfterReload": "#FAB6B8; color(display-p3 0.9417 0.7243 0.7259)",
+      "evidence": "evidence/native-input-persistence.json"
+    }
+  ]
+}

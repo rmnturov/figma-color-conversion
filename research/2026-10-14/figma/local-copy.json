@@ -1,0 +1,41 @@
+{
+  "file": "Codex-Color-P3-Transforms.fig",
+  "sourceFileKey": "OWBuzmv9GDKdGpPkzbqMk0",
+  "restoredFileKey": "6K0nZY2orMpyjCl6pxXaU0",
+  "exportedAt": "2026-10-14T15:12:55.183Z",
+  "bytes": 51663,
+  "sha256": "dd272fcd5c6bf597d7b2a14b13475bc7523f856ebdac414279e5bc2edf45ed8d",
+  "zipIntegrity": "Python zipfile.testzip(): null; all member CRC checks passed",
+  "zipMembers": [
+    "canvas.fig",
+    "thumbnail.png",
+    "meta.json",
+    "images/"
+  ],
+  "canvasHeader": "fig-kiwi",
+  "profile": "Display-P3",
+  "restoration": {
+    "status": "imported into Drafts through native file dialog",
+    "pageIds": [
+      "0:1"
+    ],
+    "nodeCount": 110,
+    "rectangleCount": 32,
+    "variableCount": 28,
+    "collectionCount": 2,
+    "nodeIdsPreserved": true,
+    "variableIdsPreserved": true,
+    "collectionAndModeIdsPreserved": true,
+    "allVariableValuesAndAliasesPreserved": true,
+    "allRectangleFillRecordsPreserved": true,
+    "devModeRecheckedNodeIds": [
+      "4:11",
+      "4:14"
+    ]
+  },
+  "notes": [
+    "The inverse mode label is Value in the exported file instead of Mode 1 in the earlier snapshot; its modeId remains 31:0.",
+    "Restoration verification compares recorded state, not a decoded proprietary canvas.fig.",
+    "The full 18-observation Dev Mode matrix and 10 UI input cases were not rerun on the restored file. The two overlay Dev Mode cases were rechecked."
+  ]
+}

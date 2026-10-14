@@ -11,6 +11,8 @@
 | [Overlay BG](https://www.figma.com/design/SR61SDd57O6FCtpj4Tbdu1/Overlays-4?node-id=46-51599) | Уточнение исходной заливки | Ссылка ведёт на экземпляр; дочерний Fill разрешён через API |
 | [Figma: цветовые профили](https://help.figma.com/hc/en-us/articles/360039825114-Manage-color-profiles-in-design-files) | Различие Assign и Convert, профиль документа | Не раскрывает алгоритм HEX-fallback Dev Mode |
 | [Figma: цветовые модели](https://help.figma.com/hc/en-us/articles/360043042113-About-color-models) | CSS-ввод и модели представления | Практическая проверка текстовой формы после обновления описана отдельно |
+| [Figma: локальная копия](https://help.figma.com/hc/en-us/articles/8403626871063-Save-a-local-copy-of-files) | Штатный экспорт `.fig`, отсутствие истории и комментариев, новый файл при импорте | Сохранность конкретных ID проверена нашим обратным импортом |
+| [Figma: импорт файлов](https://help.figma.com/hc/en-us/articles/360041003114-Import-files-to-the-file-browser) | Восстановление `.fig` через файловый браузер | Не заменяет проверку данных восстановленного документа |
 | [OkColor: документация автора](https://dokozero.design/en/projects/okcolor/#differences-in-the-hex-and-rgba-values) | Различие HEX относительно профиля Figma и CSS HEX | Установка и запуск самого плагина в этом опыте не выполнялись |
 | [Doko Zero: тред от 06.02.2025](https://x.com/dokozero/status/1887429676861145235) | Историческое сообщение о вводе OKLCH в P3-файл | Не доказывает текущее поведение |
 | [Figma Forum: Unmanaged](https://forum.figma.com/ask-the-community-7/does-figma-stretch-rgb-colors-in-unmanaged-p3-color-profile-24465) | Исторический вопрос об RGB и охвате P3 от 18.01.2023 | Ответ об HSB не объясняет преобразование Dev Mode |

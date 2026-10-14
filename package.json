@@ -10,6 +10,7 @@
   "scripts": {
     "test": "node --test",
     "verify": "node scripts/verify-recorded-run.mjs",
+    "verify:copy": "node scripts/verify-local-copy.mjs",
     "check:links": "node scripts/check-document-links.mjs",
     "code:figma": "node scripts/code-to-figma.mjs",
     "figma:code": "node scripts/figma-to-code.mjs"

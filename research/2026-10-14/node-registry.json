@@ -1,0 +1,1479 @@
+{
+  "sourceFileKey": "OWBuzmv9GDKdGpPkzbqMk0",
+  "pageId": "0:1",
+  "nodes": [
+    {
+      "id": "0:1",
+      "type": "PAGE",
+      "name": "Page 1",
+      "parentId": "0:0",
+      "path": "Page 1",
+      "pathIds": [
+        "0:1"
+      ]
+    },
+    {
+      "id": "4:3",
+      "type": "FRAME",
+      "name": "P3 conversion experiments",
+      "parentId": "0:1",
+      "path": "Page 1 > P3 conversion experiments",
+      "pathIds": [
+        "0:1",
+        "4:3"
+      ]
+    },
+    {
+      "id": "4:4",
+      "type": "TEXT",
+      "name": "Display-P3 — literal / variable / two aliases",
+      "parentId": "4:3",
+      "path": "Page 1 > P3 conversion experiments > Display-P3 — literal / variable / two aliases",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:4"
+      ]
+    },
+    {
+      "id": "4:5",
+      "type": "FRAME",
+      "name": "overlay",
+      "parentId": "4:3",
+      "path": "Page 1 > P3 conversion experiments > overlay",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5"
+      ]
+    },
+    {
+      "id": "4:9",
+      "type": "FRAME",
+      "name": "overlay literal",
+      "parentId": "4:5",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5",
+        "4:9"
+      ]
+    },
+    {
+      "id": "4:10",
+      "type": "TEXT",
+      "name": "overlay / literal",
+      "parentId": "4:9",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay literal > overlay / literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5",
+        "4:9",
+        "4:10"
+      ]
+    },
+    {
+      "id": "4:11",
+      "type": "RECTANGLE",
+      "name": "overlay-literal",
+      "parentId": "4:9",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay literal > overlay-literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5",
+        "4:9",
+        "4:11"
+      ]
+    },
+    {
+      "id": "4:12",
+      "type": "FRAME",
+      "name": "overlay variable",
+      "parentId": "4:5",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5",
+        "4:12"
+      ]
+    },
+    {
+      "id": "4:13",
+      "type": "TEXT",
+      "name": "overlay / variable",
+      "parentId": "4:12",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay variable > overlay / variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5",
+        "4:12",
+        "4:13"
+      ]
+    },
+    {
+      "id": "4:14",
+      "type": "RECTANGLE",
+      "name": "overlay-variable",
+      "parentId": "4:12",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay variable > overlay-variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5",
+        "4:12",
+        "4:14"
+      ]
+    },
+    {
+      "id": "4:15",
+      "type": "FRAME",
+      "name": "overlay alias2",
+      "parentId": "4:5",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5",
+        "4:15"
+      ]
+    },
+    {
+      "id": "4:16",
+      "type": "TEXT",
+      "name": "overlay / alias2",
+      "parentId": "4:15",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay alias2 > overlay / alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5",
+        "4:15",
+        "4:16"
+      ]
+    },
+    {
+      "id": "4:17",
+      "type": "RECTANGLE",
+      "name": "overlay-alias2",
+      "parentId": "4:15",
+      "path": "Page 1 > P3 conversion experiments > overlay > overlay alias2 > overlay-alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:5",
+        "4:15",
+        "4:17"
+      ]
+    },
+    {
+      "id": "4:18",
+      "type": "FRAME",
+      "name": "light",
+      "parentId": "4:3",
+      "path": "Page 1 > P3 conversion experiments > light",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18"
+      ]
+    },
+    {
+      "id": "4:22",
+      "type": "FRAME",
+      "name": "light literal",
+      "parentId": "4:18",
+      "path": "Page 1 > P3 conversion experiments > light > light literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18",
+        "4:22"
+      ]
+    },
+    {
+      "id": "4:23",
+      "type": "TEXT",
+      "name": "light / literal",
+      "parentId": "4:22",
+      "path": "Page 1 > P3 conversion experiments > light > light literal > light / literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18",
+        "4:22",
+        "4:23"
+      ]
+    },
+    {
+      "id": "4:24",
+      "type": "RECTANGLE",
+      "name": "light-literal",
+      "parentId": "4:22",
+      "path": "Page 1 > P3 conversion experiments > light > light literal > light-literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18",
+        "4:22",
+        "4:24"
+      ]
+    },
+    {
+      "id": "4:25",
+      "type": "FRAME",
+      "name": "light variable",
+      "parentId": "4:18",
+      "path": "Page 1 > P3 conversion experiments > light > light variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18",
+        "4:25"
+      ]
+    },
+    {
+      "id": "4:26",
+      "type": "TEXT",
+      "name": "light / variable",
+      "parentId": "4:25",
+      "path": "Page 1 > P3 conversion experiments > light > light variable > light / variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18",
+        "4:25",
+        "4:26"
+      ]
+    },
+    {
+      "id": "4:27",
+      "type": "RECTANGLE",
+      "name": "light-variable",
+      "parentId": "4:25",
+      "path": "Page 1 > P3 conversion experiments > light > light variable > light-variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18",
+        "4:25",
+        "4:27"
+      ]
+    },
+    {
+      "id": "4:28",
+      "type": "FRAME",
+      "name": "light alias2",
+      "parentId": "4:18",
+      "path": "Page 1 > P3 conversion experiments > light > light alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18",
+        "4:28"
+      ]
+    },
+    {
+      "id": "4:29",
+      "type": "TEXT",
+      "name": "light / alias2",
+      "parentId": "4:28",
+      "path": "Page 1 > P3 conversion experiments > light > light alias2 > light / alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18",
+        "4:28",
+        "4:29"
+      ]
+    },
+    {
+      "id": "4:30",
+      "type": "RECTANGLE",
+      "name": "light-alias2",
+      "parentId": "4:28",
+      "path": "Page 1 > P3 conversion experiments > light > light alias2 > light-alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:18",
+        "4:28",
+        "4:30"
+      ]
+    },
+    {
+      "id": "4:31",
+      "type": "FRAME",
+      "name": "red",
+      "parentId": "4:3",
+      "path": "Page 1 > P3 conversion experiments > red",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31"
+      ]
+    },
+    {
+      "id": "4:35",
+      "type": "FRAME",
+      "name": "red literal",
+      "parentId": "4:31",
+      "path": "Page 1 > P3 conversion experiments > red > red literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31",
+        "4:35"
+      ]
+    },
+    {
+      "id": "4:36",
+      "type": "TEXT",
+      "name": "red / literal",
+      "parentId": "4:35",
+      "path": "Page 1 > P3 conversion experiments > red > red literal > red / literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31",
+        "4:35",
+        "4:36"
+      ]
+    },
+    {
+      "id": "4:37",
+      "type": "RECTANGLE",
+      "name": "red-literal",
+      "parentId": "4:35",
+      "path": "Page 1 > P3 conversion experiments > red > red literal > red-literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31",
+        "4:35",
+        "4:37"
+      ]
+    },
+    {
+      "id": "4:38",
+      "type": "FRAME",
+      "name": "red variable",
+      "parentId": "4:31",
+      "path": "Page 1 > P3 conversion experiments > red > red variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31",
+        "4:38"
+      ]
+    },
+    {
+      "id": "4:39",
+      "type": "TEXT",
+      "name": "red / variable",
+      "parentId": "4:38",
+      "path": "Page 1 > P3 conversion experiments > red > red variable > red / variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31",
+        "4:38",
+        "4:39"
+      ]
+    },
+    {
+      "id": "4:40",
+      "type": "RECTANGLE",
+      "name": "red-variable",
+      "parentId": "4:38",
+      "path": "Page 1 > P3 conversion experiments > red > red variable > red-variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31",
+        "4:38",
+        "4:40"
+      ]
+    },
+    {
+      "id": "4:41",
+      "type": "FRAME",
+      "name": "red alias2",
+      "parentId": "4:31",
+      "path": "Page 1 > P3 conversion experiments > red > red alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31",
+        "4:41"
+      ]
+    },
+    {
+      "id": "4:42",
+      "type": "TEXT",
+      "name": "red / alias2",
+      "parentId": "4:41",
+      "path": "Page 1 > P3 conversion experiments > red > red alias2 > red / alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31",
+        "4:41",
+        "4:42"
+      ]
+    },
+    {
+      "id": "4:43",
+      "type": "RECTANGLE",
+      "name": "red-alias2",
+      "parentId": "4:41",
+      "path": "Page 1 > P3 conversion experiments > red > red alias2 > red-alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:31",
+        "4:41",
+        "4:43"
+      ]
+    },
+    {
+      "id": "4:44",
+      "type": "FRAME",
+      "name": "green",
+      "parentId": "4:3",
+      "path": "Page 1 > P3 conversion experiments > green",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44"
+      ]
+    },
+    {
+      "id": "4:48",
+      "type": "FRAME",
+      "name": "green literal",
+      "parentId": "4:44",
+      "path": "Page 1 > P3 conversion experiments > green > green literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44",
+        "4:48"
+      ]
+    },
+    {
+      "id": "4:49",
+      "type": "TEXT",
+      "name": "green / literal",
+      "parentId": "4:48",
+      "path": "Page 1 > P3 conversion experiments > green > green literal > green / literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44",
+        "4:48",
+        "4:49"
+      ]
+    },
+    {
+      "id": "4:50",
+      "type": "RECTANGLE",
+      "name": "green-literal",
+      "parentId": "4:48",
+      "path": "Page 1 > P3 conversion experiments > green > green literal > green-literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44",
+        "4:48",
+        "4:50"
+      ]
+    },
+    {
+      "id": "4:51",
+      "type": "FRAME",
+      "name": "green variable",
+      "parentId": "4:44",
+      "path": "Page 1 > P3 conversion experiments > green > green variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44",
+        "4:51"
+      ]
+    },
+    {
+      "id": "4:52",
+      "type": "TEXT",
+      "name": "green / variable",
+      "parentId": "4:51",
+      "path": "Page 1 > P3 conversion experiments > green > green variable > green / variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44",
+        "4:51",
+        "4:52"
+      ]
+    },
+    {
+      "id": "4:53",
+      "type": "RECTANGLE",
+      "name": "green-variable",
+      "parentId": "4:51",
+      "path": "Page 1 > P3 conversion experiments > green > green variable > green-variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44",
+        "4:51",
+        "4:53"
+      ]
+    },
+    {
+      "id": "4:54",
+      "type": "FRAME",
+      "name": "green alias2",
+      "parentId": "4:44",
+      "path": "Page 1 > P3 conversion experiments > green > green alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44",
+        "4:54"
+      ]
+    },
+    {
+      "id": "4:55",
+      "type": "TEXT",
+      "name": "green / alias2",
+      "parentId": "4:54",
+      "path": "Page 1 > P3 conversion experiments > green > green alias2 > green / alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44",
+        "4:54",
+        "4:55"
+      ]
+    },
+    {
+      "id": "4:56",
+      "type": "RECTANGLE",
+      "name": "green-alias2",
+      "parentId": "4:54",
+      "path": "Page 1 > P3 conversion experiments > green > green alias2 > green-alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:44",
+        "4:54",
+        "4:56"
+      ]
+    },
+    {
+      "id": "4:57",
+      "type": "FRAME",
+      "name": "gray",
+      "parentId": "4:3",
+      "path": "Page 1 > P3 conversion experiments > gray",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57"
+      ]
+    },
+    {
+      "id": "4:61",
+      "type": "FRAME",
+      "name": "gray literal",
+      "parentId": "4:57",
+      "path": "Page 1 > P3 conversion experiments > gray > gray literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57",
+        "4:61"
+      ]
+    },
+    {
+      "id": "4:62",
+      "type": "TEXT",
+      "name": "gray / literal",
+      "parentId": "4:61",
+      "path": "Page 1 > P3 conversion experiments > gray > gray literal > gray / literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57",
+        "4:61",
+        "4:62"
+      ]
+    },
+    {
+      "id": "4:63",
+      "type": "RECTANGLE",
+      "name": "gray-literal",
+      "parentId": "4:61",
+      "path": "Page 1 > P3 conversion experiments > gray > gray literal > gray-literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57",
+        "4:61",
+        "4:63"
+      ]
+    },
+    {
+      "id": "4:64",
+      "type": "FRAME",
+      "name": "gray variable",
+      "parentId": "4:57",
+      "path": "Page 1 > P3 conversion experiments > gray > gray variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57",
+        "4:64"
+      ]
+    },
+    {
+      "id": "4:65",
+      "type": "TEXT",
+      "name": "gray / variable",
+      "parentId": "4:64",
+      "path": "Page 1 > P3 conversion experiments > gray > gray variable > gray / variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57",
+        "4:64",
+        "4:65"
+      ]
+    },
+    {
+      "id": "4:66",
+      "type": "RECTANGLE",
+      "name": "gray-variable",
+      "parentId": "4:64",
+      "path": "Page 1 > P3 conversion experiments > gray > gray variable > gray-variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57",
+        "4:64",
+        "4:66"
+      ]
+    },
+    {
+      "id": "4:67",
+      "type": "FRAME",
+      "name": "gray alias2",
+      "parentId": "4:57",
+      "path": "Page 1 > P3 conversion experiments > gray > gray alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57",
+        "4:67"
+      ]
+    },
+    {
+      "id": "4:68",
+      "type": "TEXT",
+      "name": "gray / alias2",
+      "parentId": "4:67",
+      "path": "Page 1 > P3 conversion experiments > gray > gray alias2 > gray / alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57",
+        "4:67",
+        "4:68"
+      ]
+    },
+    {
+      "id": "4:69",
+      "type": "RECTANGLE",
+      "name": "gray-alias2",
+      "parentId": "4:67",
+      "path": "Page 1 > P3 conversion experiments > gray > gray alias2 > gray-alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:57",
+        "4:67",
+        "4:69"
+      ]
+    },
+    {
+      "id": "4:70",
+      "type": "FRAME",
+      "name": "thread",
+      "parentId": "4:3",
+      "path": "Page 1 > P3 conversion experiments > thread",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70"
+      ]
+    },
+    {
+      "id": "4:74",
+      "type": "FRAME",
+      "name": "thread literal",
+      "parentId": "4:70",
+      "path": "Page 1 > P3 conversion experiments > thread > thread literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70",
+        "4:74"
+      ]
+    },
+    {
+      "id": "4:75",
+      "type": "TEXT",
+      "name": "thread / literal",
+      "parentId": "4:74",
+      "path": "Page 1 > P3 conversion experiments > thread > thread literal > thread / literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70",
+        "4:74",
+        "4:75"
+      ]
+    },
+    {
+      "id": "4:76",
+      "type": "RECTANGLE",
+      "name": "thread-literal",
+      "parentId": "4:74",
+      "path": "Page 1 > P3 conversion experiments > thread > thread literal > thread-literal",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70",
+        "4:74",
+        "4:76"
+      ]
+    },
+    {
+      "id": "4:77",
+      "type": "FRAME",
+      "name": "thread variable",
+      "parentId": "4:70",
+      "path": "Page 1 > P3 conversion experiments > thread > thread variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70",
+        "4:77"
+      ]
+    },
+    {
+      "id": "4:78",
+      "type": "TEXT",
+      "name": "thread / variable",
+      "parentId": "4:77",
+      "path": "Page 1 > P3 conversion experiments > thread > thread variable > thread / variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70",
+        "4:77",
+        "4:78"
+      ]
+    },
+    {
+      "id": "4:79",
+      "type": "RECTANGLE",
+      "name": "thread-variable",
+      "parentId": "4:77",
+      "path": "Page 1 > P3 conversion experiments > thread > thread variable > thread-variable",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70",
+        "4:77",
+        "4:79"
+      ]
+    },
+    {
+      "id": "4:80",
+      "type": "FRAME",
+      "name": "thread alias2",
+      "parentId": "4:70",
+      "path": "Page 1 > P3 conversion experiments > thread > thread alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70",
+        "4:80"
+      ]
+    },
+    {
+      "id": "4:81",
+      "type": "TEXT",
+      "name": "thread / alias2",
+      "parentId": "4:80",
+      "path": "Page 1 > P3 conversion experiments > thread > thread alias2 > thread / alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70",
+        "4:80",
+        "4:81"
+      ]
+    },
+    {
+      "id": "4:82",
+      "type": "RECTANGLE",
+      "name": "thread-alias2",
+      "parentId": "4:80",
+      "path": "Page 1 > P3 conversion experiments > thread > thread alias2 > thread-alias2",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "4:70",
+        "4:80",
+        "4:82"
+      ]
+    },
+    {
+      "id": "23:2",
+      "type": "FRAME",
+      "name": "Native CSS input",
+      "parentId": "4:3",
+      "path": "Page 1 > P3 conversion experiments > Native CSS input",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "23:2"
+      ]
+    },
+    {
+      "id": "23:3",
+      "type": "TEXT",
+      "name": "Native CSS input — oklch(84% 0.08 17)",
+      "parentId": "23:2",
+      "path": "Page 1 > P3 conversion experiments > Native CSS input > Native CSS input — oklch(84% 0.08 17)",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "23:2",
+        "23:3"
+      ]
+    },
+    {
+      "id": "23:4",
+      "type": "RECTANGLE",
+      "name": "native-css-input",
+      "parentId": "23:2",
+      "path": "Page 1 > P3 conversion experiments > Native CSS input > native-css-input",
+      "pathIds": [
+        "0:1",
+        "4:3",
+        "23:2",
+        "23:4"
+      ]
+    },
+    {
+      "id": "36:2",
+      "type": "FRAME",
+      "name": "OKLCH to P3 variable input",
+      "parentId": "0:1",
+      "path": "Page 1 > OKLCH to P3 variable input",
+      "pathIds": [
+        "0:1",
+        "36:2"
+      ]
+    },
+    {
+      "id": "36:3",
+      "type": "TEXT",
+      "name": "OKLCH input → Figma variable in a Display-P3 document",
+      "parentId": "36:2",
+      "path": "Page 1 > OKLCH to P3 variable input > OKLCH input → Figma variable in a Display-P3 document",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:3"
+      ]
+    },
+    {
+      "id": "36:4",
+      "type": "FRAME",
+      "name": "overlay",
+      "parentId": "36:2",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4"
+      ]
+    },
+    {
+      "id": "36:5",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:4",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:5"
+      ]
+    },
+    {
+      "id": "36:6",
+      "type": "TEXT",
+      "name": "overlay-reference",
+      "parentId": "36:5",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-reference",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:5",
+        "36:6"
+      ]
+    },
+    {
+      "id": "36:7",
+      "type": "RECTANGLE",
+      "name": "overlay-reference",
+      "parentId": "36:5",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-reference",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:5",
+        "36:7"
+      ]
+    },
+    {
+      "id": "36:8",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:4",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:8"
+      ]
+    },
+    {
+      "id": "36:9",
+      "type": "TEXT",
+      "name": "overlay-p3-hex",
+      "parentId": "36:8",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-p3-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:8",
+        "36:9"
+      ]
+    },
+    {
+      "id": "36:10",
+      "type": "RECTANGLE",
+      "name": "overlay-p3-hex",
+      "parentId": "36:8",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-p3-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:8",
+        "36:10"
+      ]
+    },
+    {
+      "id": "36:11",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:4",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:11"
+      ]
+    },
+    {
+      "id": "36:12",
+      "type": "TEXT",
+      "name": "overlay-srgb-hex",
+      "parentId": "36:11",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-srgb-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:11",
+        "36:12"
+      ]
+    },
+    {
+      "id": "36:13",
+      "type": "RECTANGLE",
+      "name": "overlay-srgb-hex",
+      "parentId": "36:11",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-srgb-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:11",
+        "36:13"
+      ]
+    },
+    {
+      "id": "36:14",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:4",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:14"
+      ]
+    },
+    {
+      "id": "36:15",
+      "type": "TEXT",
+      "name": "overlay-css-oklch",
+      "parentId": "36:14",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-css-oklch",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:14",
+        "36:15"
+      ]
+    },
+    {
+      "id": "36:16",
+      "type": "RECTANGLE",
+      "name": "overlay-css-oklch",
+      "parentId": "36:14",
+      "path": "Page 1 > OKLCH to P3 variable input > overlay > Frame > overlay-css-oklch",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:4",
+        "36:14",
+        "36:16"
+      ]
+    },
+    {
+      "id": "36:17",
+      "type": "FRAME",
+      "name": "thread",
+      "parentId": "36:2",
+      "path": "Page 1 > OKLCH to P3 variable input > thread",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17"
+      ]
+    },
+    {
+      "id": "36:18",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:17",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:18"
+      ]
+    },
+    {
+      "id": "36:19",
+      "type": "TEXT",
+      "name": "thread-reference",
+      "parentId": "36:18",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-reference",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:18",
+        "36:19"
+      ]
+    },
+    {
+      "id": "36:20",
+      "type": "RECTANGLE",
+      "name": "thread-reference",
+      "parentId": "36:18",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-reference",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:18",
+        "36:20"
+      ]
+    },
+    {
+      "id": "36:21",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:17",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:21"
+      ]
+    },
+    {
+      "id": "36:22",
+      "type": "TEXT",
+      "name": "thread-p3-hex",
+      "parentId": "36:21",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-p3-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:21",
+        "36:22"
+      ]
+    },
+    {
+      "id": "36:23",
+      "type": "RECTANGLE",
+      "name": "thread-p3-hex",
+      "parentId": "36:21",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-p3-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:21",
+        "36:23"
+      ]
+    },
+    {
+      "id": "36:24",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:17",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:24"
+      ]
+    },
+    {
+      "id": "36:25",
+      "type": "TEXT",
+      "name": "thread-srgb-hex",
+      "parentId": "36:24",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-srgb-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:24",
+        "36:25"
+      ]
+    },
+    {
+      "id": "36:26",
+      "type": "RECTANGLE",
+      "name": "thread-srgb-hex",
+      "parentId": "36:24",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-srgb-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:24",
+        "36:26"
+      ]
+    },
+    {
+      "id": "36:27",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:17",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:27"
+      ]
+    },
+    {
+      "id": "36:28",
+      "type": "TEXT",
+      "name": "thread-css-oklch",
+      "parentId": "36:27",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-css-oklch",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:27",
+        "36:28"
+      ]
+    },
+    {
+      "id": "36:29",
+      "type": "RECTANGLE",
+      "name": "thread-css-oklch",
+      "parentId": "36:27",
+      "path": "Page 1 > OKLCH to P3 variable input > thread > Frame > thread-css-oklch",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:17",
+        "36:27",
+        "36:29"
+      ]
+    },
+    {
+      "id": "36:30",
+      "type": "FRAME",
+      "name": "outside",
+      "parentId": "36:2",
+      "path": "Page 1 > OKLCH to P3 variable input > outside",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30"
+      ]
+    },
+    {
+      "id": "36:31",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:30",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:31"
+      ]
+    },
+    {
+      "id": "36:32",
+      "type": "TEXT",
+      "name": "outside-reference",
+      "parentId": "36:31",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-reference",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:31",
+        "36:32"
+      ]
+    },
+    {
+      "id": "36:33",
+      "type": "RECTANGLE",
+      "name": "outside-reference",
+      "parentId": "36:31",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-reference",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:31",
+        "36:33"
+      ]
+    },
+    {
+      "id": "36:34",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:30",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:34"
+      ]
+    },
+    {
+      "id": "36:35",
+      "type": "TEXT",
+      "name": "outside-p3-clipped",
+      "parentId": "36:34",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-p3-clipped",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:34",
+        "36:35"
+      ]
+    },
+    {
+      "id": "36:36",
+      "type": "RECTANGLE",
+      "name": "outside-p3-clipped",
+      "parentId": "36:34",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-p3-clipped",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:34",
+        "36:36"
+      ]
+    },
+    {
+      "id": "36:37",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:30",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:37"
+      ]
+    },
+    {
+      "id": "36:38",
+      "type": "TEXT",
+      "name": "outside-srgb-hex",
+      "parentId": "36:37",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-srgb-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:37",
+        "36:38"
+      ]
+    },
+    {
+      "id": "36:39",
+      "type": "RECTANGLE",
+      "name": "outside-srgb-hex",
+      "parentId": "36:37",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-srgb-hex",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:37",
+        "36:39"
+      ]
+    },
+    {
+      "id": "36:40",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:30",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:40"
+      ]
+    },
+    {
+      "id": "36:41",
+      "type": "TEXT",
+      "name": "outside-css-oklch",
+      "parentId": "36:40",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-css-oklch",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:40",
+        "36:41"
+      ]
+    },
+    {
+      "id": "36:42",
+      "type": "RECTANGLE",
+      "name": "outside-css-oklch",
+      "parentId": "36:40",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-css-oklch",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:40",
+        "36:42"
+      ]
+    },
+    {
+      "id": "36:43",
+      "type": "FRAME",
+      "name": "Frame",
+      "parentId": "36:30",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:43"
+      ]
+    },
+    {
+      "id": "36:44",
+      "type": "TEXT",
+      "name": "outside-p3-mapped",
+      "parentId": "36:43",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-p3-mapped",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:43",
+        "36:44"
+      ]
+    },
+    {
+      "id": "36:45",
+      "type": "RECTANGLE",
+      "name": "outside-p3-mapped",
+      "parentId": "36:43",
+      "path": "Page 1 > OKLCH to P3 variable input > outside > Frame > outside-p3-mapped",
+      "pathIds": [
+        "0:1",
+        "36:2",
+        "36:30",
+        "36:43",
+        "36:45"
+      ]
+    }
+  ]
+}

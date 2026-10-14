@@ -1,0 +1,23 @@
+{
+  "client_meta": {
+    "background_color": {
+      "r": 0.9607843160629272,
+      "g": 0.9607843160629272,
+      "b": 0.9607843160629272,
+      "a": 1
+    },
+    "thumbnail_size": {
+      "width": 400,
+      "height": 206
+    },
+    "render_coordinates": {
+      "x": 80,
+      "y": 80,
+      "width": 2130,
+      "height": 1096
+    }
+  },
+  "file_name": "Codex Color P3 Transforms",
+  "developer_related_links": [],
+  "exported_at": "2026-10-14T15:12:55.183Z"
+}
