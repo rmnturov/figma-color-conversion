@@ -1,0 +1,20 @@
+{
+  "name": "figma-color-conversion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Исследование преобразования цветов между CSS, OKLCH и Figma Display-P3",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "verify": "node scripts/verify-recorded-run.mjs",
+    "check:links": "node scripts/check-document-links.mjs",
+    "code:figma": "node scripts/code-to-figma.mjs",
+    "figma:code": "node scripts/figma-to-code.mjs"
+  },
+  "dependencies": {
+    "colorjs.io": "0.5.2"
+  }
+}

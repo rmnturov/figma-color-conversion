@@ -1,0 +1,173 @@
+- application [active]
+- status
+- region "Left sidebar":
+  - toolbar "Navigation Bar":
+    - button "Main menu":
+    - separator
+    - button "File":
+      - generic: File
+    - button "Assets":
+      - generic: Assets
+    - button "Tools":
+      - generic: Tools
+    - separator
+    - button "Variables" [expanded]:
+      - generic: Variables
+  - button "Codex Color P3 Transforms":
+    - heading "Codex Color P3 Transforms" [level=2]
+  - button "Hide panel":
+  - navigation:
+    - region "Variable collections":
+      - generic: Collections
+      - button "Collections options":
+      - button "Create collection":
+      - grid:
+        - row "OKLCH to Figma P3 10 variables":
+          - gridcell "OKLCH to Figma P3 10 variables":
+            - button "OKLCH to Figma P3 10 variables":
+              - generic "OKLCH to Figma P3"
+              - generic: 10 variables
+              - text: "10"
+        - row "P3 Transform Tests 18 variables":
+          - gridcell "P3 Transform Tests 18 variables":
+            - button "P3 Transform Tests 18 variables":
+              - generic "P3 Transform Tests"
+              - generic: 18 variables
+              - text: "18"
+    - button "Groups" [expanded]:
+      - generic: Groups
+    - grid:
+      - row "All 10 variables":
+        - gridcell "All 10 variables":
+          - button "All":
+            - generic "All"
+          - generic: 10 variables
+          - text: "10"
+  - slider "Resize handle"
+- heading "OKLCH to Figma P3" [level=2]:
+  - button "OKLCH to Figma P3":
+    - generic: OKLCH to Figma P3
+- group "Search and filter":
+  - textbox "Search"
+  - button "Filter":
+- checkbox "Minimize"
+- generic: Minimize
+- button "Share"
+- table:
+  - rowgroup:
+    - row "Name Value New variable mode":
+      - columnheader "Name": Name
+      - columnheader "Value":
+        - generic "Value"
+      - cell
+      - cell "New variable mode":
+        - button "New variable mode":
+    - row
+    - 'row "overlay-p3-hex Solid color hex: 1D2D6B 1D2D6B Edit variable"':
+      - rowheader "overlay-p3-hex":
+        - generic "overlay-p3-hex"
+      - 'cell "Solid color hex: 1D2D6B 1D2D6B"':
+        - 'button "Solid color hex: 1D2D6B"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 1D2D6B
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "overlay-srgb-hex Solid color hex: 182E6F 182E6F Edit variable"':
+      - rowheader "overlay-srgb-hex":
+        - generic "overlay-srgb-hex"
+      - 'cell "Solid color hex: 182E6F 182E6F"':
+        - 'button "Solid color hex: 182E6F"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 182E6F
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "overlay-css-oklch Solid color hex: 1D2D6B 1D2D6B Edit variable"':
+      - rowheader "overlay-css-oklch":
+        - generic "overlay-css-oklch"
+      - 'cell "Solid color hex: 1D2D6B 1D2D6B"':
+        - 'button "Solid color hex: 1D2D6B"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 1D2D6B
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "thread-p3-hex Solid color hex: F0B9B9 F0B9B9 Edit variable"':
+      - rowheader "thread-p3-hex":
+        - generic "thread-p3-hex"
+      - 'cell "Solid color hex: F0B9B9 F0B9B9"':
+        - 'button "Solid color hex: F0B9B9"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: F0B9B9
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "thread-srgb-hex Solid color hex: FAB6B8 FAB6B8 Edit variable"':
+      - rowheader "thread-srgb-hex":
+        - generic "thread-srgb-hex"
+      - 'cell "Solid color hex: FAB6B8 FAB6B8"':
+        - 'button "Solid color hex: FAB6B8"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FAB6B8
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "thread-css-oklch Solid color hex: F0B9B9 F0B9B9 Edit variable"':
+      - rowheader "thread-css-oklch":
+        - generic "thread-css-oklch"
+      - 'cell "Solid color hex: F0B9B9 F0B9B9"':
+        - 'button "Solid color hex: F0B9B9"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: F0B9B9
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "outside-p3-clipped Solid color hex: 00CE00 00CE00 Edit variable"':
+      - rowheader "outside-p3-clipped":
+        - generic "outside-p3-clipped"
+      - 'cell "Solid color hex: 00CE00 00CE00"':
+        - 'button "Solid color hex: 00CE00"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 00CE00
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "outside-srgb-hex Solid color hex: 00D200 00D200 Edit variable"':
+      - rowheader "outside-srgb-hex":
+        - generic "outside-srgb-hex"
+      - 'cell "Solid color hex: 00D200 00D200"':
+        - 'button "Solid color hex: 00D200"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 00D200
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "outside-css-oklch Solid color hex: 00CE00 00CE00 Edit variable"':
+      - rowheader "outside-css-oklch":
+        - generic "outside-css-oklch"
+      - 'cell "Solid color hex: 00CE00 00CE00"':
+        - 'button "Solid color hex: 00CE00"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 00CE00
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "outside-p3-mapped Solid color hex: 00C700 00C700 Edit variable"':
+      - rowheader "outside-p3-mapped":
+        - generic "outside-p3-mapped"
+      - 'cell "Solid color hex: 00C700 00C700"':
+        - 'button "Solid color hex: 00C700"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 00C700
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+- button "Create variable button":
+  - generic: Create variable
+- region "Help/zoom toolbar":
+  - toolbar "Help/zoom toolbar":
+    - button "Help":
+- status
+- alert
+- alert

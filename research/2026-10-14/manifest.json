@@ -1,0 +1,100 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "49e1f9f212e9f2964f6163a32936a658a058ae1609f8505ac09b8119ca67ad21",
+      "bytes": 9070
+    },
+    {
+      "path": "cases.json",
+      "sha256": "292105dd195b116db7741ca5d1a7148378a8c669773807b5e48881462524e532",
+      "bytes": 1805
+    },
+    {
+      "path": "evidence/devmode-observations.json",
+      "sha256": "1182a10043734311462ce6a57767d74557dc48282d6317913fbd035150df1dc4",
+      "bytes": 143665
+    },
+    {
+      "path": "evidence/figma-state.json",
+      "sha256": "bd0c0b8c7cf79c4181ae5311b3e8a85aa5ff38753ad2231e8d632778fa6a3ff0",
+      "bytes": 23834
+    },
+    {
+      "path": "evidence/inverse-comparison.json",
+      "sha256": "80ebf5626bac34a172e9962527ce485c323ccbb2aa964c856693368455f6ac34",
+      "bytes": 3083
+    },
+    {
+      "path": "evidence/inverse-ui-inputs.json",
+      "sha256": "e65785a0f0595cc82c0b5f6a4a677dcac26b48229a5a8f1eca09d8a2c28fac6c",
+      "bytes": 17270
+    },
+    {
+      "path": "evidence/inverse-ui-persisted.txt",
+      "sha256": "651a4b6353399b90cff481b891ce5e23fb2e6c4e64f0116b29313c58ad4e5ee4",
+      "bytes": 6243
+    },
+    {
+      "path": "evidence/inverse-values.json",
+      "sha256": "d0309d121e833c18c57bd49284bbef63d5b54e3b651a242f43d458730df86496",
+      "bytes": 1644
+    },
+    {
+      "path": "evidence/native-input-persistence.json",
+      "sha256": "ebfd9d1be320a57f5330a3c01ad704a9a0ba12ebe0c278ff3b9ec2c3cae9b2ee",
+      "bytes": 273
+    },
+    {
+      "path": "evidence/variable-details.txt",
+      "sha256": "35382f28dc73f1704a6ffb2ecc3e1c9e1d8e03912531e71e37a3d5051ea942e6",
+      "bytes": 4497
+    },
+    {
+      "path": "evidence/verified-calculations.json",
+      "sha256": "6d7c7787c4954bc38ce7ec37bb631e62713c046e454eabe7c86da9790ed0449c",
+      "bytes": 3427
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "a4b0a66a3e6c5b55edeab86720889343fd5bf3a0fb82ec96385e4503c6e62f0c",
+      "bytes": 1026
+    },
+    {
+      "path": "screenshots/inverse-variable-inputs.jpg",
+      "sha256": "a9b5b0dda0b22274c63659d2e83f7ca7b8800016607c65732d6b7b107cd970c4",
+      "bytes": 37970
+    },
+    {
+      "path": "screenshots/native-oklch-devmode-transient.jpg",
+      "sha256": "723b7b8534c6147fb21ec70b869d0697800ecdc50cbe93fd39b6a55ec3570083",
+      "bytes": 101230
+    },
+    {
+      "path": "screenshots/native-oklch-devmode.jpg",
+      "sha256": "aca61d74a53c4bad12d2501b2aaff1c9f7fd455e20bdff5e47c7ad49909fd0cd",
+      "bytes": 102864
+    },
+    {
+      "path": "screenshots/native-oklch.jpg",
+      "sha256": "386ab06b3af1c37fc78ebf2f1c1e401bdbfb7757ddbfab1d0873b3aa67744e3e",
+      "bytes": 83288
+    },
+    {
+      "path": "screenshots/overlay-literal-devmode.jpg",
+      "sha256": "83a8120c47c51627a6d262dcf7e49bcb939ad4c99d9677cf4b53cee2e81684a2",
+      "bytes": 103766
+    },
+    {
+      "path": "screenshots/overlay-variable-devmode.jpg",
+      "sha256": "f723aa189b33004ea53191d4cdd2eb596eac448cd61d8cf8cba780cb33309134",
+      "bytes": 102067
+    },
+    {
+      "path": "screenshots/variable-details.jpg",
+      "sha256": "09d4bcd62ba5a7ce5ccb0947daacefa2a02883c63c4e95da28ab69706cd0d496",
+      "bytes": 106144
+    }
+  ]
+}

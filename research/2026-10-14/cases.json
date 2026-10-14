@@ -1,0 +1,103 @@
+{
+  "forward": [
+    {
+      "name": "overlay",
+      "p3": [
+        0.11372549019607843,
+        0.17647058823529413,
+        0.4196078431372549
+      ],
+      "ids": {
+        "literal": "4:11",
+        "variable": "4:14",
+        "alias2": "4:17"
+      }
+    },
+    {
+      "name": "light",
+      "p3": [
+        0.7686274509803922,
+        0.8588235294117647,
+        0.9882352941176471
+      ],
+      "ids": {
+        "literal": "4:24",
+        "variable": "4:27",
+        "alias2": "4:30"
+      }
+    },
+    {
+      "name": "red",
+      "p3": [
+        0.9,
+        0.2,
+        0.2
+      ],
+      "ids": {
+        "literal": "4:37",
+        "variable": "4:40",
+        "alias2": "4:43"
+      }
+    },
+    {
+      "name": "green",
+      "p3": [
+        0,
+        1,
+        0
+      ],
+      "ids": {
+        "literal": "4:50",
+        "variable": "4:53",
+        "alias2": "4:56"
+      }
+    },
+    {
+      "name": "gray",
+      "p3": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "ids": {
+        "literal": "4:63",
+        "variable": "4:66",
+        "alias2": "4:69"
+      }
+    },
+    {
+      "name": "thread",
+      "p3": [
+        0.9416559669901806,
+        0.7243055641961562,
+        0.7258952497986969
+      ],
+      "ids": {
+        "literal": "4:76",
+        "variable": "4:79",
+        "alias2": "4:82"
+      }
+    }
+  ],
+  "inverse": [
+    {
+      "name": "overlay",
+      "oklch": "oklch(32.6% 0.117 266)",
+      "hexP3": "#1D2D6B",
+      "hexSRGB": "#182E6F"
+    },
+    {
+      "name": "thread",
+      "oklch": "oklch(84% 0.08 17)",
+      "hexP3": "#F0B9B9",
+      "hexSRGB": "#FAB6B8"
+    },
+    {
+      "name": "outside",
+      "oklch": "oklch(70% 0.4 145)",
+      "hexP3Clipped": "#00CE00",
+      "hexSRGBClipped": "#00D200",
+      "hexP3Mapped": "#00C700"
+    }
+  ]
+}

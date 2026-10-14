@@ -1,0 +1,182 @@
+- application
+- status: Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .
+- status
+- region:
+  - toolbar:
+    - button:
+    - separator
+    - button [expanded]:
+      - generic: File
+    - separator
+    - button:
+      - generic: Variables
+  - button: Codex Color P3 Transforms
+  - generic: File name
+  - button:
+  - button:
+  - link:
+    - /url: https://www.figma.com/files/team/1446837479148090378/project/311952760
+    - text: Drafts
+  - heading [level=2]:
+    - button:
+      - generic: Page 1
+    - button:
+  - button [expanded]:
+    - generic: Ready for development
+  - generic: Nothing marked as ready for development yet. Select a section or top level frame to mark it ready for dev.
+  - button:
+    - generic: Layers
+  - button:
+  - button:
+    - generic: P3 conversion experiments
+  - button:
+    - generic: “Display-P3 — literal / variable / two aliases”
+  - button:
+    - generic: overlay
+  - button:
+    - generic: overlay literal
+  - button:
+    - generic: overlay variable
+  - button:
+    - generic: “overlay / variable”
+  - button:
+    - generic: overlay-variable
+  - button:
+    - generic: overlay alias2
+  - button:
+    - generic: light
+  - button:
+    - generic: red
+  - button:
+    - generic: green
+  - button:
+    - generic: gray
+  - button:
+    - generic: thread
+  - button:
+    - generic: Native CSS input
+  - slider
+- button:
+- button:
+- button:
+- button: Share
+- tablist:
+  - tab [selected]:
+    - generic: Inspect
+    - generic: Inspect
+  - tab:
+    - generic: Plugins
+    - generic: Plugins
+- button:
+  - text: 70%
+- tabpanel:
+  - button:
+    - generic: overlay-variable
+  - button:
+  - button:
+  - generic: Rectangle
+  - button [expanded]:
+    - heading [level=3]: MCP
+  - button:
+  - button:
+  - generic: Selection details
+  - generic: Session activity
+  - generic: Not sent
+  - generic: Estimated tokens
+  - generic: "63"
+  - button:
+    - generic: Implement this design from Figma.
+    - generic: "@https://www.figma.com/design/OWBuzmv9GDKdGpPkzbqMk0/Codex-Color-P3-Transforms?node-id=4-14&m=dev"
+  - button:
+    - generic: Copy example prompt
+  - button [expanded]:
+    - heading [level=3]: Layer properties
+  - radiogroup:
+    - generic: View
+    - radio
+    - generic: List
+    - radio [checked]
+    - generic: Code
+  - generic: "Language: CSS"
+  - button:
+    - generic: CSS
+  - heading [level=3]: Layout
+  - button:
+  - generic: "1"
+  - generic: "2"
+  - code:
+    - generic: "width: 256px;"
+    - generic: "height: 100px;"
+  - heading [level=3]: Style
+  - button:
+  - generic: "1"
+  - generic: "2"
+  - code:
+    - text: "background: var("
+    - button:
+      - generic: "--primitive-overlay"
+    - text: ","
+    - generic: "#102F73"
+    - text: );
+    - button:
+    - text: "background: var("
+    - button:
+      - generic: "--primitive-overlay"
+    - text: ","
+    - generic: color(display-p3 0.1137 0.1765 0.4196)
+    - text: );
+  - heading [level=3]: Modes
+  - button:
+    - generic: P3 Transform Tests
+    - generic: Auto (P3 values)
+  - heading [level=3]: Colors
+  - generic: Color format
+  - combobox:
+    - generic: RGB
+  - heading [level=3]: Background colors
+  - button:
+    - generic: primitive/overlay
+  - button [pressed]:
+  - button:
+    - generic: Export
+  - button:
+- slider
+- region "Application toolbar":
+  - toolbar "Editor":
+    - button "Move" [pressed]:
+    - button "Copy colors":
+    - button "Measurement":
+    - button "Annotation":
+    - button "Comment":
+    - radiogroup "Toolbelt Mode":
+      - generic: Toolbelt Mode
+      - radio "Draw"
+      - generic: Draw
+      - radio "Design"
+      - generic: Design
+      - radio "Motion"
+      - generic: Motion
+      - radio "Dev Mode" [checked]
+      - generic: Dev Mode
+- region "Help/zoom toolbar":
+  - toolbar "Help/zoom toolbar":
+    - button "Help":
+- dialog "Variable details" [active]:
+  - heading "Variable details" [level=2]
+  - 'button "Copy variable name: primitive/overlay"':
+    - generic: primitive/overlay
+  - button "From this file":
+    - text: From this file
+  - generic "Collection"
+  - generic "P3 Transform Tests"
+  - generic: Value
+  - button "Copy rgba(29, 45, 107, 1)":
+    - generic: rgba(29, 45, 107, 1)
+  - generic: Scope
+  - button "Variable only shows up for these properties":
+  - generic: Shape fill
+  - button "Close":
+- status
+- alert
+- alert
+- paragraph: Variable details

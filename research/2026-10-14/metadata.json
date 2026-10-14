@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Novosibirsk",
+  "browser": "Brave Browser",
+  "browserVersion": null,
+  "os": "macOS",
+  "osVersion": null,
+  "nodeVersion": "v26.9.0",
+  "colorjsVersion": "0.5.2",
+  "figmaBuild": null,
+  "documentProfile": "Display-P3",
+  "fileKey": "OWBuzmv9GDKdGpPkzbqMk0",
+  "pageId": "0:1",
+  "frames": {
+    "forward": "4:3",
+    "inverse": "36:2"
+  },
+  "collections": {
+    "forward": "VariableCollectionId:4:2",
+    "inverse": "VariableCollectionId:31:2"
+  },
+  "scope": "Opaque SOLID fills and COLOR variables, local two-alias chains; browser Dev Mode; native CSS OKLCH input before and after reload",
+  "notes": [
+    "Browser and Figma build versions were not recorded in the original run.",
+    "Node version describes the calculation environment.",
+    "Forward Dev Mode observations were captured before inverse fixtures were added.",
+    "figma-state.json was archived when documentation was packaged; it is a later state snapshot, not a timestamped log of every mutation."
+  ]
+}

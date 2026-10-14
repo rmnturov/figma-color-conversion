@@ -1,0 +1,11 @@
+{
+  "input": "oklch(84% 0.08 17)",
+  "beforeReload": [
+    "width: 256px;height: 100px;",
+    "background: oklch(84% 0.08 17deg);"
+  ],
+  "afterReload": [
+    "width: 256px;height: 100px;",
+    "background: #FAB6B8;background: color(display-p3 0.9417 0.7243 0.7259);"
+  ]
+}
