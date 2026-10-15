@@ -1,0 +1,103 @@
+Browser tab: 1749231654, Title: "Color conversion replication 01 — P3 – Figma", URL: "https://www.figma.com/design/2i0faqAmzqkPPD8Zsc0iMW/Color-conversion-replication-01-%E2%80%94-P3?node-id=2-11&m=dev".
+1 AXWebArea Color conversion replication 01 — P3 – Figma, URL: figma.com/design/2i0faqAmzqkPPD8Zsc0iMW/Color-conversion-replication-01-%E2%80%94-P3?node-id=2-11&m=dev
+	2 container react-page
+		202 container
+			203 container fullscreen-root
+				204 container Figma Design, 1 item selected
+			288 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .
+			205 container Comments on canvas
+				206 button Create new comment
+			207 container Left sidebar
+			208 container Upgrade to work in Dev Mode
+				209 container
+					210 heading Upgrade to work in Dev Mode, Value: 2, ID: :r58:
+						211 text Upgrade to work in Dev Mode
+					212 content list
+						213 container
+							214 text ✓ Copy code in the language you need
+						215 container
+							216 text ✓ Track design changes and view detailed diffs
+						217 container
+							218 text ✓ Customize plugins to sync with your tech stack
+						219 container
+							220 text ✓ Bring design information and context to AI agents with the MCP server
+					221 button Upgrade to Professional
+					222 button Back to Design Mode
+					223 link Description: Or try Figma’s remote MCP server for free, Value: developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+			224 toolbar Navigation Bar
+				225 pop up button (collapsed) Description: Main menu, ID: :r59:-trigger, Secondary Actions: Expand
+					226 image
+				227 button (expanded) Description: File, Secondary Actions: Collapse
+					228 image
+					229 text File
+			230 container
+				231 button Color conversion replication 01 — P3, file name
+				232 text File name
+				233 pop up button (collapsed) Description: Edit file menu, ID: :r5e:, Secondary Actions: Expand
+				234 button Minimize UI
+				235 link Description: Drafts, Value: figma.com/files/team/1446787897489609043/project/310661929
+				236 button Free
+				237 text Ready for development
+				238 image
+			239 container
+				240 pop up button (collapsed) Description: Multiplayer tools, ID: self-avatar-with-tools-container, Secondary Actions: Expand
+					241 image
+				243 container Prototype view
+					244 button Description: Present, ID: :r5s:
+					245 pop up button (collapsed) Description: Prototype view, ID: :r5r:, Secondary Actions: Expand
+				246 button Share
+				247 text Inspect Inspect Inspect Plugins Plugins Plugins
+				248 pop up button (collapsed) Description: 100%, zoom and view options, ID: :r61:, Secondary Actions: Expand
+					249 text 100%
+					250 image
+				251 heading Button, Value: 1
+					252 text Button
+				253 image
+				254 image
+				255 container code_panel-inspection-panel
+					256 button (expanded) Layer properties, Secondary Actions: Collapse
+						257 heading Layer properties, Value: 3
+							258 text Layer properties
+					259 container Visual representation of element layout properties including padding, border box, and spacing
+					260 container preferences-inspection-panel
+						261 tab group
+							262 tab (selectable, settable, boolean) List, Value: 0, ID: tab:r64:-properties-trigger
+							263 tab (selected, settable, boolean) Code, Value: 1, ID: tab:r64:-code-trigger
+						264 text Language: CSS
+						265 pop up button (collapsed) Description: Language: CSS, ID: :r68:, Secondary Actions: Expand
+					266 heading Layout, Value: 3
+						267 text Layout
+					268 container
+						269 text display:
+						270 text height:
+						271 text padding:
+						272 text justify-content:
+						273 text align-items:
+						274 text gap:
+						275 text flex:
+					276 heading Colors, Value: 3
+						277 text Colors
+				278 container paywall-assets-inspection-panel
+					279 button (expanded) Assets, Secondary Actions: Collapse
+						280 heading Assets, Value: 3
+							281 text Assets
+		170 container Application toolbar
+			171 toolbar Editor
+				282 checkbox Description: Move, Value: 1
+					283 image
+				284 checkbox Description: Copy colors, Value: 0
+					285 image
+				286 checkbox Description: Comment, Value: 0
+					287 image
+				196 Toolbelt Mode
+					197 text Toolbelt Mode
+					198 radio button (settable, integer) Description: Draw, Value: 0, ID: :r3f:-illustration
+					199 radio button (settable, integer) Description: Design, Value: 0, ID: :r3f:-design
+					200 radio button (settable, integer) Description: Motion, Value: 0, ID: :r3f:-metronome
+					201 radio button (settable, integer) Description: Dev Mode, Value: 1, ID: :r3f:-handoff
+		3 container Help/zoom toolbar
+			4 toolbar Help/zoom toolbar
+				5 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+					6 image
+
+The focused UI element is 208 container Upgrade to work in Dev Mode

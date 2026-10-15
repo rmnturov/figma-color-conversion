@@ -1,0 +1,134 @@
+{
+  "method": "Visual transcription from second-*.png; same agent; not blinded and not an independent researcher",
+  "complete": true,
+  "readings": [
+    {
+      "name": "A-literal",
+      "hex": "#DF00E4",
+      "image": "second-A-literal.png",
+      "imageSha256": "26857ebf1a7088cbbc57be9cd78234daf23e7bfd2eea94859fe7f51936139656"
+    },
+    {
+      "name": "A-variable",
+      "hex": "#F400EC",
+      "image": "second-A-variable.png",
+      "imageSha256": "0aee610354e646078738c1ffa3eaf0da519db3e4ef85830e82cbf9a6edb43a6c"
+    },
+    {
+      "name": "A-alias2",
+      "hex": "#F400EC",
+      "image": "second-A-alias2.png",
+      "imageSha256": "30c64eeabeac8ca74e5f218d9a668a0774f851ebcdaec60a8b80d3384b7a9262"
+    },
+    {
+      "name": "B-literal",
+      "hex": "#FEDF00",
+      "image": "second-B-literal.png",
+      "imageSha256": "2398975fccf2510d964a3c8c362311bc435d4cdd38a6d8de3f672a1eeb474848"
+    },
+    {
+      "name": "B-variable",
+      "hex": "#FFDE00",
+      "image": "second-B-variable.png",
+      "imageSha256": "b88da4c0c44bfc1ed1b2535c1096627ba94eb8e529f227c98faa8469755cb2d5"
+    },
+    {
+      "name": "B-alias2",
+      "hex": "#FFDE00",
+      "image": "second-B-alias2.png",
+      "imageSha256": "3ac622d57eb8cad1b1bd5d73adce866133567071332e413b6d84775d20ab5a58"
+    },
+    {
+      "name": "C-literal",
+      "hex": "#00EBEC",
+      "image": "second-C-literal.png",
+      "imageSha256": "fb89da452533e0e6e5c045247068843307a6a8ec595b2522c28f838984555caa"
+    },
+    {
+      "name": "C-variable",
+      "hex": "#00EFEE",
+      "image": "second-C-variable.png",
+      "imageSha256": "b83f8420660671bc4ca25e04fd6e9e31fb38e182397dbfd37252a8d927e2a9fb"
+    },
+    {
+      "name": "C-alias2",
+      "hex": "#00EFEE",
+      "image": "second-C-alias2.png",
+      "imageSha256": "4dc4f7e493eef040601d1914901c2bfd20bf7cb1a431006fb9ec329b0bb3d864"
+    },
+    {
+      "name": "D-literal",
+      "hex": "#030920",
+      "image": "second-D-literal.png",
+      "imageSha256": "0742b8c1ca78b6f2774a2717697305c0c51b2fe70c055c3d022b830f2b69081d"
+    },
+    {
+      "name": "D-variable",
+      "hex": "#020922",
+      "image": "second-D-variable.png",
+      "imageSha256": "52fab57c43117657ba7774a83aab22355a9c4ff5a19bcc894f36231fec27f23a"
+    },
+    {
+      "name": "D-alias2",
+      "hex": "#020922",
+      "image": "second-D-alias2.png",
+      "imageSha256": "7da25a4f7d2632bcf4127c1e333f6b5aa19fa6913a2b52f8ad70f627110f7159"
+    },
+    {
+      "name": "E-literal",
+      "hex": "#FA0525",
+      "image": "second-E-literal.png",
+      "imageSha256": "5040e31ac691ea3354093f30a9bb721b879116c1e751ec3d00dd3c561cde563e"
+    },
+    {
+      "name": "E-variable",
+      "hex": "#FF0005",
+      "image": "second-E-variable.png",
+      "imageSha256": "6aeff4f157d184d33a7a2bfff66a62291339a32c373517998aec34c07962a3af"
+    },
+    {
+      "name": "E-alias2",
+      "hex": "#FF0005",
+      "image": "second-E-alias2.png",
+      "imageSha256": "66143cbbdbf85e97bf0ea77fbcf1492d1065d6a4185fb23dda4e5d890932946e"
+    },
+    {
+      "name": "F-literal",
+      "hex": "#0F0",
+      "image": "second-F-literal.png",
+      "imageSha256": "349a5f4ccbf35ebd48d894cb666c49bc16c8e18744e731a550eebd44745202a4"
+    },
+    {
+      "name": "F-variable",
+      "hex": "#0F0",
+      "image": "second-F-variable.png",
+      "imageSha256": "a2824f6502844c8aca37c26448b9f92cd9bbaea8dbc07a39353c02a7692bbe81"
+    },
+    {
+      "name": "F-alias2",
+      "hex": "#0F0",
+      "image": "second-F-alias2.png",
+      "imageSha256": "00aa69088f48d10ecd120e664e2fee1fecc8d9b72c325a91c82b093121278057"
+    },
+    {
+      "name": "G-literal",
+      "hex": "#808080",
+      "image": "second-G-literal.png",
+      "imageSha256": "651a8de979241478135c02b684028a8a44a9356d0e90ba81ee3394b43242bbad"
+    },
+    {
+      "name": "G-variable",
+      "hex": "#808080",
+      "image": "second-G-variable.png",
+      "imageSha256": "5c49e56d639dbb59924db8b619c76bf89caeb066ef126f942e060de1fea1be3c"
+    },
+    {
+      "name": "G-alias2",
+      "hex": "#808080",
+      "image": "second-G-alias2.png",
+      "imageSha256": "87876aa565e5257084a7a06ab872534044f5e6837ce01514331ec4977a8bf114"
+    }
+  ],
+  "recordedAt": "2026-10-15T04:04:01.472669+00:00",
+  "completedAt": "2026-10-15T04:05:39.834359+00:00"
+}

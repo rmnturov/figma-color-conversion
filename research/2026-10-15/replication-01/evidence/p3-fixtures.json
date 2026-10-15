@@ -1,0 +1,339 @@
+{
+  "createdNodeIds": [
+    "2:3",
+    "2:4",
+    "2:5",
+    "2:9",
+    "2:10",
+    "2:11",
+    "2:12",
+    "2:13",
+    "2:14",
+    "2:15",
+    "2:16",
+    "2:17",
+    "2:18",
+    "2:22",
+    "2:23",
+    "2:24",
+    "2:25",
+    "2:26",
+    "2:27",
+    "2:28",
+    "2:29",
+    "2:30",
+    "2:31",
+    "2:35",
+    "2:36",
+    "2:37",
+    "2:38",
+    "2:39",
+    "2:40",
+    "2:41",
+    "2:42",
+    "2:43",
+    "2:44",
+    "2:48",
+    "2:49",
+    "2:50",
+    "2:51",
+    "2:52",
+    "2:53",
+    "2:54",
+    "2:55",
+    "2:56",
+    "2:57",
+    "2:61",
+    "2:62",
+    "2:63",
+    "2:64",
+    "2:65",
+    "2:66",
+    "2:67",
+    "2:68",
+    "2:69",
+    "2:70",
+    "2:74",
+    "2:75",
+    "2:76",
+    "2:77",
+    "2:78",
+    "2:79",
+    "2:80",
+    "2:81",
+    "2:82",
+    "2:83",
+    "2:87",
+    "2:88",
+    "2:89",
+    "2:90",
+    "2:91",
+    "2:92",
+    "2:93",
+    "2:94",
+    "2:95"
+  ],
+  "variableIds": [
+    "VariableID:2:6",
+    "VariableID:2:7",
+    "VariableID:2:8",
+    "VariableID:2:19",
+    "VariableID:2:20",
+    "VariableID:2:21",
+    "VariableID:2:32",
+    "VariableID:2:33",
+    "VariableID:2:34",
+    "VariableID:2:45",
+    "VariableID:2:46",
+    "VariableID:2:47",
+    "VariableID:2:58",
+    "VariableID:2:59",
+    "VariableID:2:60",
+    "VariableID:2:71",
+    "VariableID:2:72",
+    "VariableID:2:73",
+    "VariableID:2:84",
+    "VariableID:2:85",
+    "VariableID:2:86"
+  ],
+  "collectionId": "VariableCollectionId:2:2",
+  "modeId": "2:0",
+  "sheetId": "2:3",
+  "pageId": "0:1",
+  "records": [
+    {
+      "name": "A-literal",
+      "id": "2:11",
+      "type": "literal",
+      "p3": [
+        0.798393189907074,
+        0,
+        0.8633307814598083
+      ],
+      "variableId": null
+    },
+    {
+      "name": "A-variable",
+      "id": "2:14",
+      "type": "variable",
+      "p3": [
+        0.798393189907074,
+        0,
+        0.8633307814598083
+      ],
+      "variableId": "VariableID:2:6"
+    },
+    {
+      "name": "A-alias2",
+      "id": "2:17",
+      "type": "alias2",
+      "p3": [
+        0.798393189907074,
+        0,
+        0.8633307814598083
+      ],
+      "variableId": "VariableID:2:8"
+    },
+    {
+      "name": "B-literal",
+      "id": "2:24",
+      "type": "literal",
+      "p3": [
+        0.9749206900596619,
+        0.8785214424133301,
+        0.21663513779640198
+      ],
+      "variableId": null
+    },
+    {
+      "name": "B-variable",
+      "id": "2:27",
+      "type": "variable",
+      "p3": [
+        0.9749206900596619,
+        0.8785214424133301,
+        0.21663513779640198
+      ],
+      "variableId": "VariableID:2:19"
+    },
+    {
+      "name": "B-alias2",
+      "id": "2:30",
+      "type": "alias2",
+      "p3": [
+        0.9749206900596619,
+        0.8785214424133301,
+        0.21663513779640198
+      ],
+      "variableId": "VariableID:2:21"
+    },
+    {
+      "name": "C-literal",
+      "id": "2:37",
+      "type": "literal",
+      "p3": [
+        0.3986392617225647,
+        0.9090734720230103,
+        0.9179298281669617
+      ],
+      "variableId": null
+    },
+    {
+      "name": "C-variable",
+      "id": "2:40",
+      "type": "variable",
+      "p3": [
+        0.3986392617225647,
+        0.9090734720230103,
+        0.9179298281669617
+      ],
+      "variableId": "VariableID:2:32"
+    },
+    {
+      "name": "C-alias2",
+      "id": "2:43",
+      "type": "alias2",
+      "p3": [
+        0.3986392617225647,
+        0.9090734720230103,
+        0.9179298281669617
+      ],
+      "variableId": "VariableID:2:34"
+    },
+    {
+      "name": "D-literal",
+      "id": "2:50",
+      "type": "literal",
+      "p3": [
+        0.014956965111196041,
+        0.03566376119852066,
+        0.11921017616987228
+      ],
+      "variableId": null
+    },
+    {
+      "name": "D-variable",
+      "id": "2:53",
+      "type": "variable",
+      "p3": [
+        0.014956965111196041,
+        0.03566376119852066,
+        0.11921017616987228
+      ],
+      "variableId": "VariableID:2:45"
+    },
+    {
+      "name": "D-alias2",
+      "id": "2:56",
+      "type": "alias2",
+      "p3": [
+        0.014956965111196041,
+        0.03566376119852066,
+        0.11921017616987228
+      ],
+      "variableId": "VariableID:2:47"
+    },
+    {
+      "name": "E-literal",
+      "id": "2:63",
+      "type": "literal",
+      "p3": [
+        0.8999999761581421,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "variableId": null
+    },
+    {
+      "name": "E-variable",
+      "id": "2:66",
+      "type": "variable",
+      "p3": [
+        0.8999999761581421,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "variableId": "VariableID:2:58"
+    },
+    {
+      "name": "E-alias2",
+      "id": "2:69",
+      "type": "alias2",
+      "p3": [
+        0.8999999761581421,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "variableId": "VariableID:2:60"
+    },
+    {
+      "name": "F-literal",
+      "id": "2:76",
+      "type": "literal",
+      "p3": [
+        0,
+        1,
+        0
+      ],
+      "variableId": null
+    },
+    {
+      "name": "F-variable",
+      "id": "2:79",
+      "type": "variable",
+      "p3": [
+        0,
+        1,
+        0
+      ],
+      "variableId": "VariableID:2:71"
+    },
+    {
+      "name": "F-alias2",
+      "id": "2:82",
+      "type": "alias2",
+      "p3": [
+        0,
+        1,
+        0
+      ],
+      "variableId": "VariableID:2:73"
+    },
+    {
+      "name": "G-literal",
+      "id": "2:89",
+      "type": "literal",
+      "p3": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "variableId": null
+    },
+    {
+      "name": "G-variable",
+      "id": "2:92",
+      "type": "variable",
+      "p3": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "variableId": "VariableID:2:84"
+    },
+    {
+      "name": "G-alias2",
+      "id": "2:95",
+      "type": "alias2",
+      "p3": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "variableId": "VariableID:2:86"
+    }
+  ],
+  "importCollectionId": "VariableCollectionId:2:96",
+  "importModeId": "2:1",
+  "importVariableId": "VariableID:2:97"
+}

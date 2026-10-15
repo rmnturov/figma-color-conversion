@@ -1,0 +1,24 @@
+{
+  "color-space-probe": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.03752796724438667,
+        0.06163279712200165,
+        0.12037280946969986
+      ],
+      "alpha": 0.75,
+      "hex": "#0A101F"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2:97",
+      "com.figma.scopes": [
+        "SHAPE_FILL"
+      ]
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Mode 1"
+  }
+}

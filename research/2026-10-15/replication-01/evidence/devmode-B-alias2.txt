@@ -1,0 +1,213 @@
+Browser tab: 1749231654, Title: "Color conversion replication 01 — P3 – Figma", URL: "https://www.figma.com/design/2i0faqAmzqkPPD8Zsc0iMW/Color-conversion-replication-01-%E2%80%94-P3?node-id=2-30&m=dev".
+1 AXWebArea Color conversion replication 01 — P3 – Figma, URL: figma.com/design/2i0faqAmzqkPPD8Zsc0iMW/Color-conversion-replication-01-%E2%80%94-P3?node-id=2-30&m=dev
+	2 container react-page
+		3 container
+			4 container fullscreen-root
+				5 container Figma Design, 1 item selected
+			6 container Comments on canvas
+				7 button Create new comment
+			8 container Left sidebar
+				9 toolbar Navigation Bar
+					10 pop up button (collapsed) Description: Main menu, ID: :r6:-trigger, Secondary Actions: Expand
+						11 image
+					12 button (expanded) Description: File, Secondary Actions: Collapse
+						13 image
+						14 text File
+					15 button (collapsed) Description: Variables, Secondary Actions: Expand
+						16 image
+						17 text Variables
+				18 container left-panel-container
+					19 container
+						20 button Color conversion replication 01 — P3, file name
+						21 text File name
+						22 pop up button (collapsed) Description: Edit file menu, ID: :rb:, Secondary Actions: Expand
+						23 button Minimize UI
+						24 link Description: koobiq drafts, Value: figma.com/files/team/1446837479148090378/project/312024378
+						25 heading Page 1 Find, Value: 2
+							26 button (collapsed) Page 1, Secondary Actions: Expand
+							27 button Description: Find, ID: canvas-search-icon-button
+						28 button (expanded) Ready for development, Secondary Actions: Collapse
+						29 container
+							30 image
+							31 text Nothing marked as ready for development yet. Select a section or top level frame to mark it ready for dev.
+						32 container
+							33 button Layers
+								34 text Layers
+							35 button Collapse layers
+						36 button Auto layout Replication 01
+							37 container Auto layout
+							38 text Replication 01
+						39 button Text “Display-P3: literal / variable / two aliases”
+							40 container Text
+							41 text “
+							42 text Display-P3: literal / variable / two aliases
+							43 text ”
+						44 button Auto layout A
+							45 container Auto layout
+							46 text A
+						47 button Auto layout B
+							48 container Auto layout
+							49 text B
+						50 button Auto layout B literal
+							51 container Auto layout
+							52 text B literal
+						53 button Auto layout B variable
+							54 container Auto layout
+							55 text B variable
+						56 button Auto layout B alias2
+							57 container Auto layout
+							58 text B alias2
+						59 button Text “B / alias2”
+							60 container Text
+							61 text “
+							62 text B / alias2
+							63 text ”
+						64 button Rectangle B-alias2
+							65 container Rectangle
+							66 text B-alias2
+						67 button Auto layout C
+							68 container Auto layout
+							69 text C
+						70 button Auto layout D
+							71 container Auto layout
+							72 text D
+						73 button Auto layout E
+							74 container Auto layout
+							75 text E
+						76 button Auto layout F
+							77 container Auto layout
+							78 text F
+						79 button Auto layout G
+							80 container Auto layout
+							81 text G
+					82 slider Description: Resize handle, Value: 240
+			83 container Properties and plugins
+				84 container
+					85 container
+						86 pop up button (collapsed) Description: Multiplayer tools, ID: self-avatar-with-tools-container, Secondary Actions: Expand
+							87 image
+						88 container Prototype view
+							89 button Description: Present, ID: :ru:
+							90 pop up button (collapsed) Description: Prototype view, ID: :rt:, Secondary Actions: Expand
+						91 button Share
+						92 tab group
+							93 tab (selected, settable, boolean) Inspect, Value: 1, ID: tab:rk:-primary-trigger
+							94 tab (selectable, settable, boolean) Plugins, Value: 0, ID: tab:rk:-plugin-trigger
+						95 pop up button (collapsed) Description: 64%, zoom and view options, ID: :r13:, Secondary Actions: Expand
+							96 text 64%
+							97 image
+						98 container Description: Inspect, ID: tab:rk:-primary-panel
+							99 container
+								100 container inspect-panel-scroll-container
+									101 container layerName-inspection-panel
+										102 button Click to copy layer name: B-alias2
+										103 button Copy URL for selected layer
+										104 pop up button (collapsed) Description: More actions, ID: :r1f:, Secondary Actions: Expand
+										105 container Rectangle
+										106 text Rectangle
+									107 container mcp_selection_panel-inspection-panel
+										108 button (expanded) MCP, Secondary Actions: Collapse
+											109 heading MCP, Value: 3
+												110 text MCP
+										111 pop up button (collapsed) Description: Open help, Secondary Actions: Expand
+										112 button Set up third-party agents for Figma MCP
+										113 text Selection details
+										114 text Session activity
+										115 text Not sent
+										116 text Estimated tokens
+										117 text 63
+										118 button Implement this design from Figma. @https://www.figma.com/design/2i0faqAmzqkPPD8Zsc0iMW/Color-conversion-replication-01-%E2%80%94-P3?node-id=2-30&m=dev
+											119 text Implement this design from Figma.
+											120 text @https://www.figma.com/design/2i0faqAmzqkPPD8Zsc0iMW/Color-conversion-replication-01-%E2%80%94-P3?node-id=2-30&m=dev
+										121 button Copy example prompt
+									122 container code_panel-inspection-panel
+										123 button (expanded) Layer properties, Secondary Actions: Collapse
+											124 heading Layer properties, Value: 3
+												125 text Layer properties
+										126 container Visual representation of element layout properties including padding, border box, and spacing
+										127 container preferences-inspection-panel
+											128 View
+												129 text View
+												130 container
+													131 radio button (settable, integer) Description: List, Value: 0, ID: :r1k:
+													132 text List
+												133 container
+													134 radio button (settable, integer) Description: Code, Value: 1, ID: :r1l:
+													135 text Code
+											136 text Language: CSS
+											137 pop up button (collapsed) Description: Language: CSS, ID: :r1p:, Secondary Actions: Expand
+										138 container code:Layout-inspection-panel
+											139 heading Layout, Value: 3
+												140 text Layout
+											141 button Copy Layout, press shift to copy all code
+											142 container
+												143 container
+													144 text width : 256 px ;
+												145 container
+													146 text height : 100 px ;
+										147 container code:Style-inspection-panel
+											148 heading Style, Value: 3
+												149 text Style
+											150 button Copy Style, press shift to copy all code
+											151 container
+												152 container
+													153 container
+														154 text background : var (
+														155 button --role-B
+														156 text , #FFDE00 ) ;
+													157 button This is a fallback sRGB value for browsers that do not support P3 colors.
+														158 image
+													159 container
+														160 text background : var (
+														161 button --role-B
+														162 text , color(display-p3 0.9749 0.8785 0.2166) ) ;
+										163 container modes-inspection-panel
+											164 heading Modes, Value: 3
+												165 text Modes
+											166 button Copy Replication 01: Auto (P3 values)
+												167 container Replication 01
+													168 text Replication 01
+												169 container Auto (P3 values)
+													170 text Auto (P3 values)
+										171 container colors-inspection-panel
+											172 heading Colors, Value: 3
+												173 text Colors
+											174 text Color format
+											175 combo box (collapsed) Color format, Value: RGB, ID: :r1u:, Secondary Actions: Expand
+												176 text RGB
+												177 image
+											178 heading Background colors, Value: 3
+												179 text Background colors
+											180 button Copy role/B
+												181 container role/B
+													182 text role/B
+											183 checkbox Description: Variable details: role/B, Value: 0
+												184 image
+									185 container
+										186 button Export
+										187 button Add export settings
+					188 slider Description: Resize handle, Value: 100
+		189 container Application toolbar
+			190 toolbar Editor
+				191 checkbox Description: Move, Value: 1
+					192 image
+				193 checkbox Description: Copy colors, Value: 0
+					194 image
+				195 checkbox Description: Measurement, Value: 0
+					196 image
+				197 checkbox Description: Annotation, Value: 0
+					198 image
+				199 checkbox Description: Comment, Value: 0
+					200 image
+				201 Toolbelt Mode
+					202 text Toolbelt Mode
+					203 radio button (settable, integer) Description: Draw, Value: 0, ID: :ri:-illustration
+					204 radio button (settable, integer) Description: Design, Value: 0, ID: :ri:-design
+					205 radio button (settable, integer) Description: Motion, Value: 0, ID: :ri:-metronome
+					206 radio button (settable, integer) Description: Dev Mode, Value: 1, ID: :ri:-handoff
+		207 container Help/zoom toolbar
+			208 toolbar Help/zoom toolbar
+				209 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+					210 image
+
+The focused UI element is 5 container Figma Design, 1 item selected

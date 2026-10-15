@@ -1,0 +1,170 @@
+[
+  {
+    "id": "2:11",
+    "name": "A-literal",
+    "hex": "#DF00E4",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t137 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t138 text Style\n\t\t\t\t\t\t\t\t\t\t\t139 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t140 container\n\t\t\t\t\t\t\t\t\t\t\t\t141 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t142 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t143 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t144 button #DF00E4\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t145 text #DF00E4\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t146 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t147 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t148 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t149 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t150 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t151 button color(display-p3 0.7984 0 0.8633)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t152 text color(display-p3 0.7984 0 0.8633)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t153 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t154 button This color is not tied to a style or variable in the design\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 image\n\t\t\t\t\t\t\t\t\t\t156 ",
+    "readAt": "2026-10-15T03:59:14.593Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:14",
+    "name": "A-variable",
+    "hex": "#F400EC",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --primitive-A\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #F400EC ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --primitive-A\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.7984 0 0.8633) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T03:59:44.905Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:17",
+    "name": "A-alias2",
+    "hex": "#F400EC",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --role-A\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #F400EC ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --role-A\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.7984 0 0.8633) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T03:59:48.940Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:24",
+    "name": "B-literal",
+    "hex": "#FEDF00",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button #FEDF00\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text #FEDF00\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t157 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t158 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t159 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 button color(display-p3 0.9749 0.8785 0.2166)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t163 text color(display-p3 0.9749 0.8785 0.2166)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t164 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t165 button This color is not tied to a style or variable in the design\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t166 image\n\t\t\t\t\t\t\t\t\t\t167 ",
+    "readAt": "2026-10-15T03:59:52.904Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:27",
+    "name": "B-variable",
+    "hex": "#FFDE00",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --primitive-B\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #FFDE00 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --primitive-B\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.9749 0.8785 0.2166) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T03:59:57.177Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:30",
+    "name": "B-alias2",
+    "hex": "#FFDE00",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --role-B\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #FFDE00 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --role-B\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.9749 0.8785 0.2166) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:00:01.501Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:37",
+    "name": "C-literal",
+    "hex": "#00EBEC",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button #00EBEC\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text #00EBEC\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t157 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t158 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t159 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 button color(display-p3 0.3986 0.9091 0.9179)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t163 text color(display-p3 0.3986 0.9091 0.9179)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t164 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t165 button This color is not tied to a style or variable in the design\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t166 image\n\t\t\t\t\t\t\t\t\t\t167 ",
+    "readAt": "2026-10-15T04:00:13.797Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:40",
+    "name": "C-variable",
+    "hex": "#00EFEE",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --primitive-C\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #00EFEE ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --primitive-C\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.3986 0.9091 0.9179) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:00:18.424Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:43",
+    "name": "C-alias2",
+    "hex": "#00EFEE",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --role-C\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #00EFEE ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --role-C\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.3986 0.9091 0.9179) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:00:22.751Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:50",
+    "name": "D-literal",
+    "hex": "#030920",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button #030920\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text #030920\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t157 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t158 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t159 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 button color(display-p3 0.015 0.0357 0.1192)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t163 text color(display-p3 0.015 0.0357 0.1192)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t164 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t165 button This color is not tied to a style or variable in the design\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t166 image\n\t\t\t\t\t\t\t\t\t\t167 ",
+    "readAt": "2026-10-15T04:00:26.852Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:53",
+    "name": "D-variable",
+    "hex": "#020922",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --primitive-D\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #020922 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --primitive-D\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.015 0.0357 0.1192) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:00:31.226Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:56",
+    "name": "D-alias2",
+    "hex": "#020922",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --role-D\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #020922 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --role-D\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.015 0.0357 0.1192) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:00:36.754Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:63",
+    "name": "E-literal",
+    "hex": "#FA0525",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button #FA0525\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text #FA0525\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t157 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t158 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t159 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 button color(display-p3 0.9 0.2 0.2)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t163 text color(display-p3 0.9 0.2 0.2)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t164 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t165 button This color is not tied to a style or variable in the design\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t166 image\n\t\t\t\t\t\t\t\t\t\t167 ",
+    "readAt": "2026-10-15T04:00:48.701Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:66",
+    "name": "E-variable",
+    "hex": "#FF0005",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --primitive-E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #FF0005 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --primitive-E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.9 0.2 0.2) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:00:53.007Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:69",
+    "name": "E-alias2",
+    "hex": "#FF0005",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --role-E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #FF0005 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --role-E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.9 0.2 0.2) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:00:57.525Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:76",
+    "name": "F-literal",
+    "hex": "#0F0",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button #0F0\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text #0F0\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t157 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t158 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t159 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 button color(display-p3 0 1 0)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t163 text color(display-p3 0 1 0)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t164 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t165 button This color is not tied to a style or variable in the design\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t166 image\n\t\t\t\t\t\t\t\t\t\t167 ",
+    "readAt": "2026-10-15T04:01:02.124Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:79",
+    "name": "F-variable",
+    "hex": "#0F0",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t149 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t150 text Style\n\t\t\t\t\t\t\t\t\t\t\t151 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 button --primitive-F\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t157 text , #0F0 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t158 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t159 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 button --primitive-F\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t163 text , color(display-p3 0 1 0) ) ;\n\t\t\t\t\t\t\t\t\t\t164 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t165 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t166 text Modes\n\t\t\t\t\t\t\t\t\t\t\t167 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t168 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t169 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t170 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t171 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t172 ",
+    "readAt": "2026-10-15T04:01:07.572Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:82",
+    "name": "F-alias2",
+    "hex": "#0F0",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --role-F\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #0F0 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --role-F\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0 1 0) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:01:11.893Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:89",
+    "name": "G-literal",
+    "hex": "#808080",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button #808080\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text #808080\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t157 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t158 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t159 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 text background :\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 button color(display-p3 0.5 0.5 0.5)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t163 text color(display-p3 0.5 0.5 0.5)\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t164 text ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t165 button This color is not tied to a style or variable in the design\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t166 image\n\t\t\t\t\t\t\t\t\t\t167 ",
+    "readAt": "2026-10-15T04:01:20.268Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:92",
+    "name": "G-variable",
+    "hex": "#808080",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --primitive-G\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #808080 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --primitive-G\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.5 0.5 0.5) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:01:25.418Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  },
+  {
+    "id": "2:95",
+    "name": "G-alias2",
+    "hex": "#808080",
+    "style": "\n\t\t\t\t\t\t\t\t\t\t\t148 heading Style, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t149 text Style\n\t\t\t\t\t\t\t\t\t\t\t150 button Copy Style, press shift to copy all code\n\t\t\t\t\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t154 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t155 button --role-G\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t156 text , #808080 ) ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t157 button This is a fallback sRGB value for browsers that do not support P3 colors.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t158 image\n\t\t\t\t\t\t\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t160 text background : var (\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t161 button --role-G\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t162 text , color(display-p3 0.5 0.5 0.5) ) ;\n\t\t\t\t\t\t\t\t\t\t163 container modes-inspection-panel\n\t\t\t\t\t\t\t\t\t\t\t164 heading Modes, Value: 3\n\t\t\t\t\t\t\t\t\t\t\t\t165 text Modes\n\t\t\t\t\t\t\t\t\t\t\t166 button Copy Replication 01: Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t167 container Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t\t168 text Replication 01\n\t\t\t\t\t\t\t\t\t\t\t\t169 container Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t\t\t\t170 text Auto (P3 values)\n\t\t\t\t\t\t\t\t\t\t171 ",
+    "readAt": "2026-10-15T04:01:29.692Z",
+    "source": "UI accessibility tree; no prediction lookup"
+  }
+]

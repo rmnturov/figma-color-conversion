@@ -1,0 +1,13 @@
+{
+  "frozenBeforePredictionComparison": true,
+  "files": [
+    {
+      "path": "evidence/devmode-reading-1.json",
+      "sha256": "5666e6027ffa6cf8ffb2243addebf237fab7b13f84393cb41b797966d1ba7e82"
+    },
+    {
+      "path": "evidence/devmode-reading-2.json",
+      "sha256": "68495ce3816b09dc3f06afcb5c682b453011423fd6cab26581caaea46401ddd9"
+    }
+  ]
+}

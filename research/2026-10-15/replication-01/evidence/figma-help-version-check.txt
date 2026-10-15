@@ -1,0 +1,18 @@
+Browser tab: 1749231654, Title: "Color conversion replication 01 — P3 – Figma", URL: "https://www.figma.com/design/2i0faqAmzqkPPD8Zsc0iMW/Color-conversion-replication-01-%25E2%2580%2594-P3?node-id=2-11&t=39mhcKkH5nshd7tq-0".
+1 AXWebArea Color conversion replication 01 — P3 – Figma, URL: figma.com/design/2i0faqAmzqkPPD8Zsc0iMW/Color-conversion-replication-01-%25E2%2580%2594-P3?node-id=2-11&t=39mhcKkH5nshd7tq-0
+	2 container react-page
+		3 menu Help, ID: :r1:
+			4 Help Center
+			5 Support Forum
+			6 YouTube videos
+			7 Release notes
+			8 Legal summary
+			9 Submit feedback
+			10 Ask the community
+			11 Contact support
+			12 Report abuse
+			13 Keyboard shortcuts
+			14 Change keyboard layout…
+			15 Change language…
+
+The focused UI element is 4 Help Center

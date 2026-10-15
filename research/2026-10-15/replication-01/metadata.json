@@ -1,0 +1,42 @@
+{
+  "preregistrationCommit": "25fb09f0671075580319577da470b2beab236658",
+  "team": "quaaacks's team",
+  "files": {
+    "p3": {
+      "fileKey": "2i0faqAmzqkPPD8Zsc0iMW",
+      "profileEvidence": "evidence/p3-profile.txt",
+      "fixtureEvidence": "evidence/p3-fixtures.json"
+    },
+    "srgb": {
+      "fileKey": "xHj0Mhhmm4Vd7RsjyXuOZj",
+      "status": "profile assigned to sRGB and one variable created through UI; no successful experimental import yet",
+      "profileEvidence": "evidence/srgb-profile.txt"
+    }
+  },
+  "environment": {
+    "os": "macOS 15.7.7 (24G720)",
+    "browser": "Brave 154.1.96.61",
+    "browserBundleVersion": "196.61",
+    "browserVersionSource": "/Applications/Brave Browser.app/Contents/Info.plist",
+    "node": "v26.9.0",
+    "colourLibrary": "colorjs.io@0.5.2",
+    "figmaWebBuild": null,
+    "figmaWebBuildStatus": "Unavailable in observed Help menu; see evidence/figma-help-version-check.txt. Release notes link is not an exact deployed build.",
+    "figmaPluginApiVersion": "1.0.0"
+  },
+  "limitations": [
+    "Starter MCP call limit reached after recording P3 initial state. No further MCP reads or resets available.",
+    "Dev Mode blocked by Upgrade to Professional; evidence saved; no CSS observations collected.",
+    "Browser extension upload unavailable without file URL permission. Files selected through native Open dialog instead."
+  ],
+  "resetMethod": "After MCP limit, exact profile-qualified CSS colour entered through native variable colour picker; each reset verified by native Export mode JSON.",
+  "currentTeam": "john.lindsey.mail1's team",
+  "currentProjectId": "312024378",
+  "teamChange": "User explicitly approved Pro team after Starter Dev Mode paywall. File keys and preregistration unchanged.",
+  "preparationErrors": [
+    {
+      "evidence": "evidence/preparation-error-wrong-tab-reset.tokens.json",
+      "description": "UI reset helper captured previous P3 tab binding; attempted sRGB seed modified P3 import probe instead. Export assertion stopped before import. Excluded from trials; Dev Mode specimens unaffected."
+    }
+  ]
+}
