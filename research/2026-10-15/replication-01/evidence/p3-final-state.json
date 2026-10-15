@@ -1,0 +1,1626 @@
+{
+  "pageId": "0:1",
+  "nodes": [
+    {
+      "id": "0:1",
+      "parentId": null,
+      "type": "PAGE",
+      "name": "Page 1"
+    },
+    {
+      "id": "2:3",
+      "parentId": "0:1",
+      "type": "FRAME",
+      "name": "Replication 01",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:4",
+      "parentId": "2:3",
+      "type": "TEXT",
+      "name": "Display-P3: literal / variable / two aliases",
+      "characters": "Display-P3: literal / variable / two aliases",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:5",
+      "parentId": "2:3",
+      "type": "FRAME",
+      "name": "A",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:9",
+      "parentId": "2:5",
+      "type": "FRAME",
+      "name": "A literal",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:10",
+      "parentId": "2:9",
+      "type": "TEXT",
+      "name": "A / literal",
+      "characters": "A / literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:11",
+      "parentId": "2:9",
+      "type": "RECTANGLE",
+      "name": "A-literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.798393189907074,
+            "g": 0,
+            "b": 0.8633307814598083
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:12",
+      "parentId": "2:5",
+      "type": "FRAME",
+      "name": "A variable",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:13",
+      "parentId": "2:12",
+      "type": "TEXT",
+      "name": "A / variable",
+      "characters": "A / variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:14",
+      "parentId": "2:12",
+      "type": "RECTANGLE",
+      "name": "A-variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.798393189907074,
+            "g": 0,
+            "b": 0.8633307814598083
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:15",
+      "parentId": "2:5",
+      "type": "FRAME",
+      "name": "A alias2",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:16",
+      "parentId": "2:15",
+      "type": "TEXT",
+      "name": "A / alias2",
+      "characters": "A / alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:17",
+      "parentId": "2:15",
+      "type": "RECTANGLE",
+      "name": "A-alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.798393189907074,
+            "g": 0,
+            "b": 0.8633307814598083
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:18",
+      "parentId": "2:3",
+      "type": "FRAME",
+      "name": "B",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:22",
+      "parentId": "2:18",
+      "type": "FRAME",
+      "name": "B literal",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:23",
+      "parentId": "2:22",
+      "type": "TEXT",
+      "name": "B / literal",
+      "characters": "B / literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:24",
+      "parentId": "2:22",
+      "type": "RECTANGLE",
+      "name": "B-literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9749206900596619,
+            "g": 0.8785214424133301,
+            "b": 0.21663513779640198
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:25",
+      "parentId": "2:18",
+      "type": "FRAME",
+      "name": "B variable",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:26",
+      "parentId": "2:25",
+      "type": "TEXT",
+      "name": "B / variable",
+      "characters": "B / variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:27",
+      "parentId": "2:25",
+      "type": "RECTANGLE",
+      "name": "B-variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9749206900596619,
+            "g": 0.8785214424133301,
+            "b": 0.21663513779640198
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:19"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:28",
+      "parentId": "2:18",
+      "type": "FRAME",
+      "name": "B alias2",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:29",
+      "parentId": "2:28",
+      "type": "TEXT",
+      "name": "B / alias2",
+      "characters": "B / alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:30",
+      "parentId": "2:28",
+      "type": "RECTANGLE",
+      "name": "B-alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9749206900596619,
+            "g": 0.8785214424133301,
+            "b": 0.21663513779640198
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:21"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:31",
+      "parentId": "2:3",
+      "type": "FRAME",
+      "name": "C",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:35",
+      "parentId": "2:31",
+      "type": "FRAME",
+      "name": "C literal",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:36",
+      "parentId": "2:35",
+      "type": "TEXT",
+      "name": "C / literal",
+      "characters": "C / literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:37",
+      "parentId": "2:35",
+      "type": "RECTANGLE",
+      "name": "C-literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3986392617225647,
+            "g": 0.9090734720230103,
+            "b": 0.9179298281669617
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:38",
+      "parentId": "2:31",
+      "type": "FRAME",
+      "name": "C variable",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:39",
+      "parentId": "2:38",
+      "type": "TEXT",
+      "name": "C / variable",
+      "characters": "C / variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:40",
+      "parentId": "2:38",
+      "type": "RECTANGLE",
+      "name": "C-variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3986392617225647,
+            "g": 0.9090734720230103,
+            "b": 0.9179298281669617
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:32"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:41",
+      "parentId": "2:31",
+      "type": "FRAME",
+      "name": "C alias2",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:42",
+      "parentId": "2:41",
+      "type": "TEXT",
+      "name": "C / alias2",
+      "characters": "C / alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:43",
+      "parentId": "2:41",
+      "type": "RECTANGLE",
+      "name": "C-alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3986392617225647,
+            "g": 0.9090734720230103,
+            "b": 0.9179298281669617
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:34"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:44",
+      "parentId": "2:3",
+      "type": "FRAME",
+      "name": "D",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:48",
+      "parentId": "2:44",
+      "type": "FRAME",
+      "name": "D literal",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:49",
+      "parentId": "2:48",
+      "type": "TEXT",
+      "name": "D / literal",
+      "characters": "D / literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:50",
+      "parentId": "2:48",
+      "type": "RECTANGLE",
+      "name": "D-literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.014956965111196041,
+            "g": 0.03566376119852066,
+            "b": 0.11921017616987228
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:51",
+      "parentId": "2:44",
+      "type": "FRAME",
+      "name": "D variable",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:52",
+      "parentId": "2:51",
+      "type": "TEXT",
+      "name": "D / variable",
+      "characters": "D / variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:53",
+      "parentId": "2:51",
+      "type": "RECTANGLE",
+      "name": "D-variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.014956965111196041,
+            "g": 0.03566376119852066,
+            "b": 0.11921017616987228
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:45"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:54",
+      "parentId": "2:44",
+      "type": "FRAME",
+      "name": "D alias2",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:55",
+      "parentId": "2:54",
+      "type": "TEXT",
+      "name": "D / alias2",
+      "characters": "D / alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:56",
+      "parentId": "2:54",
+      "type": "RECTANGLE",
+      "name": "D-alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.014956965111196041,
+            "g": 0.03566376119852066,
+            "b": 0.11921017616987228
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:47"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:57",
+      "parentId": "2:3",
+      "type": "FRAME",
+      "name": "E",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:61",
+      "parentId": "2:57",
+      "type": "FRAME",
+      "name": "E literal",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:62",
+      "parentId": "2:61",
+      "type": "TEXT",
+      "name": "E / literal",
+      "characters": "E / literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:63",
+      "parentId": "2:61",
+      "type": "RECTANGLE",
+      "name": "E-literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8999999761581421,
+            "g": 0.20000000298023224,
+            "b": 0.20000000298023224
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:64",
+      "parentId": "2:57",
+      "type": "FRAME",
+      "name": "E variable",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:65",
+      "parentId": "2:64",
+      "type": "TEXT",
+      "name": "E / variable",
+      "characters": "E / variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:66",
+      "parentId": "2:64",
+      "type": "RECTANGLE",
+      "name": "E-variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8999999761581421,
+            "g": 0.20000000298023224,
+            "b": 0.20000000298023224
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:58"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:67",
+      "parentId": "2:57",
+      "type": "FRAME",
+      "name": "E alias2",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:68",
+      "parentId": "2:67",
+      "type": "TEXT",
+      "name": "E / alias2",
+      "characters": "E / alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:69",
+      "parentId": "2:67",
+      "type": "RECTANGLE",
+      "name": "E-alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8999999761581421,
+            "g": 0.20000000298023224,
+            "b": 0.20000000298023224
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:60"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:70",
+      "parentId": "2:3",
+      "type": "FRAME",
+      "name": "F",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:74",
+      "parentId": "2:70",
+      "type": "FRAME",
+      "name": "F literal",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:75",
+      "parentId": "2:74",
+      "type": "TEXT",
+      "name": "F / literal",
+      "characters": "F / literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:76",
+      "parentId": "2:74",
+      "type": "RECTANGLE",
+      "name": "F-literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 1,
+            "b": 0
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:77",
+      "parentId": "2:70",
+      "type": "FRAME",
+      "name": "F variable",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:78",
+      "parentId": "2:77",
+      "type": "TEXT",
+      "name": "F / variable",
+      "characters": "F / variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:79",
+      "parentId": "2:77",
+      "type": "RECTANGLE",
+      "name": "F-variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 1,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:71"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:80",
+      "parentId": "2:70",
+      "type": "FRAME",
+      "name": "F alias2",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:81",
+      "parentId": "2:80",
+      "type": "TEXT",
+      "name": "F / alias2",
+      "characters": "F / alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:82",
+      "parentId": "2:80",
+      "type": "RECTANGLE",
+      "name": "F-alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 1,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:73"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:83",
+      "parentId": "2:3",
+      "type": "FRAME",
+      "name": "G",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:87",
+      "parentId": "2:83",
+      "type": "FRAME",
+      "name": "G literal",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:88",
+      "parentId": "2:87",
+      "type": "TEXT",
+      "name": "G / literal",
+      "characters": "G / literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:89",
+      "parentId": "2:87",
+      "type": "RECTANGLE",
+      "name": "G-literal",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:90",
+      "parentId": "2:83",
+      "type": "FRAME",
+      "name": "G variable",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:91",
+      "parentId": "2:90",
+      "type": "TEXT",
+      "name": "G / variable",
+      "characters": "G / variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:92",
+      "parentId": "2:90",
+      "type": "RECTANGLE",
+      "name": "G-variable",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:84"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:93",
+      "parentId": "2:83",
+      "type": "FRAME",
+      "name": "G alias2",
+      "fills": [],
+      "opacity": 1
+    },
+    {
+      "id": "2:94",
+      "parentId": "2:93",
+      "type": "TEXT",
+      "name": "G / alias2",
+      "characters": "G / alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1
+    },
+    {
+      "id": "2:95",
+      "parentId": "2:93",
+      "type": "RECTANGLE",
+      "name": "G-alias2",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:86"
+            }
+          }
+        }
+      ],
+      "opacity": 1
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:2:2",
+      "name": "Replication 01",
+      "modes": [
+        {
+          "name": "P3 values",
+          "modeId": "2:0"
+        }
+      ],
+      "variableIds": [
+        "VariableID:2:6",
+        "VariableID:2:7",
+        "VariableID:2:8",
+        "VariableID:2:19",
+        "VariableID:2:20",
+        "VariableID:2:21",
+        "VariableID:2:32",
+        "VariableID:2:33",
+        "VariableID:2:34",
+        "VariableID:2:45",
+        "VariableID:2:46",
+        "VariableID:2:47",
+        "VariableID:2:58",
+        "VariableID:2:59",
+        "VariableID:2:60",
+        "VariableID:2:71",
+        "VariableID:2:72",
+        "VariableID:2:73",
+        "VariableID:2:84",
+        "VariableID:2:85",
+        "VariableID:2:86"
+      ]
+    },
+    {
+      "id": "VariableCollectionId:2:96",
+      "name": "Paired import",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "2:1"
+        }
+      ],
+      "variableIds": [
+        "VariableID:2:97"
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:2:6",
+      "name": "primitive/A",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "r": 0.798393189907074,
+          "g": 0,
+          "b": 0.8633307814598083,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:7",
+      "name": "semantic/A",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:6"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:8",
+      "name": "role/A",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:7"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:19",
+      "name": "primitive/B",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "r": 0.9749206900596619,
+          "g": 0.8785214424133301,
+          "b": 0.21663513779640198,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:20",
+      "name": "semantic/B",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:19"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:21",
+      "name": "role/B",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:20"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:32",
+      "name": "primitive/C",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "r": 0.3986392617225647,
+          "g": 0.9090734720230103,
+          "b": 0.9179298281669617,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:33",
+      "name": "semantic/C",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:32"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:34",
+      "name": "role/C",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:33"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:45",
+      "name": "primitive/D",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "r": 0.014956965111196041,
+          "g": 0.03566376119852066,
+          "b": 0.11921017616987228,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:46",
+      "name": "semantic/D",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:45"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:47",
+      "name": "role/D",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:46"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:58",
+      "name": "primitive/E",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "r": 0.8999999761581421,
+          "g": 0.20000000298023224,
+          "b": 0.20000000298023224,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:59",
+      "name": "semantic/E",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:58"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:60",
+      "name": "role/E",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:59"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:71",
+      "name": "primitive/F",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "r": 0,
+          "g": 1,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:72",
+      "name": "semantic/F",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:71"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:73",
+      "name": "role/F",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:72"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:84",
+      "name": "primitive/G",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "r": 0.5,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:85",
+      "name": "semantic/G",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:84"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:86",
+      "name": "role/G",
+      "collectionId": "VariableCollectionId:2:2",
+      "values": {
+        "2:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:85"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:2:97",
+      "name": "color-space-probe",
+      "collectionId": "VariableCollectionId:2:96",
+      "values": {
+        "2:1": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    }
+  ],
+  "fileKey": "2i0faqAmzqkPPD8Zsc0iMW"
+}

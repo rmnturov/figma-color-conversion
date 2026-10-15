@@ -6,13 +6,71 @@
       "fileKey": "2i0faqAmzqkPPD8Zsc0iMW",
       "profileEvidence": "evidence/p3-profile.txt",
       "fixtureEvidence": "evidence/p3-fixtures.json",
-      "variableId": "VariableID:2:97"
+      "variableId": "VariableID:2:97",
+      "localFile": "figma/Replication-01-P3.fig",
+      "bytes": 44827,
+      "sha256": "a4123e96ceef02fa18b3ef7c5221ea20790cfc4617e3f9d250f991241430aff1",
+      "fileName": "Color conversion replication 01 — P3",
+      "exportedAt": "2026-10-15T04:27:41.978Z",
+      "finalState": "evidence/p3-final-state.json",
+      "finalProfileEvidence": "evidence/p3-final-profile.txt",
+      "zipMembers": [
+        {
+          "name": "canvas.fig",
+          "bytes": 39132,
+          "crc32": "53837938"
+        },
+        {
+          "name": "thumbnail.png",
+          "bytes": 4647,
+          "crc32": "8dd84a0b"
+        },
+        {
+          "name": "meta.json",
+          "bytes": 343,
+          "crc32": "2354f2a6"
+        },
+        {
+          "name": "images/",
+          "bytes": 0,
+          "crc32": "00000000"
+        }
+      ]
     },
     "srgb": {
       "fileKey": "xHj0Mhhmm4Vd7RsjyXuOZj",
-      "status": "profile assigned; same-name variable VariableID:1:3; one completed import trial",
+      "status": "all eight native import trials completed; exact sentinel preserved after final display-p3 trial",
       "profileEvidence": "evidence/srgb-profile.txt",
-      "variableId": "VariableID:1:3"
+      "variableId": "VariableID:1:3",
+      "localFile": "figma/Replication-01-sRGB.fig",
+      "bytes": 32260,
+      "sha256": "ab467d4b13b2a839f0e80c8256f3f9577f95016c86c1e255295d8ee29b4b8945",
+      "fileName": "Color conversion replication 01 — sRGB",
+      "exportedAt": "2026-10-15T04:26:37.322Z",
+      "finalState": "evidence/srgb-final-state.json",
+      "finalProfileEvidence": "evidence/srgb-final-profile.txt",
+      "zipMembers": [
+        {
+          "name": "canvas.fig",
+          "bytes": 30437,
+          "crc32": "1014c8b1"
+        },
+        {
+          "name": "thumbnail.png",
+          "bytes": 776,
+          "crc32": "33d2caf1"
+        },
+        {
+          "name": "meta.json",
+          "bytes": 340,
+          "crc32": "f191151e"
+        },
+        {
+          "name": "images/",
+          "bytes": 0,
+          "crc32": "00000000"
+        }
+      ]
     }
   },
   "environment": {
@@ -30,7 +88,7 @@
     "Exact Figma web build unavailable in observed Help UI; API version 1.0.0 is not the application build.",
     "Both readings performed by same agent, with predictions known from preregistration; no blinded independent researcher.",
     "Dev Mode repeated in another file but in the same browser/OS environment as this run; no cross-browser replication.",
-    "Seven planned sRGB import trials and new local .fig copies remain incomplete while native Brave control is unavailable."
+    "New native .fig exports checked by ZIP/CRC/SHA-256; reimport into another file was not repeated in this run."
   ],
   "resetMethod": "P3 trials: Plugin API initial sentinel, then profile-qualified CSS resets verified by native Export mode. sRGB trials: Plugin API resets with exact before-state JSON after Pro move.",
   "currentTeam": "john.lindsey.mail1's team",
@@ -49,8 +107,9 @@
   "recordedCounts": {
     "devModeLayers": 21,
     "newColours": 4,
-    "importTrials": 9,
+    "importTrials": 16,
     "plannedImportTrials": 16,
-    "importMatrixComplete": false
-  }
+    "importMatrixComplete": true
+  },
+  "completedAt": "2026-10-15T04:30:42.626272+00:00"
 }

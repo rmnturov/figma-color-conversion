@@ -1,0 +1,28 @@
+Browser tab: 1749231655, Title: "Color conversion replication 01 — sRGB – Figma", URL: "https://www.figma.com/design/xHj0Mhhmm4Vd7RsjyXuOZj/Color-conversion-replication-01-%25E2%2580%2594-sRGB?node-id=0-1&p=f&t=f7KuBh8N0pq85gop-0".
+0 AXWebArea Color conversion replication 01 — sRGB – Figma, URL: figma.com/design/xHj0Mhhmm4Vd7RsjyXuOZj/Color-conversion-replication-01-%25E2%2580%2594-sRGB?node-id=0-1&p=f&t=f7KuBh8N0pq85gop-0
+	1 container
+		2 container react-page
+			3 container
+				4 menu Edit file menu, ID: :rcf:
+					5 Show version history
+					6 Publish library…
+					7 Export…
+					8 (collapsed) Add to sidebar, ID: :rgd:, Secondary Actions: Expand
+						9 text Add to sidebar
+						10 image
+					11 Create branch…
+					12 (expanded) File color profile, ID: :rgl:, Secondary Actions: Collapse
+						13 text File color profile
+						14 image
+					15 Duplicate
+					16 Rename
+					17 Go to folder
+					18 Move file…
+					19 Move to trash
+				20 menu File color profile, ID: :rgk:
+					21 container File color profile
+						22 text File color profile
+						23 Assign to sRGB, Value: 1
+						24 Assign to Display P3, Value: 0
+
+The focused UI element is 23 Assign to sRGB, Value: 1

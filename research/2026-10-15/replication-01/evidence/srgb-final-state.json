@@ -1,0 +1,45 @@
+{
+  "pageId": "0:1",
+  "nodes": [
+    {
+      "id": "0:1",
+      "parentId": null,
+      "type": "PAGE",
+      "name": "Page 1"
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:1:2",
+      "name": "Collection 1",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "1:0"
+        }
+      ],
+      "variableIds": [
+        "VariableID:1:3"
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:1:3",
+      "name": "color-space-probe",
+      "collectionId": "VariableCollectionId:1:2",
+      "values": {
+        "1:0": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    }
+  ],
+  "fileKey": "xHj0Mhhmm4Vd7RsjyXuOZj"
+}

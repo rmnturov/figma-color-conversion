@@ -27,12 +27,12 @@
 | [Экспорт и импорт Variables JSON](docs/variables-json.md) | Export modes, Import mode, приоритет полей, профили и HSL |
 | [Источники](docs/sources.md) | Ссылки и ограничения внешних материалов |
 | [Отчёт от 14.10.2026](research/2026-10-14/README.md) | Контекст прогона, узлы Figma и архив доказательств |
-| [Повторная проверка после ревью](research/2026-10-15/replication-01/README.md) | Предрегистрация, два чтения 21 слоя, сравнение моделей и парные импорты; матрица импорта пока не завершена |
+| [Повторная проверка после ревью](research/2026-10-15/replication-01/README.md) | Предрегистрация, два чтения 21 слоя, 16 парных импортов, реестры ID и две новые `.fig`-копии |
 | [Variables JSON от 15.10.2026](research/2026-10-15/variables-json/README.md) | По 57 переменных и слоёв в двух профилях, JSON, ZIP и `.fig` |
 
 ## Выполнение расчётов
 
-Требования: Node.js 22 или выше и npm. Версия `colorjs.io` зафиксирована: `0.5.2`.
+Требования: Node.js 22 или выше и npm. Версия `colorjs.io` зафиксирована: `0.5.2`. Для `verify:replication:copies` дополнительно требуется Python 3; используются только модули стандартной библиотеки.
 
 Чтобы выполнить расчёт и проверить сохранённые результаты:
 
@@ -62,6 +62,8 @@
    npm run verify
    npm run verify:copy
    npm run verify:variables
+   npm run verify:replication
+   npm run verify:replication:copies
    npm test
    npm run check:links
    ```

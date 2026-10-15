@@ -1,0 +1,23 @@
+{
+  "client_meta": {
+    "background_color": {
+      "r": 0.8980392217636108,
+      "g": 0.8980392217636108,
+      "b": 0.8980392217636108,
+      "a": 1
+    },
+    "thumbnail_size": {
+      "width": 306,
+      "height": 400
+    },
+    "render_coordinates": {
+      "x": 80,
+      "y": 80,
+      "width": 848,
+      "height": 1108
+    }
+  },
+  "file_name": "Color conversion replication 01 — P3",
+  "developer_related_links": [],
+  "exported_at": "2026-10-15T04:27:41.978Z"
+}

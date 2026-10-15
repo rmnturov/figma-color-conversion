@@ -15,7 +15,8 @@
     "check:links": "node scripts/check-document-links.mjs",
     "code:figma": "node scripts/code-to-figma.mjs",
     "figma:code": "node scripts/figma-to-code.mjs",
-    "verify:replication": "node scripts/verify-replication.mjs"
+    "verify:replication": "node scripts/verify-replication.mjs --require-complete",
+    "verify:replication:copies": "python3 scripts/verify-native-fig-copies.py"
   },
   "dependencies": {
     "colorjs.io": "0.5.2"

@@ -1,5 +1,5 @@
 {
-  "comparedAt": "2026-10-15T04:16:21.390Z",
+  "comparedAt": "2026-10-15T04:32:37.112Z",
   "devMode": [
     {
       "specimen": "A",
@@ -124,9 +124,44 @@
       "label": "srgb-cycle1-double-srgb",
       "variableId": "VariableID:1:3",
       "outcome": "updated"
+    },
+    {
+      "label": "srgb-cycle1-double-display-p3",
+      "variableId": "VariableID:1:3",
+      "outcome": "skipped with UI error and exact sentinel preserved"
+    },
+    {
+      "label": "srgb-cycle1-float32-srgb",
+      "variableId": "VariableID:1:3",
+      "outcome": "updated"
+    },
+    {
+      "label": "srgb-cycle1-float32-display-p3",
+      "variableId": "VariableID:1:3",
+      "outcome": "skipped with UI error and exact sentinel preserved"
+    },
+    {
+      "label": "srgb-cycle2-double-srgb",
+      "variableId": "VariableID:1:3",
+      "outcome": "updated"
+    },
+    {
+      "label": "srgb-cycle2-double-display-p3",
+      "variableId": "VariableID:1:3",
+      "outcome": "skipped with UI error and exact sentinel preserved"
+    },
+    {
+      "label": "srgb-cycle2-float32-srgb",
+      "variableId": "VariableID:1:3",
+      "outcome": "updated"
+    },
+    {
+      "label": "srgb-cycle2-float32-display-p3",
+      "variableId": "VariableID:1:3",
+      "outcome": "skipped with UI error and exact sentinel preserved"
     }
   ],
-  "importCount": 9,
+  "importCount": 16,
   "plannedImportCount": 16,
-  "importMatrixComplete": false
+  "importMatrixComplete": true
 }
