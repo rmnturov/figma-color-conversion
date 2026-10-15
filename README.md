@@ -17,6 +17,7 @@
 
 | Документ | Назначение |
 | :--- | :--- |
+| [Записи цвета в интерфейсе Figma](docs/color-notations.md) | Смысл HEX и Display-P3 в Variables, палитре и Dev Mode, алиасы и точность округления |
 | [Из кода в Figma](docs/code-to-figma.md) | Получение P3 HEX, ввод OKLCH через CSS-поле и перенос через JSON |
 | [Из Figma в код](docs/figma-to-code.md) | Интерпретация профиля, каналов и алиасов |
 | [HEX-fallback в Dev Mode](docs/dev-mode-fallback.md) | Исходные шесть образцов, предсказания на четырёх новых цветах и сравнение моделей |
