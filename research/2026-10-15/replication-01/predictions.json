@@ -1,0 +1,269 @@
+{
+  "registeredAt": "2026-10-15T03:43:07.025Z",
+  "library": "colorjs.io@0.5.2",
+  "status": "predictions only; no Figma observations collected",
+  "expectedLiteral": "passes[0]",
+  "expectedVariable": "passes[1]",
+  "expectedTwoAliases": "passes[1]",
+  "specimens": [
+    {
+      "key": "A",
+      "css": "oklch(60% 0.35 328)",
+      "newColour": true,
+      "unboundedP3": [
+        0.7983931973054984,
+        -0.22241672741807506,
+        0.8633307997019377
+      ],
+      "inputP3": [
+        0.798393189907074,
+        0,
+        0.8633307814598083
+      ],
+      "inputMethod": "Plugin API SOLID and COLOR variable; identical clamped float32 RGB; alpha 1",
+      "preClipped": true,
+      "predictions": {
+        "passes": [
+          "#DF00E4",
+          "#F400EC",
+          "#FF00F4",
+          "#FF00FC"
+        ],
+        "twoWithoutIntermediateRounding": "#F400EC",
+        "inputRoundedThenTwo": "#F400EC"
+      },
+      "unclippedCounterfactual": {
+        "passes": [
+          "#E000E4",
+          "#F500EC",
+          "#FF00F4",
+          "#FF00FC"
+        ],
+        "twoWithoutIntermediateRounding": "#F500EC",
+        "inputRoundedThenTwo": "#F400EC"
+      }
+    },
+    {
+      "key": "B",
+      "css": "oklch(90% 0.2 100)",
+      "newColour": true,
+      "unboundedP3": [
+        0.9749207038027011,
+        0.8785214253355731,
+        0.21663513604102264
+      ],
+      "inputP3": [
+        0.9749206900596619,
+        0.8785214424133301,
+        0.21663513779640198
+      ],
+      "inputMethod": "Plugin API SOLID and COLOR variable; identical clamped float32 RGB; alpha 1",
+      "preClipped": false,
+      "predictions": {
+        "passes": [
+          "#FEDF00",
+          "#FFDE00",
+          "#FFDC00",
+          "#FFDA00"
+        ],
+        "twoWithoutIntermediateRounding": "#FFDD00",
+        "inputRoundedThenTwo": "#FFDE00"
+      },
+      "unclippedCounterfactual": {
+        "passes": [
+          "#FEDF00",
+          "#FFDE00",
+          "#FFDC00",
+          "#FFDA00"
+        ],
+        "twoWithoutIntermediateRounding": "#FFDD00",
+        "inputRoundedThenTwo": "#FFDE00"
+      }
+    },
+    {
+      "key": "C",
+      "css": "oklch(85% 0.15 195)",
+      "newColour": true,
+      "unboundedP3": [
+        0.3986392489507653,
+        0.9090734840849004,
+        0.9179298037091349
+      ],
+      "inputP3": [
+        0.3986392617225647,
+        0.9090734720230103,
+        0.9179298281669617
+      ],
+      "inputMethod": "Plugin API SOLID and COLOR variable; identical clamped float32 RGB; alpha 1",
+      "preClipped": false,
+      "predictions": {
+        "passes": [
+          "#00EBEC",
+          "#00EFEE",
+          "#00F3F0",
+          "#00F7F2"
+        ],
+        "twoWithoutIntermediateRounding": "#00F0EE",
+        "inputRoundedThenTwo": "#00F0EE"
+      },
+      "unclippedCounterfactual": {
+        "passes": [
+          "#00EBEC",
+          "#00EFEE",
+          "#00F3F0",
+          "#00F7F2"
+        ],
+        "twoWithoutIntermediateRounding": "#00F0EE",
+        "inputRoundedThenTwo": "#00F0EE"
+      }
+    },
+    {
+      "key": "D",
+      "css": "oklch(15% 0.05 264)",
+      "newColour": true,
+      "unboundedP3": [
+        0.01495696465207027,
+        0.03566376179016811,
+        0.11921017674396545
+      ],
+      "inputP3": [
+        0.014956965111196041,
+        0.03566376119852066,
+        0.11921017616987228
+      ],
+      "inputMethod": "Plugin API SOLID and COLOR variable; identical clamped float32 RGB; alpha 1",
+      "preClipped": false,
+      "predictions": {
+        "passes": [
+          "#030920",
+          "#020922",
+          "#000924",
+          "#000926"
+        ],
+        "twoWithoutIntermediateRounding": "#010A21",
+        "inputRoundedThenTwo": "#020920"
+      },
+      "unclippedCounterfactual": {
+        "passes": [
+          "#030920",
+          "#020922",
+          "#000924",
+          "#000926"
+        ],
+        "twoWithoutIntermediateRounding": "#010A21",
+        "inputRoundedThenTwo": "#020920"
+      }
+    },
+    {
+      "key": "E",
+      "css": "color(display-p3 0.9 0.2 0.2)",
+      "newColour": false,
+      "unboundedP3": [
+        0.9,
+        0.2,
+        0.2
+      ],
+      "inputP3": [
+        0.8999999761581421,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "inputMethod": "Plugin API SOLID and COLOR variable; identical clamped float32 RGB; alpha 1",
+      "preClipped": false,
+      "predictions": {
+        "passes": [
+          "#FA0525",
+          "#FF0005",
+          "#FF0000",
+          "#FF0000"
+        ],
+        "twoWithoutIntermediateRounding": "#FF0004",
+        "inputRoundedThenTwo": "#FF0005"
+      },
+      "unclippedCounterfactual": {
+        "passes": [
+          "#FA0525",
+          "#FF0005",
+          "#FF0000",
+          "#FF0000"
+        ],
+        "twoWithoutIntermediateRounding": "#FF0004",
+        "inputRoundedThenTwo": "#FF0004"
+      }
+    },
+    {
+      "key": "F",
+      "css": "color(display-p3 0 1 0)",
+      "newColour": false,
+      "unboundedP3": [
+        0,
+        1,
+        0
+      ],
+      "inputP3": [
+        0,
+        1,
+        0
+      ],
+      "inputMethod": "Plugin API SOLID and COLOR variable; identical clamped float32 RGB; alpha 1",
+      "preClipped": false,
+      "predictions": {
+        "passes": [
+          "#00FF00",
+          "#00FF00",
+          "#00FF00",
+          "#00FF00"
+        ],
+        "twoWithoutIntermediateRounding": "#00FF00",
+        "inputRoundedThenTwo": "#00FF00"
+      },
+      "unclippedCounterfactual": {
+        "passes": [
+          "#00FF00",
+          "#00FF00",
+          "#00FF00",
+          "#00FF00"
+        ],
+        "twoWithoutIntermediateRounding": "#00FF00",
+        "inputRoundedThenTwo": "#00FF00"
+      }
+    },
+    {
+      "key": "G",
+      "css": "color(display-p3 0.5 0.5 0.5)",
+      "newColour": false,
+      "unboundedP3": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "inputP3": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "inputMethod": "Plugin API SOLID and COLOR variable; identical clamped float32 RGB; alpha 1",
+      "preClipped": false,
+      "predictions": {
+        "passes": [
+          "#808080",
+          "#808080",
+          "#808080",
+          "#808080"
+        ],
+        "twoWithoutIntermediateRounding": "#808080",
+        "inputRoundedThenTwo": "#808080"
+      },
+      "unclippedCounterfactual": {
+        "passes": [
+          "#808080",
+          "#808080",
+          "#808080",
+          "#808080"
+        ],
+        "twoWithoutIntermediateRounding": "#808080",
+        "inputRoundedThenTwo": "#808080"
+      }
+    }
+  ]
+}

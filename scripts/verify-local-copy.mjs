@@ -53,5 +53,5 @@ for (const [name, hex] of [['literal', '#182E6F'], ['variable', '#102F73']]) {
     assert.ok(snapshot.includes(hex));
     assert.ok(snapshot.includes('color(display-p3 0.1137 0.1765 0.4196)'));
 }
-console.log('Local .fig SHA-256 verified. Recorded import preserved 110 node IDs, 28 variables and 32 fills.');
+console.log('Archive consistency: local .fig SHA-256 matches metadata. Recorded import preserved 110 node IDs, 28 variables and 32 fills.');
 console.log('Profile and two Dev Mode observations match. This command does not inspect live Figma or decode canvas.fig.');

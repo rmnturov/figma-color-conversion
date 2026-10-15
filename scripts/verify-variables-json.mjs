@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import Color from 'colorjs.io';
+import { singleWrapUnitHsl } from '../src/research-models.mjs';
 
 const run = new URL('../research/2026-10-15/variables-json/', import.meta.url);
 const read = name => JSON.parse(fs.readFileSync(new URL(name, run), 'utf8'));
@@ -114,10 +115,19 @@ for (const profile of ['p3', 'srgb']) {
         assert.deepEqual(after[name].$value.components, [1, 1, 1]);
         assert.equal(after[name].$value.hex, '#FFFFFF');
     }
-    const expectedHsl = new Color('hsl', [266, 50, 30]).to('srgb').coords;
-    expectedHsl.forEach((c, i) => assert.ok(Math.abs(c - after['turns-unit-sl'].$value.components[i]) < 2e-7));
-    assert.deepEqual(after['gray-unit-l'].$value.components, [.5, .5, .5]);
-    assert.deepEqual(after['degrees-unit-sl'].$value.components, [.15000000596046448, .15000000596046448, .15000000596046448]);
+    const hslInputs = read('imports/hsl-units.tokens.json');
+    assert.deepEqual(Object.keys(before).filter(name => !name.startsWith('$')).sort(), Object.keys(hslInputs).sort());
+    assert.deepEqual(Object.keys(after).filter(name => !name.startsWith('$')).sort(), Object.keys(hslInputs).sort());
+    for (const [name, token] of Object.entries(hslInputs)) {
+        const predicted = singleWrapUnitHsl(token.$value.components);
+        const immediate = before[name].$value.components;
+        predicted.forEach((c, i) => assert.ok(Math.abs(c - immediate[i]) < 2e-7, profile + '/' + name + ': HSL candidate'));
+        assert.equal(before[name].$value.hex, hex(immediate), name);
+        const reloaded = immediate.map(c => Math.max(0, Math.min(1, c)));
+        assert.deepEqual(after[name].$value.components, reloaded, name + ': reload');
+        assert.equal(after[name].$value.hex, hex(reloaded), name);
+        assert.deepEqual(rgb(value(byName.get(name))), reloaded, name + ': final state');
+    }
     const layers = read('evidence/' + profile + '-layers.json');
     assert.equal(layers.specimens.length, 57);
     assert.equal(new Set(layers.specimens.map(n => n.id)).size, 57);
@@ -142,6 +152,7 @@ for (const profile of ['p3', 'srgb']) {
 const overlay = value(variableMap(p3).get('overlay-p3-hex'));
 assert.ok(fs.readFileSync(new URL('evidence/p3-probes-import-repeat.txt', run), 'utf8').includes('9 variables updated. Encountered errors importing 11 tokens.'));
 assert.ok(new Color('p3', rgb(overlay)).deltaE(new Color('srgb', rgb(overlay)), 'OK') > .008);
-console.log('Recorded Variables JSON tests verified: 28 source tokens; 24 probes + 5 HSL cases in two profiles.');
-console.log('57 variable records and 57 layer IDs per file; native exports, .fig hashes, aliases and transient HSL values verified.');
+console.log('Archive consistency: 28 source tokens; 24 probes and 5 HSL records per profile checked.');
+console.log('Candidate-model agreement: single-wrap unit HSL matches all 5 immediate results in each profile; reload clipping checked separately.');
+console.log('Archive consistency: 57 variables and 57 layer IDs per file; export fields, .fig hashes and aliases checked.');
 console.log('This command checks archived evidence; it does not run Figma UI or reimport .fig files.');

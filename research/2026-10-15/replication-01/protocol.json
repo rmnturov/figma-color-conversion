@@ -1,0 +1,63 @@
+{
+  "team": "quaaacks's team",
+  "profiles": [
+    "Display-P3",
+    "sRGB"
+  ],
+  "devModeProfile": "Display-P3",
+  "devModeRows": 7,
+  "variants": [
+    "literal",
+    "variable",
+    "alias2"
+  ],
+  "inputChannelTolerance": 2e-7,
+  "importVariableName": "color-space-probe",
+  "sentinel": {
+    "r": 0.03125,
+    "g": 0.0625,
+    "b": 0.125,
+    "a": 0.75
+  },
+  "importCyclesPerProfile": 2,
+  "imports": [
+    {
+      "precision": "double",
+      "colorSpace": "srgb",
+      "file": "imports/double-srgb.tokens.json"
+    },
+    {
+      "precision": "double",
+      "colorSpace": "display-p3",
+      "file": "imports/double-display-p3.tokens.json"
+    },
+    {
+      "precision": "float32",
+      "colorSpace": "srgb",
+      "file": "imports/float32-srgb.tokens.json"
+    },
+    {
+      "precision": "float32",
+      "colorSpace": "display-p3",
+      "file": "imports/float32-display-p3.tokens.json"
+    }
+  ],
+  "importOrderPerCycle": [
+    "imports/double-srgb.tokens.json",
+    "imports/double-display-p3.tokens.json",
+    "imports/float32-srgb.tokens.json",
+    "imports/float32-display-p3.tokens.json"
+  ],
+  "importPredictions": {
+    "srgb": "updates same seeded variable to components, alpha 1",
+    "display-p3": "error notice and sentinel unchanged"
+  },
+  "resetBeforeEveryImport": true,
+  "acceptance": {
+    "devMode": "All 21 layers must have readable CSS, screenshot and two recorded readings. Test predictions only after readings are saved. Retain any mismatch.",
+    "input": "Actual stored channels must match preregistered input; otherwise label input failure rather than silently changing predictions.",
+    "imports": "Same variable name and ID in all trials; successful srgb paired control; UI error plus unchanged sentinel for skip; two cycles in each profile.",
+    "environment": "Record browser, OS, Node, Color.js and available Figma build before collecting; explicitly mark unavailable Figma web build.",
+    "independence": "Second reading must be recorded before model comparison. Same-agent rereading is not a blinded independent researcher."
+  }
+}

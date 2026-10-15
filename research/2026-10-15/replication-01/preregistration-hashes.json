@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "predictions.json",
+      "sha256": "723a66226d9d4db80950a2aa9dd3992de07deadb4d2e368479fb7a567248b2b2"
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "22443de2dababa96db513661bdf20639d05e77a2f3e4901e508aec17d7d50616"
+    },
+    {
+      "path": "imports/double-srgb.tokens.json",
+      "sha256": "ee9fd29334ef42e524ba4c29a2a5ec7b9dfbd0d46e7ad55faabac25c4a076911"
+    },
+    {
+      "path": "imports/double-display-p3.tokens.json",
+      "sha256": "df498a0f60120a6e52fbd34b505ad9faa69e7ca3ce7cf5337fb94054836cd7ca"
+    },
+    {
+      "path": "imports/float32-srgb.tokens.json",
+      "sha256": "d9fab2ed65fe8b1f70b6a93965a2c0b8f26a8ea832d43a49129e0dac8bd00aee"
+    },
+    {
+      "path": "imports/float32-display-p3.tokens.json",
+      "sha256": "6d2cdb6c8f5a3334933a7088870cffe5d8f9d984fb30274fa3cbf6fab895738f"
+    }
+  ]
+}

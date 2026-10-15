@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import Color from 'colorjs.io';
+import { fallbackCandidates } from '../src/research-models.mjs';
 import { channelsToHex, codeToFigma, observedVariableFallback, parseHexChannels } from '../src/colors.mjs';
 
 const run = new URL('../research/2026-10-14/', import.meta.url);
@@ -35,7 +36,10 @@ for (const sample of cases.forward) {
     assert.equal(literal, predicted.singleClippedHex);
     assert.equal(variable, predicted.doubleClippedHex);
     assert.equal(alias, variable);
-    rows.push({ name: sample.name, literal, variable, alias });
+    const candidates = fallbackCandidates(sample.p3);
+    assert.equal(candidates.passes[0], literal);
+    assert.equal(candidates.passes[1], variable);
+    rows.push({ name: sample.name, literal, variable, alias, ...Object.fromEntries(candidates.passes.map((hex, i) => ['pass' + (i + 1), hex])), noIntermediateRounding: candidates.twoWithoutIntermediateRounding, inputRounded: candidates.inputRoundedThenTwo });
 }
 const values = Object.fromEntries(inverse.variables.map(v => [v.name, v.values[inverse.modeId]]));
 for (const sample of cases.inverse.filter(c => c.hexP3)) {
@@ -68,4 +72,10 @@ assert.ok(persistence.beforeReload.join('\n').includes('oklch(84% 0.08 17deg)'))
 assert.ok(persistence.afterReload.join('\n').includes('#FAB6B8'));
 assert.ok(persistence.afterReload.join('\n').includes('color(display-p3 0.9417 0.7243 0.7259)'));
 console.table(rows);
-console.log('Recorded research verified. This command does not inspect current Figma.');
+assert.equal(rows.filter(row => row.pass1 !== row.pass2).length, 4);
+assert.equal(rows.filter(row => row.pass3 === row.variable).length, 2);
+assert.equal(rows.filter(row => row.pass4 === row.variable).length, 2);
+assert.notEqual(rows.find(row => row.name === 'red').inputRounded, rows.find(row => row.name === 'red').variable);
+console.log('Archive/model agreement: 6/6 literal and variable HEX values; 4/6 distinguish one from two passes.');
+console.log('Three and four passes each match only 2/6 controls. Alternative rounding locations are shown above.');
+console.log('This checks archived observations and calculations, not live Figma or its internal implementation.');
