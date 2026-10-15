@@ -5,12 +5,14 @@
     "p3": {
       "fileKey": "2i0faqAmzqkPPD8Zsc0iMW",
       "profileEvidence": "evidence/p3-profile.txt",
-      "fixtureEvidence": "evidence/p3-fixtures.json"
+      "fixtureEvidence": "evidence/p3-fixtures.json",
+      "variableId": "VariableID:2:97"
     },
     "srgb": {
       "fileKey": "xHj0Mhhmm4Vd7RsjyXuOZj",
-      "status": "profile assigned to sRGB and one variable created through UI; no successful experimental import yet",
-      "profileEvidence": "evidence/srgb-profile.txt"
+      "status": "profile assigned; same-name variable VariableID:1:3; one completed import trial",
+      "profileEvidence": "evidence/srgb-profile.txt",
+      "variableId": "VariableID:1:3"
     }
   },
   "environment": {
@@ -25,11 +27,12 @@
     "figmaPluginApiVersion": "1.0.0"
   },
   "limitations": [
-    "Starter MCP call limit reached after recording P3 initial state. No further MCP reads or resets available.",
-    "Dev Mode blocked by Upgrade to Professional; evidence saved; no CSS observations collected.",
-    "Browser extension upload unavailable without file URL permission. Files selected through native Open dialog instead."
+    "Exact Figma web build unavailable in observed Help UI; API version 1.0.0 is not the application build.",
+    "Both readings performed by same agent, with predictions known from preregistration; no blinded independent researcher.",
+    "Dev Mode repeated in another file but in the same browser/OS environment as this run; no cross-browser replication.",
+    "Seven planned sRGB import trials and new local .fig copies remain incomplete while native Brave control is unavailable."
   ],
-  "resetMethod": "After MCP limit, exact profile-qualified CSS colour entered through native variable colour picker; each reset verified by native Export mode JSON.",
+  "resetMethod": "P3 trials: Plugin API initial sentinel, then profile-qualified CSS resets verified by native Export mode. sRGB trials: Plugin API resets with exact before-state JSON after Pro move.",
   "currentTeam": "john.lindsey.mail1's team",
   "currentProjectId": "312024378",
   "teamChange": "User explicitly approved Pro team after Starter Dev Mode paywall. File keys and preregistration unchanged.",
@@ -38,5 +41,16 @@
       "evidence": "evidence/preparation-error-wrong-tab-reset.tokens.json",
       "description": "UI reset helper captured previous P3 tab binding; attempted sRGB seed modified P3 import probe instead. Export assertion stopped before import. Excluded from trials; Dev Mode specimens unaffected."
     }
-  ]
+  ],
+  "resolvedAccessIssues": [
+    "Starter MCP limit and Dev Mode paywall resolved by user-approved move to Pro team; file keys unchanged.",
+    "Extension file chooser lacks file URL access; native Open and Save used instead, without changing extension permissions."
+  ],
+  "recordedCounts": {
+    "devModeLayers": 21,
+    "newColours": 4,
+    "importTrials": 9,
+    "plannedImportTrials": 16,
+    "importMatrixComplete": false
+  }
 }

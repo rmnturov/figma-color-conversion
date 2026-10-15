@@ -1,0 +1,132 @@
+{
+  "comparedAt": "2026-10-15T04:16:21.390Z",
+  "devMode": [
+    {
+      "specimen": "A",
+      "newColour": true,
+      "observed": "#F400EC",
+      "pass1": "#DF00E4",
+      "pass2": "#F400EC",
+      "pass3": "#FF00F4",
+      "pass4": "#FF00FC",
+      "noIntermediateRounding": "#F400EC",
+      "inputRounded": "#F400EC"
+    },
+    {
+      "specimen": "B",
+      "newColour": true,
+      "observed": "#FFDE00",
+      "pass1": "#FEDF00",
+      "pass2": "#FFDE00",
+      "pass3": "#FFDC00",
+      "pass4": "#FFDA00",
+      "noIntermediateRounding": "#FFDD00",
+      "inputRounded": "#FFDE00"
+    },
+    {
+      "specimen": "C",
+      "newColour": true,
+      "observed": "#00EFEE",
+      "pass1": "#00EBEC",
+      "pass2": "#00EFEE",
+      "pass3": "#00F3F0",
+      "pass4": "#00F7F2",
+      "noIntermediateRounding": "#00F0EE",
+      "inputRounded": "#00F0EE"
+    },
+    {
+      "specimen": "D",
+      "newColour": true,
+      "observed": "#020922",
+      "pass1": "#030920",
+      "pass2": "#020922",
+      "pass3": "#000924",
+      "pass4": "#000926",
+      "noIntermediateRounding": "#010A21",
+      "inputRounded": "#020920"
+    },
+    {
+      "specimen": "E",
+      "newColour": false,
+      "observed": "#FF0005",
+      "pass1": "#FA0525",
+      "pass2": "#FF0005",
+      "pass3": "#FF0000",
+      "pass4": "#FF0000",
+      "noIntermediateRounding": "#FF0004",
+      "inputRounded": "#FF0005"
+    },
+    {
+      "specimen": "F",
+      "newColour": false,
+      "observed": "#00FF00",
+      "pass1": "#00FF00",
+      "pass2": "#00FF00",
+      "pass3": "#00FF00",
+      "pass4": "#00FF00",
+      "noIntermediateRounding": "#00FF00",
+      "inputRounded": "#00FF00"
+    },
+    {
+      "specimen": "G",
+      "newColour": false,
+      "observed": "#808080",
+      "pass1": "#808080",
+      "pass2": "#808080",
+      "pass3": "#808080",
+      "pass4": "#808080",
+      "noIntermediateRounding": "#808080",
+      "inputRounded": "#808080"
+    }
+  ],
+  "importTrials": [
+    {
+      "label": "p3-cycle1-double-srgb",
+      "variableId": "VariableID:2:97",
+      "outcome": "updated"
+    },
+    {
+      "label": "p3-cycle1-double-display-p3",
+      "variableId": "VariableID:2:97",
+      "outcome": "skipped with UI error and exact sentinel preserved"
+    },
+    {
+      "label": "p3-cycle1-float32-srgb",
+      "variableId": "VariableID:2:97",
+      "outcome": "updated"
+    },
+    {
+      "label": "p3-cycle1-float32-display-p3",
+      "variableId": "VariableID:2:97",
+      "outcome": "skipped with UI error and exact sentinel preserved"
+    },
+    {
+      "label": "p3-cycle2-double-srgb",
+      "variableId": "VariableID:2:97",
+      "outcome": "updated"
+    },
+    {
+      "label": "p3-cycle2-double-display-p3",
+      "variableId": "VariableID:2:97",
+      "outcome": "skipped with UI error and exact sentinel preserved"
+    },
+    {
+      "label": "p3-cycle2-float32-srgb",
+      "variableId": "VariableID:2:97",
+      "outcome": "updated"
+    },
+    {
+      "label": "p3-cycle2-float32-display-p3",
+      "variableId": "VariableID:2:97",
+      "outcome": "skipped with UI error and exact sentinel preserved"
+    },
+    {
+      "label": "srgb-cycle1-double-srgb",
+      "variableId": "VariableID:1:3",
+      "outcome": "updated"
+    }
+  ],
+  "importCount": 9,
+  "plannedImportCount": 16,
+  "importMatrixComplete": false
+}

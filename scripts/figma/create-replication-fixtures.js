@@ -1,6 +1,7 @@
 // Standard Figma Plugin API. The file does not run in Node.js.
 // For use_figma: remove "export" and append
-// return await createForwardFixtures(figma, { collectionName: 'P3 recheck YYYY-MM-DD' });
+// Use a new blank Design file and pass seeds from preregistered predictions.json:
+// return await createForwardFixtures(figma, { seeds: specimens.map(s => ({key:s.key,rgb:s.inputP3})) });
 
 export async function createForwardFixtures(figma, {
     collectionName = 'Replication 01',

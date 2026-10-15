@@ -21,8 +21,11 @@ test('four pass counts and rounding alternatives distinguish the archived overla
     assert.equal(candidates.twoWithoutIntermediateRounding, '#102E73');
 });
 
-test('input byte rounding is distinguishable on the archived red sample', () => {
+test('red seed rounding depends on whether the input is double or stored float32', () => {
     const candidates = fallbackCandidates([.9, .2, .2]);
     assert.equal(candidates.passes[1], '#FF0005');
     assert.equal(candidates.inputRoundedThenTwo, '#FF0004');
+    const stored = fallbackCandidates([.9, .2, .2].map(Math.fround));
+    assert.equal(stored.passes[1], '#FF0005');
+    assert.equal(stored.inputRoundedThenTwo, stored.passes[1]);
 });

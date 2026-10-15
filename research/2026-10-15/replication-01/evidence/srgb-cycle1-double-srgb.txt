@@ -1,0 +1,101 @@
+Browser tab: 1749231655, Title: "Color conversion replication 01 — sRGB – Figma", URL: "https://www.figma.com/design/xHj0Mhhmm4Vd7RsjyXuOZj/Color-conversion-replication-01-%25E2%2580%2594-sRGB?node-id=0-1&view=variables&p=f&t=f7KuBh8N0pq85gop-0".
+0 AXWebArea Color conversion replication 01 — sRGB – Figma, URL: figma.com/design/xHj0Mhhmm4Vd7RsjyXuOZj/Color-conversion-replication-01-%25E2%2580%2594-sRGB?node-id=0-1&view=variables&p=f&t=f7KuBh8N0pq85gop-0
+	1 container
+		2 container react-page
+			3 container
+				4 container fullscreen-root
+					186 container
+				6 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .
+				9 container Left sidebar
+					10 toolbar Navigation Bar
+						11 pop up button (collapsed) Description: Main menu, ID: :r6:-trigger, Secondary Actions: Expand
+							12 image
+						13 button (collapsed) Description: File, Secondary Actions: Expand
+							14 image
+							15 text File
+						16 button (collapsed) Description: Agents, Secondary Actions: Expand
+							17 text Agents
+						18 button (collapsed) Description: Assets, Secondary Actions: Expand
+							19 image
+							20 text Assets
+						21 button (collapsed) Description: Tools, Secondary Actions: Expand
+							22 image
+							23 text Tools
+						24 button (expanded) Description: Variables, Secondary Actions: Collapse
+							25 image
+							26 text Variables
+					27 container left-panel-container
+						28 container
+							122 button Color conversion replication 01 — sRGB
+								123 heading Color conversion replication 01 — sRGB, Value: 2
+									124 text Color conversion replication 01 — sRGB
+							125 button Hide panel
+							126 container
+								127 container Variable collections
+									128 text Collections
+									129 pop up button (collapsed) Description: Collections options, ID: :raq:, Secondary Actions: Expand
+									130 button Create collection
+									131 table
+										132 row Collection 1 1 variable
+											133 cell
+												134 button Collection 1 1 variable
+													135 container Collection 1
+														136 text Collection 1
+													137 text 1 variable
+								138 button (expanded) Groups, Secondary Actions: Collapse
+								139 container :rb3:
+									140 table
+										141 row All 1 variable, ID: variable-group-all
+											142 cell
+												143 container
+													144 button All
+														145 container All
+															146 text All
+													147 text 1 variable
+						47 slider Description: Resize handle, Value: 240
+				148 container
+					149 heading Description: Collection 1, Value: 2
+						150 button Collection 1
+					151 container Search and filter
+						152 image
+						153 text field (settable) Search
+						154 pop up button (collapsed) Description: Filter, ID: :rbc:, Secondary Actions: Expand
+					155 checkbox (settable, integer) Description: Minimize, Value: 0, ID: :rbf:
+					156 text Minimize
+					157 button Share
+					158 container
+						159 table
+							160 container
+								161 row
+									162 cell
+										163 text Name
+									164 cell
+										165 container Value
+											166 text Value
+									167 cell
+										168 button New variable mode
+								169 row
+									170 cell
+										171 image
+										172 container color-space-probe
+											173 text color-space-probe
+									174 cell
+										175 container
+											176 button Solid color hex: 1D2D6B
+											177 combo box (collapsed, settable) Value: 1D2D6B, ID: :rbh:, Secondary Actions: Expand
+									181 cell
+										182 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						183 button (collapsed) Description: Create variable button, Secondary Actions: Expand
+							184 image
+							185 text Create variable
+			84 container Application toolbar
+			118 container Help/zoom toolbar
+				119 toolbar Help/zoom toolbar
+					120 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+						121 image
+			187 container
+				188 container
+					189 image
+					190 text 1 variable updated
+
+The focused UI element is 186 container

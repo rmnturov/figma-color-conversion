@@ -16,4 +16,5 @@ jobs:
       - run: npm run verify
       - run: npm run verify:copy
       - run: npm run verify:variables
+      - run: npm run verify:replication
       - run: npm run check:links
