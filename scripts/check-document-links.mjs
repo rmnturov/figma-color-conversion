@@ -14,7 +14,7 @@ function walk(dir) {
             for (const match of text.matchAll(/!?\[[^\]]*\]\(([^)]+)\)/g)) {
                 const target = match[1].split('#')[0];
                 if (!target || /^(https?:|mailto:)/.test(target)) continue;
-                if (!fs.existsSync(path.resolve(path.dirname(filename), target))) {
+                if (!fs.existsSync(path.resolve(path.dirname(filename), decodeURIComponent(target)))) {
                     problems.push(path.relative(root, filename) + ': ' + target);
                 }
             }

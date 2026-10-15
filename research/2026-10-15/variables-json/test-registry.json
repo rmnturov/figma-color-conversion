@@ -1,0 +1,3382 @@
+{
+  "date": "2026-10-15",
+  "scope": "Recorded update of existing modes; references use fileKey plus variableId",
+  "tests": [
+    {
+      "testId": "p3-roundtrip-primitive.overlay",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:3",
+      "variableName": "primitive/overlay",
+      "nodeId": "7:186",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > primitive/overlay > primitive/overlay",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:6",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-semantic.overlay",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:4",
+      "variableName": "semantic/overlay",
+      "nodeId": "7:189",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > semantic/overlay > semantic/overlay",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:7",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:3"
+      },
+      "aliasTargetName": "primitive/overlay",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-role.overlay",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:5",
+      "variableName": "role/overlay",
+      "nodeId": "7:192",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > role/overlay > role/overlay",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:8",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:4"
+      },
+      "aliasTargetName": "semantic/overlay",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-primitive.light",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:6",
+      "variableName": "primitive/light",
+      "nodeId": "7:195",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > primitive/light > primitive/light",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:19",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.7686274647712708,
+        "g": 0.8588235378265381,
+        "b": 0.9882352948188782,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-semantic.light",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:7",
+      "variableName": "semantic/light",
+      "nodeId": "7:198",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > semantic/light > semantic/light",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:20",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:6"
+      },
+      "aliasTargetName": "primitive/light",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-role.light",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:8",
+      "variableName": "role/light",
+      "nodeId": "7:201",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > role/light > role/light",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:21",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:7"
+      },
+      "aliasTargetName": "semantic/light",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-primitive.red",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:9",
+      "variableName": "primitive/red",
+      "nodeId": "7:204",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > primitive/red > primitive/red",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:32",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.8999999761581421,
+        "g": 0.20000000298023224,
+        "b": 0.20000000298023224,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-semantic.red",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:10",
+      "variableName": "semantic/red",
+      "nodeId": "7:207",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > semantic/red > semantic/red",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:33",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:9"
+      },
+      "aliasTargetName": "primitive/red",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-role.red",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:11",
+      "variableName": "role/red",
+      "nodeId": "7:210",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > role/red > role/red",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:34",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:10"
+      },
+      "aliasTargetName": "semantic/red",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-primitive.green",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:12",
+      "variableName": "primitive/green",
+      "nodeId": "7:213",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > primitive/green > primitive/green",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:45",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 1,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-semantic.green",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:13",
+      "variableName": "semantic/green",
+      "nodeId": "7:216",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > semantic/green > semantic/green",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:46",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:12"
+      },
+      "aliasTargetName": "primitive/green",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-role.green",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:14",
+      "variableName": "role/green",
+      "nodeId": "7:219",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > role/green > role/green",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:47",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:13"
+      },
+      "aliasTargetName": "semantic/green",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-primitive.gray",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:15",
+      "variableName": "primitive/gray",
+      "nodeId": "7:222",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > primitive/gray > primitive/gray",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:58",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-semantic.gray",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:16",
+      "variableName": "semantic/gray",
+      "nodeId": "7:225",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > semantic/gray > semantic/gray",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:59",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:15"
+      },
+      "aliasTargetName": "primitive/gray",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-role.gray",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:17",
+      "variableName": "role/gray",
+      "nodeId": "7:228",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > role/gray > role/gray",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:60",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:16"
+      },
+      "aliasTargetName": "semantic/gray",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-primitive.thread",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:18",
+      "variableName": "primitive/thread",
+      "nodeId": "7:231",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > primitive/thread > primitive/thread",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:71",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.9416559934616089,
+        "g": 0.7243055701255798,
+        "b": 0.7258952260017395,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-semantic.thread",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:19",
+      "variableName": "semantic/thread",
+      "nodeId": "7:234",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > semantic/thread > semantic/thread",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:72",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:18"
+      },
+      "aliasTargetName": "primitive/thread",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-role.thread",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:20",
+      "variableName": "role/thread",
+      "nodeId": "7:237",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > P3 Transform Tests > role/thread > role/thread",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:73",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:19"
+      },
+      "aliasTargetName": "semantic/thread",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-overlay-p3-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:22",
+      "variableName": "overlay-p3-hex",
+      "nodeId": "7:242",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > overlay-p3-hex > overlay-p3-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:31:3",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-overlay-srgb-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:23",
+      "variableName": "overlay-srgb-hex",
+      "nodeId": "7:245",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > overlay-srgb-hex > overlay-srgb-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:2",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.0941176488995552,
+        "g": 0.18039216101169586,
+        "b": 0.43529412150382996,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-overlay-css-oklch",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:24",
+      "variableName": "overlay-css-oklch",
+      "nodeId": "7:248",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > overlay-css-oklch > overlay-css-oklch",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:3",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11302462965250015,
+        "g": 0.17683282494544983,
+        "b": 0.419991672039032,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-thread-p3-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:25",
+      "variableName": "thread-p3-hex",
+      "nodeId": "7:251",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > thread-p3-hex > thread-p3-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:4",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.9411764740943909,
+        "g": 0.7254902124404907,
+        "b": 0.7254902124404907,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-thread-srgb-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:26",
+      "variableName": "thread-srgb-hex",
+      "nodeId": "7:254",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > thread-srgb-hex > thread-srgb-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:5",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.9803921580314636,
+        "g": 0.7137255072593689,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-thread-css-oklch",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:27",
+      "variableName": "thread-css-oklch",
+      "nodeId": "7:257",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > thread-css-oklch > thread-css-oklch",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:6",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.9416559934616089,
+        "g": 0.7243054509162903,
+        "b": 0.7258951663970947,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-outside-p3-clipped",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:28",
+      "variableName": "outside-p3-clipped",
+      "nodeId": "7:260",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > outside-p3-clipped > outside-p3-clipped",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:7",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 0.8078431487083435,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-outside-srgb-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:29",
+      "variableName": "outside-srgb-hex",
+      "nodeId": "7:263",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > outside-srgb-hex > outside-srgb-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:8",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 0.8235294222831726,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-outside-css-oklch",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:30",
+      "variableName": "outside-css-oklch",
+      "nodeId": "7:266",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > outside-css-oklch > outside-css-oklch",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:9",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 0.8064367771148682,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-roundtrip-outside-p3-mapped",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:31",
+      "variableName": "outside-p3-mapped",
+      "nodeId": "7:269",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > OKLCH to Figma P3 > outside-p3-mapped > outside-p3-mapped",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:10",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 0.7803921699523926,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-components-only",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:33",
+      "variableName": "srgb-components-only",
+      "nodeId": "7:274",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-components-only > srgb-components-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-conflicting-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:34",
+      "variableName": "srgb-conflicting-hex",
+      "nodeId": "7:277",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-conflicting-hex > srgb-conflicting-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-red-components-blue-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:35",
+      "variableName": "srgb-red-components-blue-hex",
+      "nodeId": "7:280",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-red-components-blue-hex > srgb-red-components-blue-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0,
+            0
+          ],
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-hex-only",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:36",
+      "variableName": "srgb-hex-only",
+      "nodeId": "7:283",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-hex-only > srgb-hex-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-legacy-hex-string",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:37",
+      "variableName": "legacy-hex-string",
+      "nodeId": "7:286",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > legacy-hex-string > legacy-hex-string",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": "#1D2D6B"
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-p3-components-only",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:38",
+      "variableName": "p3-components-only",
+      "nodeId": "7:289",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > p3-components-only > p3-components-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "display-p3",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-p3-with-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:39",
+      "variableName": "p3-with-hex",
+      "nodeId": "7:292",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > p3-with-hex > p3-with-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "display-p3",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-oklch-components-only",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:40",
+      "variableName": "oklch-components-only",
+      "nodeId": "7:295",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > oklch-components-only > oklch-components-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.326,
+            0.117,
+            266
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-oklch-with-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:41",
+      "variableName": "oklch-with-hex",
+      "nodeId": "7:298",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > oklch-with-hex > oklch-with-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.326,
+            0.117,
+            266
+          ],
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-hsl-components-only",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:42",
+      "variableName": "hsl-components-only",
+      "nodeId": "7:301",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > hsl-components-only > hsl-components-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            266,
+            50,
+            30
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-hsl-conflicting-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:43",
+      "variableName": "hsl-conflicting-hex",
+      "nodeId": "7:304",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > hsl-conflicting-hex > hsl-conflicting-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            266,
+            50,
+            30
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-linear-with-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:44",
+      "variableName": "srgb-linear-with-hex",
+      "nodeId": "7:307",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-linear-with-hex > srgb-linear-with-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb-linear",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-alpha-quarter",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:45",
+      "variableName": "srgb-alpha-quarter",
+      "nodeId": "7:310",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-alpha-quarter > srgb-alpha-quarter",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "alpha": 0.25,
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 0.25
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-alpha-zero",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:46",
+      "variableName": "srgb-alpha-zero",
+      "nodeId": "7:313",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-alpha-zero > srgb-alpha-zero",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "alpha": 0,
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 0
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-alpha-vs-hex8",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:47",
+      "variableName": "srgb-alpha-vs-hex8",
+      "nodeId": "7:316",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-alpha-vs-hex8 > srgb-alpha-vs-hex8",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "alpha": 0.25,
+          "hex": "#1D2D6B80"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 0.25
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-outside-range",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:48",
+      "variableName": "srgb-outside-range",
+      "nodeId": "7:319",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-outside-range > srgb-outside-range",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            -0.1,
+            1.1,
+            0.5
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-precise-channels",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:49",
+      "variableName": "srgb-precise-channels",
+      "nodeId": "7:322",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-precise-channels > srgb-precise-channels",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11302463915703737,
+            0.17683281444095958,
+            0.41999172950574315
+          ],
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11302463710308075,
+        "g": 0.17683281004428864,
+        "b": 0.41999173164367676,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-none-channel",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:50",
+      "variableName": "srgb-none-channel",
+      "nodeId": "7:325",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-none-channel > srgb-none-channel",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            "none",
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-genuine-srgb-equivalent",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:51",
+      "variableName": "genuine-srgb-equivalent",
+      "nodeId": "7:328",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > genuine-srgb-equivalent > genuine-srgb-equivalent",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09420909450044368,
+            0.17861372946650697,
+            0.4355645995253122
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.09420909732580185,
+        "g": 0.17861372232437134,
+        "b": 0.4355646073818207,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-green",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:52",
+      "variableName": "srgb-green",
+      "nodeId": "7:331",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-green > srgb-green",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            1,
+            0
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 1,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-missing-color-space",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:53",
+      "variableName": "missing-color-space",
+      "nodeId": "7:334",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > missing-color-space > missing-color-space",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-unknown-space-with-hex",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:54",
+      "variableName": "unknown-space-with-hex",
+      "nodeId": "7:337",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > unknown-space-with-hex > unknown-space-with-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "banana",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-alias",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:55",
+      "variableName": "srgb-alias",
+      "nodeId": "7:340",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-alias > srgb-alias",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": "{srgb-components-only}"
+      },
+      "sourceVariableId": null,
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:33"
+      },
+      "aliasTargetName": "srgb-components-only",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-probe-srgb-with-original-id",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:56",
+      "variableName": "srgb-with-original-id",
+      "nodeId": "7:343",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > Import Probes > srgb-with-original-id > srgb-with-original-id",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0,
+            0
+          ]
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:31:3"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-hsl-degrees-percent",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:3",
+      "variableName": "degrees-percent",
+      "nodeId": "7:348",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > HSL Units > degrees-percent > degrees-percent",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            266,
+            50,
+            30
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-hsl-degrees-unit-sl",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:4",
+      "variableName": "degrees-unit-sl",
+      "nodeId": "7:351",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > HSL Units > degrees-unit-sl > degrees-unit-sl",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            266,
+            0.5,
+            0.3
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 0.15000000596046448,
+        "g": 0.15000000596046448,
+        "b": 0.15000000596046448,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-hsl-turns-unit-sl",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:5",
+      "variableName": "turns-unit-sl",
+      "nodeId": "7:354",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > HSL Units > turns-unit-sl > turns-unit-sl",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            0.7388888888888889,
+            0.5,
+            0.3
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 0.2800000011920929,
+        "g": 0.15000000596046448,
+        "b": 0.44999998807907104,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-hsl-gray-unit-l",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:6",
+      "variableName": "gray-unit-l",
+      "nodeId": "7:357",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > HSL Units > gray-unit-l > gray-unit-l",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            0,
+            0,
+            0.5
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "p3-hsl-gray-percent-l",
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:7",
+      "variableName": "gray-percent-l",
+      "nodeId": "7:360",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — p3 > HSL Units > gray-percent-l > gray-percent-l",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            0,
+            0,
+            50
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-primitive.overlay",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:3",
+      "variableName": "primitive/overlay",
+      "nodeId": "6:6",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > primitive/overlay > primitive/overlay",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:6",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-semantic.overlay",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:4",
+      "variableName": "semantic/overlay",
+      "nodeId": "6:9",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > semantic/overlay > semantic/overlay",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:7",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:3"
+      },
+      "aliasTargetName": "primitive/overlay",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-role.overlay",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:5",
+      "variableName": "role/overlay",
+      "nodeId": "6:12",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > role/overlay > role/overlay",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:8",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:4"
+      },
+      "aliasTargetName": "semantic/overlay",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-primitive.light",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:6",
+      "variableName": "primitive/light",
+      "nodeId": "6:15",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > primitive/light > primitive/light",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:19",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.7686274647712708,
+        "g": 0.8588235378265381,
+        "b": 0.9882352948188782,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-semantic.light",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:7",
+      "variableName": "semantic/light",
+      "nodeId": "6:18",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > semantic/light > semantic/light",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:20",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:6"
+      },
+      "aliasTargetName": "primitive/light",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-role.light",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:8",
+      "variableName": "role/light",
+      "nodeId": "6:21",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > role/light > role/light",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:21",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:7"
+      },
+      "aliasTargetName": "semantic/light",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-primitive.red",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:9",
+      "variableName": "primitive/red",
+      "nodeId": "6:24",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > primitive/red > primitive/red",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:32",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.8999999761581421,
+        "g": 0.20000000298023224,
+        "b": 0.20000000298023224,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-semantic.red",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:10",
+      "variableName": "semantic/red",
+      "nodeId": "6:27",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > semantic/red > semantic/red",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:33",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:9"
+      },
+      "aliasTargetName": "primitive/red",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-role.red",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:11",
+      "variableName": "role/red",
+      "nodeId": "6:30",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > role/red > role/red",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:34",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:10"
+      },
+      "aliasTargetName": "semantic/red",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-primitive.green",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:12",
+      "variableName": "primitive/green",
+      "nodeId": "6:33",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > primitive/green > primitive/green",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:45",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 1,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-semantic.green",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:13",
+      "variableName": "semantic/green",
+      "nodeId": "6:36",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > semantic/green > semantic/green",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:46",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:12"
+      },
+      "aliasTargetName": "primitive/green",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-role.green",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:14",
+      "variableName": "role/green",
+      "nodeId": "6:39",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > role/green > role/green",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:47",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:13"
+      },
+      "aliasTargetName": "semantic/green",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-primitive.gray",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:15",
+      "variableName": "primitive/gray",
+      "nodeId": "6:42",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > primitive/gray > primitive/gray",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:58",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-semantic.gray",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:16",
+      "variableName": "semantic/gray",
+      "nodeId": "6:45",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > semantic/gray > semantic/gray",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:59",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:15"
+      },
+      "aliasTargetName": "primitive/gray",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-role.gray",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:17",
+      "variableName": "role/gray",
+      "nodeId": "6:48",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > role/gray > role/gray",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:60",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:16"
+      },
+      "aliasTargetName": "semantic/gray",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-primitive.thread",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:18",
+      "variableName": "primitive/thread",
+      "nodeId": "6:51",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > primitive/thread > primitive/thread",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:71",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.9416559934616089,
+        "g": 0.7243055701255798,
+        "b": 0.7258952260017395,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-semantic.thread",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:19",
+      "variableName": "semantic/thread",
+      "nodeId": "6:54",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > semantic/thread > semantic/thread",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:72",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:18"
+      },
+      "aliasTargetName": "primitive/thread",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-role.thread",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:2",
+      "collectionName": "P3 Transform Tests",
+      "modeId": "1:0",
+      "variableId": "VariableID:1:20",
+      "variableName": "role/thread",
+      "nodeId": "6:57",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > P3 Transform Tests > role/thread > role/thread",
+      "inputFile": "exports/forward.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:4:73",
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:19"
+      },
+      "aliasTargetName": "semantic/thread",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-overlay-p3-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:22",
+      "variableName": "overlay-p3-hex",
+      "nodeId": "6:62",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > overlay-p3-hex > overlay-p3-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:31:3",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-overlay-srgb-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:23",
+      "variableName": "overlay-srgb-hex",
+      "nodeId": "6:65",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > overlay-srgb-hex > overlay-srgb-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:2",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.0941176488995552,
+        "g": 0.18039216101169586,
+        "b": 0.43529412150382996,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-overlay-css-oklch",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:24",
+      "variableName": "overlay-css-oklch",
+      "nodeId": "6:68",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > overlay-css-oklch > overlay-css-oklch",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:3",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11302462965250015,
+        "g": 0.17683282494544983,
+        "b": 0.419991672039032,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-thread-p3-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:25",
+      "variableName": "thread-p3-hex",
+      "nodeId": "6:71",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > thread-p3-hex > thread-p3-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:4",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.9411764740943909,
+        "g": 0.7254902124404907,
+        "b": 0.7254902124404907,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-thread-srgb-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:26",
+      "variableName": "thread-srgb-hex",
+      "nodeId": "6:74",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > thread-srgb-hex > thread-srgb-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:5",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.9803921580314636,
+        "g": 0.7137255072593689,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-thread-css-oklch",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:27",
+      "variableName": "thread-css-oklch",
+      "nodeId": "6:77",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > thread-css-oklch > thread-css-oklch",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:6",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.9416559934616089,
+        "g": 0.7243054509162903,
+        "b": 0.7258951663970947,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-outside-p3-clipped",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:28",
+      "variableName": "outside-p3-clipped",
+      "nodeId": "6:80",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > outside-p3-clipped > outside-p3-clipped",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:7",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 0.8078431487083435,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-outside-srgb-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:29",
+      "variableName": "outside-srgb-hex",
+      "nodeId": "6:83",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > outside-srgb-hex > outside-srgb-hex",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:8",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 0.8235294222831726,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-outside-css-oklch",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:30",
+      "variableName": "outside-css-oklch",
+      "nodeId": "6:86",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > outside-css-oklch > outside-css-oklch",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:9",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 0.8064367771148682,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-roundtrip-outside-p3-mapped",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:21",
+      "collectionName": "OKLCH to Figma P3",
+      "modeId": "1:1",
+      "variableId": "VariableID:1:31",
+      "variableName": "outside-p3-mapped",
+      "nodeId": "6:89",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > OKLCH to Figma P3 > outside-p3-mapped > outside-p3-mapped",
+      "inputFile": "exports/inverse-export.tokens.json",
+      "inputToken": null,
+      "sourceVariableId": "VariableID:34:10",
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 0.7803921699523926,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-components-only",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:33",
+      "variableName": "srgb-components-only",
+      "nodeId": "6:94",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-components-only > srgb-components-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-conflicting-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:34",
+      "variableName": "srgb-conflicting-hex",
+      "nodeId": "6:97",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-conflicting-hex > srgb-conflicting-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-red-components-blue-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:35",
+      "variableName": "srgb-red-components-blue-hex",
+      "nodeId": "6:100",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-red-components-blue-hex > srgb-red-components-blue-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0,
+            0
+          ],
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-hex-only",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:36",
+      "variableName": "srgb-hex-only",
+      "nodeId": "6:103",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-hex-only > srgb-hex-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-legacy-hex-string",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:37",
+      "variableName": "legacy-hex-string",
+      "nodeId": "6:106",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > legacy-hex-string > legacy-hex-string",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": "#1D2D6B"
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-p3-components-only",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:38",
+      "variableName": "p3-components-only",
+      "nodeId": "6:109",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > p3-components-only > p3-components-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "display-p3",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-p3-with-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:39",
+      "variableName": "p3-with-hex",
+      "nodeId": "6:112",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > p3-with-hex > p3-with-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "display-p3",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-oklch-components-only",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:40",
+      "variableName": "oklch-components-only",
+      "nodeId": "6:115",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > oklch-components-only > oklch-components-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.326,
+            0.117,
+            266
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-oklch-with-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:41",
+      "variableName": "oklch-with-hex",
+      "nodeId": "6:118",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > oklch-with-hex > oklch-with-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.326,
+            0.117,
+            266
+          ],
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-hsl-components-only",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:42",
+      "variableName": "hsl-components-only",
+      "nodeId": "6:121",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > hsl-components-only > hsl-components-only",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            266,
+            50,
+            30
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-hsl-conflicting-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:43",
+      "variableName": "hsl-conflicting-hex",
+      "nodeId": "6:124",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > hsl-conflicting-hex > hsl-conflicting-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            266,
+            50,
+            30
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-linear-with-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:44",
+      "variableName": "srgb-linear-with-hex",
+      "nodeId": "6:127",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-linear-with-hex > srgb-linear-with-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb-linear",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-alpha-quarter",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:45",
+      "variableName": "srgb-alpha-quarter",
+      "nodeId": "6:130",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-alpha-quarter > srgb-alpha-quarter",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "alpha": 0.25,
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 0.25
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-alpha-zero",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:46",
+      "variableName": "srgb-alpha-zero",
+      "nodeId": "6:133",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-alpha-zero > srgb-alpha-zero",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "alpha": 0,
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 0
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-alpha-vs-hex8",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:47",
+      "variableName": "srgb-alpha-vs-hex8",
+      "nodeId": "6:136",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-alpha-vs-hex8 > srgb-alpha-vs-hex8",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "alpha": 0.25,
+          "hex": "#1D2D6B80"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11372549086809158,
+        "g": 0.1764705926179886,
+        "b": 0.41960784792900085,
+        "a": 0.25
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-outside-range",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:48",
+      "variableName": "srgb-outside-range",
+      "nodeId": "6:139",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-outside-range > srgb-outside-range",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            -0.1,
+            1.1,
+            0.5
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-precise-channels",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:49",
+      "variableName": "srgb-precise-channels",
+      "nodeId": "6:142",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-precise-channels > srgb-precise-channels",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11302463915703737,
+            0.17683281444095958,
+            0.41999172950574315
+          ],
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.11302463710308075,
+        "g": 0.17683281004428864,
+        "b": 0.41999173164367676,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-none-channel",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:50",
+      "variableName": "srgb-none-channel",
+      "nodeId": "6:145",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-none-channel > srgb-none-channel",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            "none",
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-genuine-srgb-equivalent",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:51",
+      "variableName": "genuine-srgb-equivalent",
+      "nodeId": "6:148",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > genuine-srgb-equivalent > genuine-srgb-equivalent",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09420909450044368,
+            0.17861372946650697,
+            0.4355645995253122
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0.09420909732580185,
+        "g": 0.17861372232437134,
+        "b": 0.4355646073818207,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-green",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:52",
+      "variableName": "srgb-green",
+      "nodeId": "6:151",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-green > srgb-green",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            1,
+            0
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 0,
+        "g": 1,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-missing-color-space",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:53",
+      "variableName": "missing-color-space",
+      "nodeId": "6:154",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > missing-color-space > missing-color-space",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#1D2D6B"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-unknown-space-with-hex",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:54",
+      "variableName": "unknown-space-with-hex",
+      "nodeId": "6:157",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > unknown-space-with-hex > unknown-space-with-hex",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "banana",
+          "components": [
+            0.11372549019607843,
+            0.17647058823529413,
+            0.4196078431372549
+          ],
+          "hex": "#FF0000"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "skipped-sentinel-preserved",
+      "expectedAfterReload": {
+        "r": 0.03125,
+        "g": 0.0625,
+        "b": 0.125,
+        "a": 0.75
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-alias",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:55",
+      "variableName": "srgb-alias",
+      "nodeId": "6:160",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-alias > srgb-alias",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": "{srgb-components-only}"
+      },
+      "sourceVariableId": null,
+      "outcome": "alias-preserved",
+      "expectedAfterReload": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:33"
+      },
+      "aliasTargetName": "srgb-components-only",
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-probe-srgb-with-original-id",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:1:32",
+      "collectionName": "Import Probes",
+      "modeId": "1:2",
+      "variableId": "VariableID:1:56",
+      "variableName": "srgb-with-original-id",
+      "nodeId": "6:163",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > Import Probes > srgb-with-original-id > srgb-with-original-id",
+      "inputFile": "imports/probes.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0,
+            0
+          ]
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:31:3"
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "updated",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-hsl-degrees-percent",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:3",
+      "variableName": "degrees-percent",
+      "nodeId": "6:168",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > HSL Units > degrees-percent > degrees-percent",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            266,
+            50,
+            30
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-hsl-degrees-unit-sl",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:4",
+      "variableName": "degrees-unit-sl",
+      "nodeId": "6:171",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > HSL Units > degrees-unit-sl > degrees-unit-sl",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            266,
+            0.5,
+            0.3
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 0.15000000596046448,
+        "g": 0.15000000596046448,
+        "b": 0.15000000596046448,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-hsl-turns-unit-sl",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:5",
+      "variableName": "turns-unit-sl",
+      "nodeId": "6:174",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > HSL Units > turns-unit-sl > turns-unit-sl",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            0.7388888888888889,
+            0.5,
+            0.3
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 0.2800000011920929,
+        "g": 0.15000000596046448,
+        "b": 0.44999998807907104,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-hsl-gray-unit-l",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:6",
+      "variableName": "gray-unit-l",
+      "nodeId": "6:177",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > HSL Units > gray-unit-l > gray-unit-l",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            0,
+            0,
+            0.5
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    },
+    {
+      "testId": "srgb-hsl-gray-percent-l",
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "collectionId": "VariableCollectionId:4:2",
+      "collectionName": "HSL Units",
+      "modeId": "4:0",
+      "variableId": "VariableID:4:7",
+      "variableName": "gray-percent-l",
+      "nodeId": "6:180",
+      "nodeType": "RECTANGLE",
+      "path": "Page 1 > Variables JSON — srgb > HSL Units > gray-percent-l > gray-percent-l",
+      "inputFile": "imports/hsl-units.tokens.json",
+      "inputToken": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "hsl",
+          "components": [
+            0,
+            0,
+            50
+          ]
+        }
+      },
+      "sourceVariableId": null,
+      "outcome": "see-immediate-and-after-reload",
+      "expectedAfterReload": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "aliasTargetName": null,
+      "tolerancePerChannel": 2e-7
+    }
+  ]
+}

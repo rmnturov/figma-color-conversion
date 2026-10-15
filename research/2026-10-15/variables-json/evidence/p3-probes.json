@@ -1,0 +1,298 @@
+{
+  "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+  "collectionId": "VariableCollectionId:1:32",
+  "modes": [
+    {
+      "name": "Mode 1",
+      "modeId": "1:2"
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:1:33",
+      "name": "srgb-components-only",
+      "values": {
+        "1:2": {
+          "r": 0.11372549086809158,
+          "g": 0.1764705926179886,
+          "b": 0.41960784792900085,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:34",
+      "name": "srgb-conflicting-hex",
+      "values": {
+        "1:2": {
+          "r": 0.11372549086809158,
+          "g": 0.1764705926179886,
+          "b": 0.41960784792900085,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:35",
+      "name": "srgb-red-components-blue-hex",
+      "values": {
+        "1:2": {
+          "r": 1,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:36",
+      "name": "srgb-hex-only",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:37",
+      "name": "legacy-hex-string",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:38",
+      "name": "p3-components-only",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:39",
+      "name": "p3-with-hex",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:40",
+      "name": "oklch-components-only",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:41",
+      "name": "oklch-with-hex",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:42",
+      "name": "hsl-components-only",
+      "values": {
+        "1:2": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:43",
+      "name": "hsl-conflicting-hex",
+      "values": {
+        "1:2": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:44",
+      "name": "srgb-linear-with-hex",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:45",
+      "name": "srgb-alpha-quarter",
+      "values": {
+        "1:2": {
+          "r": 0.11372549086809158,
+          "g": 0.1764705926179886,
+          "b": 0.41960784792900085,
+          "a": 0.25
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:46",
+      "name": "srgb-alpha-zero",
+      "values": {
+        "1:2": {
+          "r": 0.11372549086809158,
+          "g": 0.1764705926179886,
+          "b": 0.41960784792900085,
+          "a": 0
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:47",
+      "name": "srgb-alpha-vs-hex8",
+      "values": {
+        "1:2": {
+          "r": 0.11372549086809158,
+          "g": 0.1764705926179886,
+          "b": 0.41960784792900085,
+          "a": 0.25
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:48",
+      "name": "srgb-outside-range",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:49",
+      "name": "srgb-precise-channels",
+      "values": {
+        "1:2": {
+          "r": 0.11302463710308075,
+          "g": 0.17683281004428864,
+          "b": 0.41999173164367676,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:50",
+      "name": "srgb-none-channel",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:51",
+      "name": "genuine-srgb-equivalent",
+      "values": {
+        "1:2": {
+          "r": 0.09420909732580185,
+          "g": 0.17861372232437134,
+          "b": 0.4355646073818207,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:52",
+      "name": "srgb-green",
+      "values": {
+        "1:2": {
+          "r": 0,
+          "g": 1,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:53",
+      "name": "missing-color-space",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:54",
+      "name": "unknown-space-with-hex",
+      "values": {
+        "1:2": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:55",
+      "name": "srgb-alias",
+      "values": {
+        "1:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:33"
+        }
+      }
+    },
+    {
+      "id": "VariableID:1:56",
+      "name": "srgb-with-original-id",
+      "values": {
+        "1:2": {
+          "r": 1,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      }
+    }
+  ]
+}

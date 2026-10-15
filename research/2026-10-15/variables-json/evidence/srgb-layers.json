@@ -1,0 +1,349 @@
+{
+  "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+  "pageId": "0:1",
+  "boardId": "6:2",
+  "specimens": [
+    {
+      "id": "6:6",
+      "name": "primitive/overlay",
+      "variableId": "VariableID:1:3",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:9",
+      "name": "semantic/overlay",
+      "variableId": "VariableID:1:4",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:12",
+      "name": "role/overlay",
+      "variableId": "VariableID:1:5",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:15",
+      "name": "primitive/light",
+      "variableId": "VariableID:1:6",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:18",
+      "name": "semantic/light",
+      "variableId": "VariableID:1:7",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:21",
+      "name": "role/light",
+      "variableId": "VariableID:1:8",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:24",
+      "name": "primitive/red",
+      "variableId": "VariableID:1:9",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:27",
+      "name": "semantic/red",
+      "variableId": "VariableID:1:10",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:30",
+      "name": "role/red",
+      "variableId": "VariableID:1:11",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:33",
+      "name": "primitive/green",
+      "variableId": "VariableID:1:12",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:36",
+      "name": "semantic/green",
+      "variableId": "VariableID:1:13",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:39",
+      "name": "role/green",
+      "variableId": "VariableID:1:14",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:42",
+      "name": "primitive/gray",
+      "variableId": "VariableID:1:15",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:45",
+      "name": "semantic/gray",
+      "variableId": "VariableID:1:16",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:48",
+      "name": "role/gray",
+      "variableId": "VariableID:1:17",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:51",
+      "name": "primitive/thread",
+      "variableId": "VariableID:1:18",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:54",
+      "name": "semantic/thread",
+      "variableId": "VariableID:1:19",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:57",
+      "name": "role/thread",
+      "variableId": "VariableID:1:20",
+      "collectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "id": "6:62",
+      "name": "overlay-p3-hex",
+      "variableId": "VariableID:1:22",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:65",
+      "name": "overlay-srgb-hex",
+      "variableId": "VariableID:1:23",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:68",
+      "name": "overlay-css-oklch",
+      "variableId": "VariableID:1:24",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:71",
+      "name": "thread-p3-hex",
+      "variableId": "VariableID:1:25",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:74",
+      "name": "thread-srgb-hex",
+      "variableId": "VariableID:1:26",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:77",
+      "name": "thread-css-oklch",
+      "variableId": "VariableID:1:27",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:80",
+      "name": "outside-p3-clipped",
+      "variableId": "VariableID:1:28",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:83",
+      "name": "outside-srgb-hex",
+      "variableId": "VariableID:1:29",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:86",
+      "name": "outside-css-oklch",
+      "variableId": "VariableID:1:30",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:89",
+      "name": "outside-p3-mapped",
+      "variableId": "VariableID:1:31",
+      "collectionId": "VariableCollectionId:1:21"
+    },
+    {
+      "id": "6:94",
+      "name": "srgb-components-only",
+      "variableId": "VariableID:1:33",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:97",
+      "name": "srgb-conflicting-hex",
+      "variableId": "VariableID:1:34",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:100",
+      "name": "srgb-red-components-blue-hex",
+      "variableId": "VariableID:1:35",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:103",
+      "name": "srgb-hex-only",
+      "variableId": "VariableID:1:36",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:106",
+      "name": "legacy-hex-string",
+      "variableId": "VariableID:1:37",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:109",
+      "name": "p3-components-only",
+      "variableId": "VariableID:1:38",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:112",
+      "name": "p3-with-hex",
+      "variableId": "VariableID:1:39",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:115",
+      "name": "oklch-components-only",
+      "variableId": "VariableID:1:40",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:118",
+      "name": "oklch-with-hex",
+      "variableId": "VariableID:1:41",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:121",
+      "name": "hsl-components-only",
+      "variableId": "VariableID:1:42",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:124",
+      "name": "hsl-conflicting-hex",
+      "variableId": "VariableID:1:43",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:127",
+      "name": "srgb-linear-with-hex",
+      "variableId": "VariableID:1:44",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:130",
+      "name": "srgb-alpha-quarter",
+      "variableId": "VariableID:1:45",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:133",
+      "name": "srgb-alpha-zero",
+      "variableId": "VariableID:1:46",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:136",
+      "name": "srgb-alpha-vs-hex8",
+      "variableId": "VariableID:1:47",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:139",
+      "name": "srgb-outside-range",
+      "variableId": "VariableID:1:48",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:142",
+      "name": "srgb-precise-channels",
+      "variableId": "VariableID:1:49",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:145",
+      "name": "srgb-none-channel",
+      "variableId": "VariableID:1:50",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:148",
+      "name": "genuine-srgb-equivalent",
+      "variableId": "VariableID:1:51",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:151",
+      "name": "srgb-green",
+      "variableId": "VariableID:1:52",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:154",
+      "name": "missing-color-space",
+      "variableId": "VariableID:1:53",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:157",
+      "name": "unknown-space-with-hex",
+      "variableId": "VariableID:1:54",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:160",
+      "name": "srgb-alias",
+      "variableId": "VariableID:1:55",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:163",
+      "name": "srgb-with-original-id",
+      "variableId": "VariableID:1:56",
+      "collectionId": "VariableCollectionId:1:32"
+    },
+    {
+      "id": "6:168",
+      "name": "degrees-percent",
+      "variableId": "VariableID:4:3",
+      "collectionId": "VariableCollectionId:4:2"
+    },
+    {
+      "id": "6:171",
+      "name": "degrees-unit-sl",
+      "variableId": "VariableID:4:4",
+      "collectionId": "VariableCollectionId:4:2"
+    },
+    {
+      "id": "6:174",
+      "name": "turns-unit-sl",
+      "variableId": "VariableID:4:5",
+      "collectionId": "VariableCollectionId:4:2"
+    },
+    {
+      "id": "6:177",
+      "name": "gray-unit-l",
+      "variableId": "VariableID:4:6",
+      "collectionId": "VariableCollectionId:4:2"
+    },
+    {
+      "id": "6:180",
+      "name": "gray-percent-l",
+      "variableId": "VariableID:4:7",
+      "collectionId": "VariableCollectionId:4:2"
+    }
+  ]
+}

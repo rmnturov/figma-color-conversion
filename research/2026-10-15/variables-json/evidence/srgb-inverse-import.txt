@@ -1,0 +1,210 @@
+Browser tab: 1749231611, Title: "Variables JSON Tests — sRGB – Figma", URL: "https://www.figma.com/design/g8dNBqaWS0wpDsX0Al8V1K/Variables-JSON-Tests-%25E2%2580%2594-sRGB?node-id=0-1&view=variables&p=f&t=58vzJtBIh71MbWCD-0".
+0 AXWebArea Variables JSON Tests — sRGB – Figma, URL: figma.com/design/g8dNBqaWS0wpDsX0Al8V1K/Variables-JSON-Tests-%25E2%2580%2594-sRGB?node-id=0-1&view=variables&p=f&t=58vzJtBIh71MbWCD-0
+	1 container react-page
+		2 container
+			3 container fullscreen-root
+				4 container Figma Design
+			5 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .
+			6 container Left sidebar
+				7 toolbar Navigation Bar
+					8 pop up button (collapsed) Description: Main menu, ID: :r1t:-trigger, Secondary Actions: Expand
+						9 image
+					10 button (collapsed) Description: File, Secondary Actions: Expand
+						11 image
+						12 text File
+					13 button (collapsed) Description: Agents, Secondary Actions: Expand
+						14 text Agents
+					15 button (collapsed) Description: Assets, Secondary Actions: Expand
+						16 image
+						17 text Assets
+					18 button (collapsed) Description: Tools, Secondary Actions: Expand
+						19 image
+						20 text Tools
+					21 button (expanded) Description: Variables, Secondary Actions: Collapse
+						22 image
+						23 text Variables
+				24 container left-panel-container
+					25 container
+						26 button Variables JSON Tests — sRGB
+							27 heading Variables JSON Tests — sRGB, Value: 2
+								28 text Variables JSON Tests — sRGB
+						29 button Hide panel
+						30 container
+							31 container Variable collections
+								32 text Collections
+								33 pop up button (collapsed) Description: Collections options, ID: :r6u:, Secondary Actions: Expand
+								34 button Create collection
+								35 table
+									36 row Import Probes 24 variables
+										37 cell
+											38 button Import Probes 24 variables
+												39 container Import Probes
+													40 text Import Probes
+												41 text 24 variables
+									42 row OKLCH to Figma P3 10 variables
+										43 cell
+											44 button OKLCH to Figma P3 10 variables
+												45 container OKLCH to Figma P3
+													46 text OKLCH to Figma P3
+												47 text 10 variables
+									48 row P3 Transform Tests 18 variables
+										49 cell
+											50 button P3 Transform Tests 18 variables
+												51 container P3 Transform Tests
+													52 text P3 Transform Tests
+												53 text 18 variables
+							54 button (expanded) Groups, Secondary Actions: Collapse
+							55 container :r7h:
+								56 table
+									57 row All 10 variables, ID: variable-group-all
+										58 cell
+											59 container
+												60 button All
+													61 container All
+														62 text All
+												63 text 10 variables
+					64 slider Description: Resize handle, Value: 240
+			65 heading Description: OKLCH to Figma P3, Value: 2
+				66 button OKLCH to Figma P3
+			67 container Search and filter
+				68 image
+				69 text field (settable) Search
+				70 pop up button (collapsed) Description: Filter, ID: :r7q:, Secondary Actions: Expand
+			71 checkbox (settable, integer) Description: Minimize, Value: 0, ID: :r7t:
+			72 text Minimize
+			73 button Share
+			74 container
+				75 table
+					76 container
+						77 row
+							78 cell
+								79 text Name
+							80 cell
+								81 container Value
+									82 text Value
+							83 cell
+								84 button New variable mode
+						85 row
+							86 cell
+								87 image
+								88 container overlay-p3-hex
+									89 text overlay-p3-hex
+							90 cell
+								91 container
+									92 button Solid color hex: 1D2D6B
+									93 combo box (collapsed, settable) Value: 1D2D6B, ID: :rhn:, Secondary Actions: Expand
+							94 cell
+								95 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						96 row
+							97 cell
+								98 image
+								99 container overlay-srgb-hex
+									100 text overlay-srgb-hex
+							101 cell
+								102 container
+									103 button Solid color hex: 182E6F
+									104 combo box (collapsed, settable) Value: 182E6F, ID: :rhu:, Secondary Actions: Expand
+							105 cell
+								106 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						107 row
+							108 cell
+								109 image
+								110 container overlay-css-oklch
+									111 text overlay-css-oklch
+							112 cell
+								113 container
+									114 button Solid color hex: 1D2D6B
+									115 combo box (collapsed, settable) Value: 1D2D6B, ID: :ri5:, Secondary Actions: Expand
+							116 cell
+								117 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						118 row
+							119 cell
+								120 image
+								121 container thread-p3-hex
+									122 text thread-p3-hex
+							123 cell
+								124 container
+									125 button Solid color hex: F0B9B9
+									126 combo box (collapsed, settable) Value: F0B9B9, ID: :ric:, Secondary Actions: Expand
+							127 cell
+								128 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						129 row
+							130 cell
+								131 image
+								132 container thread-srgb-hex
+									133 text thread-srgb-hex
+							134 cell
+								135 container
+									136 button Solid color hex: FAB6B8
+									137 combo box (collapsed, settable) Value: FAB6B8, ID: :rij:, Secondary Actions: Expand
+							138 cell
+								139 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						140 row
+							141 cell
+								142 image
+								143 container thread-css-oklch
+									144 text thread-css-oklch
+							145 cell
+								146 container
+									147 button Solid color hex: F0B9B9
+									148 combo box (collapsed, settable) Value: F0B9B9, ID: :riq:, Secondary Actions: Expand
+							149 cell
+								150 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						151 row
+							152 cell
+								153 image
+								154 container outside-p3-clipped
+									155 text outside-p3-clipped
+							156 cell
+								157 container
+									158 button Solid color hex: 00CE00
+									159 combo box (collapsed, settable) Value: 00CE00, ID: :rj1:, Secondary Actions: Expand
+							160 cell
+								161 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						162 row
+							163 cell
+								164 image
+								165 container outside-srgb-hex
+									166 text outside-srgb-hex
+							167 cell
+								168 container
+									169 button Solid color hex: 00D200
+									170 combo box (collapsed, settable) Value: 00D200, ID: :rj8:, Secondary Actions: Expand
+							171 cell
+								172 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						173 row
+							174 cell
+								175 image
+								176 container outside-css-oklch
+									177 text outside-css-oklch
+							178 cell
+								179 container
+									180 button Solid color hex: 00CE00
+									181 combo box (collapsed, settable) Value: 00CE00, ID: :rjf:, Secondary Actions: Expand
+							182 cell
+								183 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						184 row
+							185 cell
+								186 image
+								187 container outside-p3-mapped
+									188 text outside-p3-mapped
+							189 cell
+								190 container
+									191 button Solid color hex: 00C700
+									192 combo box (collapsed, settable) Value: 00C700, ID: :rjm:, Secondary Actions: Expand
+							193 cell
+								194 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+				195 button (collapsed) Description: Create variable button, Secondary Actions: Expand
+					196 image
+					197 text Create variable
+		198 container Application toolbar
+		199 container Help/zoom toolbar
+			200 toolbar Help/zoom toolbar
+				201 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+					202 image
+		203 container
+			204 container
+				205 image
+				206 text 10 variables updated
+
+The focused UI element is 4 container Figma Design

@@ -1,0 +1,406 @@
+Browser tab: 1749231611, Title: "Variables JSON Tests — sRGB – Figma", URL: "https://www.figma.com/design/g8dNBqaWS0wpDsX0Al8V1K/Variables-JSON-Tests-%25E2%2580%2594-sRGB?node-id=0-1&view=variables&p=f&t=58vzJtBIh71MbWCD-0".
+0 AXWebArea Variables JSON Tests — sRGB – Figma, URL: figma.com/design/g8dNBqaWS0wpDsX0Al8V1K/Variables-JSON-Tests-%25E2%2580%2594-sRGB?node-id=0-1&view=variables&p=f&t=58vzJtBIh71MbWCD-0
+	1 container react-page
+		2 container
+			3 container fullscreen-root
+				4 container Figma Design
+			5 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .
+			6 container Left sidebar
+				7 toolbar Navigation Bar
+					8 pop up button (collapsed) Description: Main menu, ID: :r1t:-trigger, Secondary Actions: Expand
+						9 image
+					10 button (collapsed) Description: File, Secondary Actions: Expand
+						11 image
+						12 text File
+					13 button (collapsed) Description: Agents, Secondary Actions: Expand
+						14 text Agents
+					15 button (collapsed) Description: Assets, Secondary Actions: Expand
+						16 image
+						17 text Assets
+					18 button (collapsed) Description: Tools, Secondary Actions: Expand
+						19 image
+						20 text Tools
+					21 button (expanded) Description: Variables, Secondary Actions: Collapse
+						22 image
+						23 text Variables
+				24 container left-panel-container
+					25 container
+						26 button Variables JSON Tests — sRGB
+							27 heading Variables JSON Tests — sRGB, Value: 2
+								28 text Variables JSON Tests — sRGB
+						29 button Hide panel
+						30 container
+							31 container Variable collections
+								32 text Collections
+								33 pop up button (collapsed) Description: Collections options, ID: :r6u:, Secondary Actions: Expand
+								34 button Create collection
+								35 table
+									36 row Import Probes 24 variables
+										37 cell
+											38 button Import Probes 24 variables
+												39 container Import Probes
+													40 text Import Probes
+												41 text 24 variables
+									42 row OKLCH to Figma P3 10 variables
+										43 cell
+											44 button OKLCH to Figma P3 10 variables
+												45 container OKLCH to Figma P3
+													46 text OKLCH to Figma P3
+												47 text 10 variables
+									48 row P3 Transform Tests 18 variables
+										49 cell
+											50 button P3 Transform Tests 18 variables
+												51 container P3 Transform Tests
+													52 text P3 Transform Tests
+												53 text 18 variables
+							54 button (expanded) Groups, Secondary Actions: Collapse
+							55 container :r7h:
+								56 table
+									57 row All 24 variables, ID: variable-group-all
+										58 cell
+											59 container
+												60 button All
+													61 container All
+														62 text All
+												63 text 24 variables
+					64 slider Description: Resize handle, Value: 240
+			65 heading Description: Import Probes, Value: 2
+				66 button Import Probes
+			67 container Search and filter
+				68 image
+				69 text field (settable) Search
+				70 pop up button (collapsed) Description: Filter, ID: :r7q:, Secondary Actions: Expand
+			71 checkbox (settable, integer) Description: Minimize, Value: 0, ID: :r7t:
+			72 text Minimize
+			73 button Share
+			74 container
+				75 table
+					76 container
+						77 row
+							78 cell
+								79 text Name
+							80 cell
+								81 container Value
+									82 text Value
+							83 cell
+								84 button New variable mode
+						85 row
+							86 cell
+								87 image
+								88 container srgb-components-only
+									89 text srgb-components-only
+							90 cell
+								91 container
+									92 button Solid color hex: 1D2D6B
+									93 combo box (collapsed, settable) Value: 1D2D6B, ID: :rcf:, Secondary Actions: Expand
+							94 cell
+								95 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						96 row
+							97 cell
+								98 image
+								99 container srgb-conflicting-hex
+									100 text srgb-conflicting-hex
+							101 cell
+								102 container
+									103 button Solid color hex: 1D2D6B
+									104 combo box (collapsed, settable) Value: 1D2D6B, ID: :rcm:, Secondary Actions: Expand
+							105 cell
+								106 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						107 row
+							108 cell
+								109 image
+								110 container srgb-red-components-blue-hex
+									111 text srgb-red-components-blue-hex
+							112 cell
+								113 container
+									114 button Solid color hex: FF0000
+									115 combo box (collapsed, settable) Value: FF0000, ID: :rct:, Secondary Actions: Expand
+							116 cell
+								117 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						118 row
+							119 cell
+								120 image
+								121 container srgb-hex-only
+									122 text srgb-hex-only
+							123 cell
+								124 container
+									125 button Solid color hex: 081020
+									126 combo box (collapsed, settable) Value: 081020, ID: :rd4:, Secondary Actions: Expand
+									127 container
+										128 image
+										129 text field (settable) 75%
+							130 cell
+								131 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						132 row
+							133 cell
+								134 image
+								135 container legacy-hex-string
+									136 text legacy-hex-string
+							137 cell
+								138 container
+									139 button Solid color hex: 081020
+									140 combo box (collapsed, settable) Value: 081020, ID: :rdb:, Secondary Actions: Expand
+									141 container
+										142 image
+										143 text field (settable) 75%
+							144 cell
+								145 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						146 row
+							147 cell
+								148 image
+								149 container p3-components-only
+									150 text p3-components-only
+							151 cell
+								152 container
+									153 button Solid color hex: 081020
+									154 combo box (collapsed, settable) Value: 081020, ID: :rdi:, Secondary Actions: Expand
+									155 container
+										156 image
+										157 text field (settable) 75%
+							158 cell
+								159 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						160 row
+							161 cell
+								162 image
+								163 container p3-with-hex
+									164 text p3-with-hex
+							165 cell
+								166 container
+									167 button Solid color hex: 081020
+									168 combo box (collapsed, settable) Value: 081020, ID: :rdp:, Secondary Actions: Expand
+									169 container
+										170 image
+										171 text field (settable) 75%
+							172 cell
+								173 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						174 row
+							175 cell
+								176 image
+								177 container oklch-components-only
+									178 text oklch-components-only
+							179 cell
+								180 container
+									181 button Solid color hex: 081020
+									182 combo box (collapsed, settable) Value: 081020, ID: :re0:, Secondary Actions: Expand
+									183 container
+										184 image
+										185 text field (settable) 75%
+							186 cell
+								187 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						188 row
+							189 cell
+								190 image
+								191 container oklch-with-hex
+									192 text oklch-with-hex
+							193 cell
+								194 container
+									195 button Solid color hex: 081020
+									196 combo box (collapsed, settable) Value: 081020, ID: :re7:, Secondary Actions: Expand
+									197 container
+										198 image
+										199 text field (settable) 75%
+							200 cell
+								201 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						202 row
+							203 cell
+								204 image
+								205 container hsl-components-only
+									206 text hsl-components-only
+							207 cell
+								208 container
+									209 button Solid color hex: 5C2385C2385C238
+									210 combo box (collapsed, settable) Value: 5C2385C2385C238, ID: :ree:, Secondary Actions: Expand
+							211 cell
+								212 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						213 row
+							214 cell
+								215 image
+								216 container hsl-conflicting-hex
+									217 text hsl-conflicting-hex
+							218 cell
+								219 container
+									220 button Solid color hex: 5C2385C2385C238
+									221 combo box (collapsed, settable) Value: 5C2385C2385C238, ID: :rel:, Secondary Actions: Expand
+							222 cell
+								223 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						224 row
+							225 cell
+								226 image
+								227 container srgb-linear-with-hex
+									228 text srgb-linear-with-hex
+							229 cell
+								230 container
+									231 button Solid color hex: 081020
+									232 combo box (collapsed, settable) Value: 081020, ID: :res:, Secondary Actions: Expand
+									233 container
+										234 image
+										235 text field (settable) 75%
+							236 cell
+								237 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						238 row
+							239 cell
+								240 image
+								241 container srgb-alpha-quarter
+									242 text srgb-alpha-quarter
+							243 cell
+								244 container
+									245 button Solid color hex: 1D2D6B
+									246 combo box (collapsed, settable) Value: 1D2D6B, ID: :rf3:, Secondary Actions: Expand
+									247 container
+										248 image
+										249 text field (settable) 25%
+							250 cell
+								251 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						252 row
+							253 cell
+								254 image
+								255 container srgb-alpha-zero
+									256 text srgb-alpha-zero
+							257 cell
+								258 container
+									259 button Solid color hex: 1D2D6B
+									260 combo box (collapsed, settable) Value: 1D2D6B, ID: :rfa:, Secondary Actions: Expand
+									261 container
+										262 image
+										263 text field (settable) 0%
+							264 cell
+								265 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						266 row
+							267 cell
+								268 image
+								269 container srgb-alpha-vs-hex8
+									270 text srgb-alpha-vs-hex8
+							271 cell
+								272 container
+									273 button Solid color hex: 1D2D6B
+									274 combo box (collapsed, settable) Value: 1D2D6B, ID: :rfh:, Secondary Actions: Expand
+									275 container
+										276 image
+										277 text field (settable) 25%
+							278 cell
+								279 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						280 row
+							281 cell
+								282 image
+								283 container srgb-outside-range
+									284 text srgb-outside-range
+							285 cell
+								286 container
+									287 button Solid color hex: 081020
+									288 combo box (collapsed, settable) Value: 081020, ID: :rfo:, Secondary Actions: Expand
+									289 container
+										290 image
+										291 text field (settable) 75%
+							292 cell
+								293 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						294 row
+							295 cell
+								296 image
+								297 container srgb-precise-channels
+									298 text srgb-precise-channels
+							299 cell
+								300 container
+									301 button Solid color hex: 1D2D6B
+									302 combo box (collapsed, settable) Value: 1D2D6B, ID: :rfv:, Secondary Actions: Expand
+							303 cell
+								304 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						305 row
+							306 cell
+								307 image
+								308 container srgb-none-channel
+									309 text srgb-none-channel
+							310 cell
+								311 container
+									312 button Solid color hex: 081020
+									313 combo box (collapsed, settable) Value: 081020, ID: :rg6:, Secondary Actions: Expand
+									314 container
+										315 image
+										316 text field (settable) 75%
+							317 cell
+								318 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						319 row
+							320 cell
+								321 image
+								322 container genuine-srgb-equivalent
+									323 text genuine-srgb-equivalent
+							324 cell
+								325 container
+									326 button Solid color hex: 182E6F
+									327 combo box (collapsed, settable) Value: 182E6F, ID: :rgd:, Secondary Actions: Expand
+							328 cell
+								329 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						330 row
+							331 cell
+								332 image
+								333 container srgb-green
+									334 text srgb-green
+							335 cell
+								336 container
+									337 button Solid color hex: 00FF00
+									338 combo box (collapsed, settable) Value: 00FF00, ID: :rgk:, Secondary Actions: Expand
+							339 cell
+								340 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						341 row
+							342 cell
+								343 image
+								344 container missing-color-space
+									345 text missing-color-space
+							346 cell
+								347 container
+									348 button Solid color hex: 081020
+									349 combo box (collapsed, settable) Value: 081020, ID: :rgr:, Secondary Actions: Expand
+									350 container
+										351 image
+										352 text field (settable) 75%
+							353 cell
+								354 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						355 row
+							356 cell
+								357 image
+								358 container unknown-space-with-hex
+									359 text unknown-space-with-hex
+							360 cell
+								361 container
+									362 button Solid color hex: 081020
+									363 combo box (collapsed, settable) Value: 081020, ID: :rh2:, Secondary Actions: Expand
+									364 container
+										365 image
+										366 text field (settable) 75%
+							367 cell
+								368 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						369 row
+							370 cell
+								371 image
+								372 container srgb-alias
+									373 text srgb-alias
+							374 cell
+								375 button srgb-components-only, variable pill with value #1D2D6B
+									376 container srgb-components-only
+										377 text srgb-components-only
+							378 cell
+								379 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						380 row
+							381 cell
+								382 image
+								383 container srgb-with-original-id
+									384 text srgb-with-original-id
+							385 cell
+								386 container
+									387 button Solid color hex: FF0000
+									388 combo box (collapsed, settable) Value: FF0000, ID: :rhg:, Secondary Actions: Expand
+							389 cell
+								390 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+				391 button (collapsed) Description: Create variable button, Secondary Actions: Expand
+					392 image
+					393 text Create variable
+		394 container Application toolbar
+		395 container Help/zoom toolbar
+			396 toolbar Help/zoom toolbar
+				397 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+					398 image
+		399 container
+			400 container
+				401 image
+				402 text 13 variables updated. Encountered errors importing 11 tokens. Check your file for issues.
+
+The focused UI element is 4 container Figma Design

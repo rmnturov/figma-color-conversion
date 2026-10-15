@@ -1,0 +1,156 @@
+Browser tab: 1749231610, Title: "Variables JSON Tests — P3 – Figma", URL: "https://www.figma.com/design/PXk72dBHVjOUSecPK8U8hG/Variables-JSON-Tests-%25E2%2580%2594-P3?node-id=0-1&view=variables&p=f&t=IbrWD5kauqfNl8Mg-0".
+1 AXWebArea Variables JSON Tests — P3 – Figma, URL: figma.com/design/PXk72dBHVjOUSecPK8U8hG/Variables-JSON-Tests-%25E2%2580%2594-P3?node-id=0-1&view=variables&p=f&t=IbrWD5kauqfNl8Mg-0
+	2 container react-page
+		3 container
+			4 container fullscreen-root
+			5 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .
+			6 container Left sidebar
+				7 toolbar Navigation Bar
+					8 pop up button (collapsed) Description: Main menu, ID: :r6:-trigger, Secondary Actions: Expand
+						9 image
+					10 button (collapsed) Description: File, Secondary Actions: Expand
+						11 image
+						12 text File
+					13 button (collapsed) Description: Agents, Secondary Actions: Expand
+						14 text Agents
+					15 button (collapsed) Description: Assets, Secondary Actions: Expand
+						16 image
+						17 text Assets
+					18 button (collapsed) Description: Tools, Secondary Actions: Expand
+						19 image
+						20 text Tools
+					21 button (expanded) Description: Variables, Secondary Actions: Collapse
+						22 image
+						23 text Variables
+				24 container left-panel-container
+					25 container
+						26 button Variables JSON Tests — P3
+							27 heading Variables JSON Tests — P3, Value: 2
+								28 text Variables JSON Tests — P3
+						29 button Hide panel
+						30 container
+							31 container Variable collections
+								32 text Collections
+								33 pop up button (collapsed) Description: Collections options, ID: :rb:, Secondary Actions: Expand
+								34 button Create collection
+								35 table
+									36 row HSL Units 5 variables
+										37 cell
+											38 button HSL Units 5 variables
+												39 container HSL Units
+													40 text HSL Units
+												41 text 5 variables
+									42 row Import Probes 24 variables
+										43 cell
+											44 button Import Probes 24 variables
+												45 container Import Probes
+													46 text Import Probes
+												47 text 24 variables
+									48 row OKLCH to Figma P3 10 variables
+										49 cell
+											50 button OKLCH to Figma P3 10 variables
+												51 container OKLCH to Figma P3
+													52 text OKLCH to Figma P3
+												53 text 10 variables
+									54 row P3 Transform Tests 18 variables
+										55 cell
+											56 button P3 Transform Tests 18 variables
+												57 container P3 Transform Tests
+													58 text P3 Transform Tests
+												59 text 18 variables
+							60 button (expanded) Groups, Secondary Actions: Collapse
+							61 container :r13:
+								62 table
+									63 row All 5 variables, ID: variable-group-all
+										64 cell
+											65 container
+												66 button All
+													67 container All
+														68 text All
+												69 text 5 variables
+					70 slider Description: Resize handle, Value: 240
+			71 heading Description: HSL Units, Value: 2
+				72 button HSL Units
+			73 container Search and filter
+				74 image
+				75 text field (settable) Search
+				76 pop up button (collapsed) Description: Filter, ID: :r1d:, Secondary Actions: Expand
+			77 checkbox (settable, integer) Description: Minimize, Value: 0, ID: :r1a:
+			78 text Minimize
+			79 button Share
+			80 container
+				81 table
+					82 container
+						83 row
+							84 cell
+								85 text Name
+							86 cell
+								87 container Value
+									88 text Value
+							89 cell
+								90 button New variable mode
+						91 row
+							92 cell
+								93 image
+								94 container degrees-percent
+									95 text degrees-percent
+							96 cell
+								97 container
+									98 button Solid color hex: FFFFFF
+									99 stepper
+							100 cell
+								101 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						102 row
+							103 cell
+								104 image
+								105 container degrees-unit-sl
+									106 text degrees-unit-sl
+							107 cell
+								108 container
+									109 button Solid color hex: 262626
+									110 stepper
+							111 cell
+								112 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						113 row
+							114 cell
+								115 image
+								116 container turns-unit-sl
+									117 text turns-unit-sl
+							118 cell
+								119 container
+									120 button Solid color hex: 472673
+									121 stepper
+							122 cell
+								123 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						124 row
+							125 cell
+								126 image
+								127 container gray-unit-l
+									128 text gray-unit-l
+							129 cell
+								130 container
+									131 button Solid color hex: 808080
+									132 stepper
+							133 cell
+								134 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						135 row
+							136 cell
+								137 image
+								138 container gray-percent-l
+									139 text gray-percent-l
+							140 cell
+								141 container
+									142 button Solid color hex: FFFFFF
+									143 stepper
+							144 cell
+								145 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+				146 button (collapsed) Description: Create variable button, Secondary Actions: Expand
+					147 image
+					148 text Create variable
+		149 container Application toolbar
+		150 container Help/zoom toolbar
+			151 toolbar Help/zoom toolbar
+				152 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+					153 image
+
+The focused UI element is 38 button HSL Units 5 variables

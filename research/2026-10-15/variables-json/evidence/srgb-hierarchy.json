@@ -1,0 +1,1091 @@
+{
+  "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+  "nodes": [
+    {
+      "id": "0:1",
+      "parentId": "0:0",
+      "type": "PAGE",
+      "name": "Page 1"
+    },
+    {
+      "id": "6:2",
+      "parentId": "0:1",
+      "type": "FRAME",
+      "name": "Variables JSON — srgb"
+    },
+    {
+      "id": "6:3",
+      "parentId": "6:2",
+      "type": "FRAME",
+      "name": "P3 Transform Tests"
+    },
+    {
+      "id": "6:4",
+      "parentId": "6:3",
+      "type": "TEXT",
+      "name": "P3 Transform Tests"
+    },
+    {
+      "id": "6:5",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "primitive/overlay"
+    },
+    {
+      "id": "6:6",
+      "parentId": "6:5",
+      "type": "RECTANGLE",
+      "name": "primitive/overlay"
+    },
+    {
+      "id": "6:7",
+      "parentId": "6:5",
+      "type": "TEXT",
+      "name": "primitive/overlay"
+    },
+    {
+      "id": "6:8",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "semantic/overlay"
+    },
+    {
+      "id": "6:9",
+      "parentId": "6:8",
+      "type": "RECTANGLE",
+      "name": "semantic/overlay"
+    },
+    {
+      "id": "6:10",
+      "parentId": "6:8",
+      "type": "TEXT",
+      "name": "semantic/overlay"
+    },
+    {
+      "id": "6:11",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "role/overlay"
+    },
+    {
+      "id": "6:12",
+      "parentId": "6:11",
+      "type": "RECTANGLE",
+      "name": "role/overlay"
+    },
+    {
+      "id": "6:13",
+      "parentId": "6:11",
+      "type": "TEXT",
+      "name": "role/overlay"
+    },
+    {
+      "id": "6:14",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "primitive/light"
+    },
+    {
+      "id": "6:15",
+      "parentId": "6:14",
+      "type": "RECTANGLE",
+      "name": "primitive/light"
+    },
+    {
+      "id": "6:16",
+      "parentId": "6:14",
+      "type": "TEXT",
+      "name": "primitive/light"
+    },
+    {
+      "id": "6:17",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "semantic/light"
+    },
+    {
+      "id": "6:18",
+      "parentId": "6:17",
+      "type": "RECTANGLE",
+      "name": "semantic/light"
+    },
+    {
+      "id": "6:19",
+      "parentId": "6:17",
+      "type": "TEXT",
+      "name": "semantic/light"
+    },
+    {
+      "id": "6:20",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "role/light"
+    },
+    {
+      "id": "6:21",
+      "parentId": "6:20",
+      "type": "RECTANGLE",
+      "name": "role/light"
+    },
+    {
+      "id": "6:22",
+      "parentId": "6:20",
+      "type": "TEXT",
+      "name": "role/light"
+    },
+    {
+      "id": "6:23",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "primitive/red"
+    },
+    {
+      "id": "6:24",
+      "parentId": "6:23",
+      "type": "RECTANGLE",
+      "name": "primitive/red"
+    },
+    {
+      "id": "6:25",
+      "parentId": "6:23",
+      "type": "TEXT",
+      "name": "primitive/red"
+    },
+    {
+      "id": "6:26",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "semantic/red"
+    },
+    {
+      "id": "6:27",
+      "parentId": "6:26",
+      "type": "RECTANGLE",
+      "name": "semantic/red"
+    },
+    {
+      "id": "6:28",
+      "parentId": "6:26",
+      "type": "TEXT",
+      "name": "semantic/red"
+    },
+    {
+      "id": "6:29",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "role/red"
+    },
+    {
+      "id": "6:30",
+      "parentId": "6:29",
+      "type": "RECTANGLE",
+      "name": "role/red"
+    },
+    {
+      "id": "6:31",
+      "parentId": "6:29",
+      "type": "TEXT",
+      "name": "role/red"
+    },
+    {
+      "id": "6:32",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "primitive/green"
+    },
+    {
+      "id": "6:33",
+      "parentId": "6:32",
+      "type": "RECTANGLE",
+      "name": "primitive/green"
+    },
+    {
+      "id": "6:34",
+      "parentId": "6:32",
+      "type": "TEXT",
+      "name": "primitive/green"
+    },
+    {
+      "id": "6:35",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "semantic/green"
+    },
+    {
+      "id": "6:36",
+      "parentId": "6:35",
+      "type": "RECTANGLE",
+      "name": "semantic/green"
+    },
+    {
+      "id": "6:37",
+      "parentId": "6:35",
+      "type": "TEXT",
+      "name": "semantic/green"
+    },
+    {
+      "id": "6:38",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "role/green"
+    },
+    {
+      "id": "6:39",
+      "parentId": "6:38",
+      "type": "RECTANGLE",
+      "name": "role/green"
+    },
+    {
+      "id": "6:40",
+      "parentId": "6:38",
+      "type": "TEXT",
+      "name": "role/green"
+    },
+    {
+      "id": "6:41",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "primitive/gray"
+    },
+    {
+      "id": "6:42",
+      "parentId": "6:41",
+      "type": "RECTANGLE",
+      "name": "primitive/gray"
+    },
+    {
+      "id": "6:43",
+      "parentId": "6:41",
+      "type": "TEXT",
+      "name": "primitive/gray"
+    },
+    {
+      "id": "6:44",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "semantic/gray"
+    },
+    {
+      "id": "6:45",
+      "parentId": "6:44",
+      "type": "RECTANGLE",
+      "name": "semantic/gray"
+    },
+    {
+      "id": "6:46",
+      "parentId": "6:44",
+      "type": "TEXT",
+      "name": "semantic/gray"
+    },
+    {
+      "id": "6:47",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "role/gray"
+    },
+    {
+      "id": "6:48",
+      "parentId": "6:47",
+      "type": "RECTANGLE",
+      "name": "role/gray"
+    },
+    {
+      "id": "6:49",
+      "parentId": "6:47",
+      "type": "TEXT",
+      "name": "role/gray"
+    },
+    {
+      "id": "6:50",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "primitive/thread"
+    },
+    {
+      "id": "6:51",
+      "parentId": "6:50",
+      "type": "RECTANGLE",
+      "name": "primitive/thread"
+    },
+    {
+      "id": "6:52",
+      "parentId": "6:50",
+      "type": "TEXT",
+      "name": "primitive/thread"
+    },
+    {
+      "id": "6:53",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "semantic/thread"
+    },
+    {
+      "id": "6:54",
+      "parentId": "6:53",
+      "type": "RECTANGLE",
+      "name": "semantic/thread"
+    },
+    {
+      "id": "6:55",
+      "parentId": "6:53",
+      "type": "TEXT",
+      "name": "semantic/thread"
+    },
+    {
+      "id": "6:56",
+      "parentId": "6:3",
+      "type": "FRAME",
+      "name": "role/thread"
+    },
+    {
+      "id": "6:57",
+      "parentId": "6:56",
+      "type": "RECTANGLE",
+      "name": "role/thread"
+    },
+    {
+      "id": "6:58",
+      "parentId": "6:56",
+      "type": "TEXT",
+      "name": "role/thread"
+    },
+    {
+      "id": "6:59",
+      "parentId": "6:2",
+      "type": "FRAME",
+      "name": "OKLCH to Figma P3"
+    },
+    {
+      "id": "6:60",
+      "parentId": "6:59",
+      "type": "TEXT",
+      "name": "OKLCH to Figma P3"
+    },
+    {
+      "id": "6:61",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "overlay-p3-hex"
+    },
+    {
+      "id": "6:62",
+      "parentId": "6:61",
+      "type": "RECTANGLE",
+      "name": "overlay-p3-hex"
+    },
+    {
+      "id": "6:63",
+      "parentId": "6:61",
+      "type": "TEXT",
+      "name": "overlay-p3-hex"
+    },
+    {
+      "id": "6:64",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "overlay-srgb-hex"
+    },
+    {
+      "id": "6:65",
+      "parentId": "6:64",
+      "type": "RECTANGLE",
+      "name": "overlay-srgb-hex"
+    },
+    {
+      "id": "6:66",
+      "parentId": "6:64",
+      "type": "TEXT",
+      "name": "overlay-srgb-hex"
+    },
+    {
+      "id": "6:67",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "overlay-css-oklch"
+    },
+    {
+      "id": "6:68",
+      "parentId": "6:67",
+      "type": "RECTANGLE",
+      "name": "overlay-css-oklch"
+    },
+    {
+      "id": "6:69",
+      "parentId": "6:67",
+      "type": "TEXT",
+      "name": "overlay-css-oklch"
+    },
+    {
+      "id": "6:70",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "thread-p3-hex"
+    },
+    {
+      "id": "6:71",
+      "parentId": "6:70",
+      "type": "RECTANGLE",
+      "name": "thread-p3-hex"
+    },
+    {
+      "id": "6:72",
+      "parentId": "6:70",
+      "type": "TEXT",
+      "name": "thread-p3-hex"
+    },
+    {
+      "id": "6:73",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "thread-srgb-hex"
+    },
+    {
+      "id": "6:74",
+      "parentId": "6:73",
+      "type": "RECTANGLE",
+      "name": "thread-srgb-hex"
+    },
+    {
+      "id": "6:75",
+      "parentId": "6:73",
+      "type": "TEXT",
+      "name": "thread-srgb-hex"
+    },
+    {
+      "id": "6:76",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "thread-css-oklch"
+    },
+    {
+      "id": "6:77",
+      "parentId": "6:76",
+      "type": "RECTANGLE",
+      "name": "thread-css-oklch"
+    },
+    {
+      "id": "6:78",
+      "parentId": "6:76",
+      "type": "TEXT",
+      "name": "thread-css-oklch"
+    },
+    {
+      "id": "6:79",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "outside-p3-clipped"
+    },
+    {
+      "id": "6:80",
+      "parentId": "6:79",
+      "type": "RECTANGLE",
+      "name": "outside-p3-clipped"
+    },
+    {
+      "id": "6:81",
+      "parentId": "6:79",
+      "type": "TEXT",
+      "name": "outside-p3-clipped"
+    },
+    {
+      "id": "6:82",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "outside-srgb-hex"
+    },
+    {
+      "id": "6:83",
+      "parentId": "6:82",
+      "type": "RECTANGLE",
+      "name": "outside-srgb-hex"
+    },
+    {
+      "id": "6:84",
+      "parentId": "6:82",
+      "type": "TEXT",
+      "name": "outside-srgb-hex"
+    },
+    {
+      "id": "6:85",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "outside-css-oklch"
+    },
+    {
+      "id": "6:86",
+      "parentId": "6:85",
+      "type": "RECTANGLE",
+      "name": "outside-css-oklch"
+    },
+    {
+      "id": "6:87",
+      "parentId": "6:85",
+      "type": "TEXT",
+      "name": "outside-css-oklch"
+    },
+    {
+      "id": "6:88",
+      "parentId": "6:59",
+      "type": "FRAME",
+      "name": "outside-p3-mapped"
+    },
+    {
+      "id": "6:89",
+      "parentId": "6:88",
+      "type": "RECTANGLE",
+      "name": "outside-p3-mapped"
+    },
+    {
+      "id": "6:90",
+      "parentId": "6:88",
+      "type": "TEXT",
+      "name": "outside-p3-mapped"
+    },
+    {
+      "id": "6:91",
+      "parentId": "6:2",
+      "type": "FRAME",
+      "name": "Import Probes"
+    },
+    {
+      "id": "6:92",
+      "parentId": "6:91",
+      "type": "TEXT",
+      "name": "Import Probes"
+    },
+    {
+      "id": "6:93",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-components-only"
+    },
+    {
+      "id": "6:94",
+      "parentId": "6:93",
+      "type": "RECTANGLE",
+      "name": "srgb-components-only"
+    },
+    {
+      "id": "6:95",
+      "parentId": "6:93",
+      "type": "TEXT",
+      "name": "srgb-components-only"
+    },
+    {
+      "id": "6:96",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-conflicting-hex"
+    },
+    {
+      "id": "6:97",
+      "parentId": "6:96",
+      "type": "RECTANGLE",
+      "name": "srgb-conflicting-hex"
+    },
+    {
+      "id": "6:98",
+      "parentId": "6:96",
+      "type": "TEXT",
+      "name": "srgb-conflicting-hex"
+    },
+    {
+      "id": "6:99",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-red-components-blue-hex"
+    },
+    {
+      "id": "6:100",
+      "parentId": "6:99",
+      "type": "RECTANGLE",
+      "name": "srgb-red-components-blue-hex"
+    },
+    {
+      "id": "6:101",
+      "parentId": "6:99",
+      "type": "TEXT",
+      "name": "srgb-red-components-blue-hex"
+    },
+    {
+      "id": "6:102",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-hex-only"
+    },
+    {
+      "id": "6:103",
+      "parentId": "6:102",
+      "type": "RECTANGLE",
+      "name": "srgb-hex-only"
+    },
+    {
+      "id": "6:104",
+      "parentId": "6:102",
+      "type": "TEXT",
+      "name": "srgb-hex-only"
+    },
+    {
+      "id": "6:105",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "legacy-hex-string"
+    },
+    {
+      "id": "6:106",
+      "parentId": "6:105",
+      "type": "RECTANGLE",
+      "name": "legacy-hex-string"
+    },
+    {
+      "id": "6:107",
+      "parentId": "6:105",
+      "type": "TEXT",
+      "name": "legacy-hex-string"
+    },
+    {
+      "id": "6:108",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "p3-components-only"
+    },
+    {
+      "id": "6:109",
+      "parentId": "6:108",
+      "type": "RECTANGLE",
+      "name": "p3-components-only"
+    },
+    {
+      "id": "6:110",
+      "parentId": "6:108",
+      "type": "TEXT",
+      "name": "p3-components-only"
+    },
+    {
+      "id": "6:111",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "p3-with-hex"
+    },
+    {
+      "id": "6:112",
+      "parentId": "6:111",
+      "type": "RECTANGLE",
+      "name": "p3-with-hex"
+    },
+    {
+      "id": "6:113",
+      "parentId": "6:111",
+      "type": "TEXT",
+      "name": "p3-with-hex"
+    },
+    {
+      "id": "6:114",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "oklch-components-only"
+    },
+    {
+      "id": "6:115",
+      "parentId": "6:114",
+      "type": "RECTANGLE",
+      "name": "oklch-components-only"
+    },
+    {
+      "id": "6:116",
+      "parentId": "6:114",
+      "type": "TEXT",
+      "name": "oklch-components-only"
+    },
+    {
+      "id": "6:117",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "oklch-with-hex"
+    },
+    {
+      "id": "6:118",
+      "parentId": "6:117",
+      "type": "RECTANGLE",
+      "name": "oklch-with-hex"
+    },
+    {
+      "id": "6:119",
+      "parentId": "6:117",
+      "type": "TEXT",
+      "name": "oklch-with-hex"
+    },
+    {
+      "id": "6:120",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "hsl-components-only"
+    },
+    {
+      "id": "6:121",
+      "parentId": "6:120",
+      "type": "RECTANGLE",
+      "name": "hsl-components-only"
+    },
+    {
+      "id": "6:122",
+      "parentId": "6:120",
+      "type": "TEXT",
+      "name": "hsl-components-only"
+    },
+    {
+      "id": "6:123",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "hsl-conflicting-hex"
+    },
+    {
+      "id": "6:124",
+      "parentId": "6:123",
+      "type": "RECTANGLE",
+      "name": "hsl-conflicting-hex"
+    },
+    {
+      "id": "6:125",
+      "parentId": "6:123",
+      "type": "TEXT",
+      "name": "hsl-conflicting-hex"
+    },
+    {
+      "id": "6:126",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-linear-with-hex"
+    },
+    {
+      "id": "6:127",
+      "parentId": "6:126",
+      "type": "RECTANGLE",
+      "name": "srgb-linear-with-hex"
+    },
+    {
+      "id": "6:128",
+      "parentId": "6:126",
+      "type": "TEXT",
+      "name": "srgb-linear-with-hex"
+    },
+    {
+      "id": "6:129",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-alpha-quarter"
+    },
+    {
+      "id": "6:130",
+      "parentId": "6:129",
+      "type": "RECTANGLE",
+      "name": "srgb-alpha-quarter"
+    },
+    {
+      "id": "6:131",
+      "parentId": "6:129",
+      "type": "TEXT",
+      "name": "srgb-alpha-quarter"
+    },
+    {
+      "id": "6:132",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-alpha-zero"
+    },
+    {
+      "id": "6:133",
+      "parentId": "6:132",
+      "type": "RECTANGLE",
+      "name": "srgb-alpha-zero"
+    },
+    {
+      "id": "6:134",
+      "parentId": "6:132",
+      "type": "TEXT",
+      "name": "srgb-alpha-zero"
+    },
+    {
+      "id": "6:135",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-alpha-vs-hex8"
+    },
+    {
+      "id": "6:136",
+      "parentId": "6:135",
+      "type": "RECTANGLE",
+      "name": "srgb-alpha-vs-hex8"
+    },
+    {
+      "id": "6:137",
+      "parentId": "6:135",
+      "type": "TEXT",
+      "name": "srgb-alpha-vs-hex8"
+    },
+    {
+      "id": "6:138",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-outside-range"
+    },
+    {
+      "id": "6:139",
+      "parentId": "6:138",
+      "type": "RECTANGLE",
+      "name": "srgb-outside-range"
+    },
+    {
+      "id": "6:140",
+      "parentId": "6:138",
+      "type": "TEXT",
+      "name": "srgb-outside-range"
+    },
+    {
+      "id": "6:141",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-precise-channels"
+    },
+    {
+      "id": "6:142",
+      "parentId": "6:141",
+      "type": "RECTANGLE",
+      "name": "srgb-precise-channels"
+    },
+    {
+      "id": "6:143",
+      "parentId": "6:141",
+      "type": "TEXT",
+      "name": "srgb-precise-channels"
+    },
+    {
+      "id": "6:144",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-none-channel"
+    },
+    {
+      "id": "6:145",
+      "parentId": "6:144",
+      "type": "RECTANGLE",
+      "name": "srgb-none-channel"
+    },
+    {
+      "id": "6:146",
+      "parentId": "6:144",
+      "type": "TEXT",
+      "name": "srgb-none-channel"
+    },
+    {
+      "id": "6:147",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "genuine-srgb-equivalent"
+    },
+    {
+      "id": "6:148",
+      "parentId": "6:147",
+      "type": "RECTANGLE",
+      "name": "genuine-srgb-equivalent"
+    },
+    {
+      "id": "6:149",
+      "parentId": "6:147",
+      "type": "TEXT",
+      "name": "genuine-srgb-equivalent"
+    },
+    {
+      "id": "6:150",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-green"
+    },
+    {
+      "id": "6:151",
+      "parentId": "6:150",
+      "type": "RECTANGLE",
+      "name": "srgb-green"
+    },
+    {
+      "id": "6:152",
+      "parentId": "6:150",
+      "type": "TEXT",
+      "name": "srgb-green"
+    },
+    {
+      "id": "6:153",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "missing-color-space"
+    },
+    {
+      "id": "6:154",
+      "parentId": "6:153",
+      "type": "RECTANGLE",
+      "name": "missing-color-space"
+    },
+    {
+      "id": "6:155",
+      "parentId": "6:153",
+      "type": "TEXT",
+      "name": "missing-color-space"
+    },
+    {
+      "id": "6:156",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "unknown-space-with-hex"
+    },
+    {
+      "id": "6:157",
+      "parentId": "6:156",
+      "type": "RECTANGLE",
+      "name": "unknown-space-with-hex"
+    },
+    {
+      "id": "6:158",
+      "parentId": "6:156",
+      "type": "TEXT",
+      "name": "unknown-space-with-hex"
+    },
+    {
+      "id": "6:159",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-alias"
+    },
+    {
+      "id": "6:160",
+      "parentId": "6:159",
+      "type": "RECTANGLE",
+      "name": "srgb-alias"
+    },
+    {
+      "id": "6:161",
+      "parentId": "6:159",
+      "type": "TEXT",
+      "name": "srgb-alias"
+    },
+    {
+      "id": "6:162",
+      "parentId": "6:91",
+      "type": "FRAME",
+      "name": "srgb-with-original-id"
+    },
+    {
+      "id": "6:163",
+      "parentId": "6:162",
+      "type": "RECTANGLE",
+      "name": "srgb-with-original-id"
+    },
+    {
+      "id": "6:164",
+      "parentId": "6:162",
+      "type": "TEXT",
+      "name": "srgb-with-original-id"
+    },
+    {
+      "id": "6:165",
+      "parentId": "6:2",
+      "type": "FRAME",
+      "name": "HSL Units"
+    },
+    {
+      "id": "6:166",
+      "parentId": "6:165",
+      "type": "TEXT",
+      "name": "HSL Units"
+    },
+    {
+      "id": "6:167",
+      "parentId": "6:165",
+      "type": "FRAME",
+      "name": "degrees-percent"
+    },
+    {
+      "id": "6:168",
+      "parentId": "6:167",
+      "type": "RECTANGLE",
+      "name": "degrees-percent"
+    },
+    {
+      "id": "6:169",
+      "parentId": "6:167",
+      "type": "TEXT",
+      "name": "degrees-percent"
+    },
+    {
+      "id": "6:170",
+      "parentId": "6:165",
+      "type": "FRAME",
+      "name": "degrees-unit-sl"
+    },
+    {
+      "id": "6:171",
+      "parentId": "6:170",
+      "type": "RECTANGLE",
+      "name": "degrees-unit-sl"
+    },
+    {
+      "id": "6:172",
+      "parentId": "6:170",
+      "type": "TEXT",
+      "name": "degrees-unit-sl"
+    },
+    {
+      "id": "6:173",
+      "parentId": "6:165",
+      "type": "FRAME",
+      "name": "turns-unit-sl"
+    },
+    {
+      "id": "6:174",
+      "parentId": "6:173",
+      "type": "RECTANGLE",
+      "name": "turns-unit-sl"
+    },
+    {
+      "id": "6:175",
+      "parentId": "6:173",
+      "type": "TEXT",
+      "name": "turns-unit-sl"
+    },
+    {
+      "id": "6:176",
+      "parentId": "6:165",
+      "type": "FRAME",
+      "name": "gray-unit-l"
+    },
+    {
+      "id": "6:177",
+      "parentId": "6:176",
+      "type": "RECTANGLE",
+      "name": "gray-unit-l"
+    },
+    {
+      "id": "6:178",
+      "parentId": "6:176",
+      "type": "TEXT",
+      "name": "gray-unit-l"
+    },
+    {
+      "id": "6:179",
+      "parentId": "6:165",
+      "type": "FRAME",
+      "name": "gray-percent-l"
+    },
+    {
+      "id": "6:180",
+      "parentId": "6:179",
+      "type": "RECTANGLE",
+      "name": "gray-percent-l"
+    },
+    {
+      "id": "6:181",
+      "parentId": "6:179",
+      "type": "TEXT",
+      "name": "gray-percent-l"
+    }
+  ]
+}

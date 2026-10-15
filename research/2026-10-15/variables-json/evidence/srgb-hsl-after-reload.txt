@@ -1,0 +1,155 @@
+Browser tab: 1749231611, Title: "Variables JSON Tests — sRGB – Figma", URL: "https://www.figma.com/design/g8dNBqaWS0wpDsX0Al8V1K/Variables-JSON-Tests-%25E2%2580%2594-sRGB?node-id=0-1&view=variables&p=f&t=4fozg4LQhbYgNnps-0".
+1 AXWebArea Variables JSON Tests — sRGB – Figma, URL: figma.com/design/g8dNBqaWS0wpDsX0Al8V1K/Variables-JSON-Tests-%25E2%2580%2594-sRGB?node-id=0-1&view=variables&p=f&t=4fozg4LQhbYgNnps-0
+	2 container react-page
+		3 container
+			4 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .
+			5 container Left sidebar
+				6 toolbar Navigation Bar
+					7 pop up button (collapsed) Description: Main menu, ID: :rg:-trigger, Secondary Actions: Expand
+						8 image
+					9 button (collapsed) Description: File, Secondary Actions: Expand
+						10 image
+						11 text File
+					12 button (collapsed) Description: Agents, Secondary Actions: Expand
+						13 text Agents
+					14 button (collapsed) Description: Assets, Secondary Actions: Expand
+						15 image
+						16 text Assets
+					17 button (collapsed) Description: Tools, Secondary Actions: Expand
+						18 image
+						19 text Tools
+					20 button (expanded) Description: Variables, Secondary Actions: Collapse
+						21 image
+						22 text Variables
+				23 container left-panel-container
+					24 container
+						25 button Variables JSON Tests — sRGB
+							26 heading Variables JSON Tests — sRGB, Value: 2
+								27 text Variables JSON Tests — sRGB
+						28 button Hide panel
+						29 container
+							30 container Variable collections
+								31 text Collections
+								32 pop up button (collapsed) Description: Collections options, ID: :rl:, Secondary Actions: Expand
+								33 button Create collection
+								34 table
+									35 row HSL Units 5 variables
+										36 cell
+											37 button HSL Units 5 variables
+												38 container HSL Units
+													39 text HSL Units
+												40 text 5 variables
+									41 row Import Probes 24 variables
+										42 cell
+											43 button Import Probes 24 variables
+												44 container Import Probes
+													45 text Import Probes
+												46 text 24 variables
+									47 row OKLCH to Figma P3 10 variables
+										48 cell
+											49 button OKLCH to Figma P3 10 variables
+												50 container OKLCH to Figma P3
+													51 text OKLCH to Figma P3
+												52 text 10 variables
+									53 row P3 Transform Tests 18 variables
+										54 cell
+											55 button P3 Transform Tests 18 variables
+												56 container P3 Transform Tests
+													57 text P3 Transform Tests
+												58 text 18 variables
+							59 button (expanded) Groups, Secondary Actions: Collapse
+							60 container :r1e:
+								61 table
+									62 row All 5 variables, ID: variable-group-all
+										63 cell
+											64 container
+												65 button All
+													66 container All
+														67 text All
+												68 text 5 variables
+					69 slider Description: Resize handle, Value: 240
+			70 heading Description: HSL Units, Value: 2
+				71 button HSL Units
+			72 container Search and filter
+				73 image
+				74 text field (settable) Search
+				75 pop up button (collapsed) Description: Filter, ID: :r1n:, Secondary Actions: Expand
+			76 checkbox (settable, integer) Description: Minimize, Value: 0, ID: :rp:
+			77 text Minimize
+			78 button Share
+			79 container
+				80 table
+					81 container
+						82 row
+							83 cell
+								84 text Name
+							85 cell
+								86 container Value
+									87 text Value
+							88 cell
+								89 button New variable mode
+						90 row
+							91 cell
+								92 image
+								93 container degrees-percent
+									94 text degrees-percent
+							95 cell
+								96 container
+									97 button Solid color hex: FFFFFF
+									98 stepper (settable, integer) Value: 0, Details: FFFFFF, ID: :r2t:
+							99 cell
+								100 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						101 row
+							102 cell
+								103 image
+								104 container degrees-unit-sl
+									105 text degrees-unit-sl
+							106 cell
+								107 container
+									108 button Solid color hex: 262626
+									109 stepper (settable, integer) Value: 0, Details: 262626, ID: :r2u:
+							110 cell
+								111 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						112 row
+							113 cell
+								114 image
+								115 container turns-unit-sl
+									116 text turns-unit-sl
+							117 cell
+								118 container
+									119 button Solid color hex: 472673
+									120 stepper (settable, integer) Value: 0, Details: 472673, ID: :r2v:
+							121 cell
+								122 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						123 row
+							124 cell
+								125 image
+								126 container gray-unit-l
+									127 text gray-unit-l
+							128 cell
+								129 container
+									130 button Solid color hex: 808080
+									131 stepper (settable, integer) Value: 0, Details: 808080, ID: :r30:
+							132 cell
+								133 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+						134 row
+							135 cell
+								136 image
+								137 container gray-percent-l
+									138 text gray-percent-l
+							139 cell
+								140 container
+									141 button Solid color hex: FFFFFF
+									142 stepper (settable, integer) Value: 0, Details: FFFFFF, ID: :r31:
+							143 cell
+								144 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+				145 button (collapsed) Description: Create variable button, Secondary Actions: Expand
+					146 image
+					147 text Create variable
+		148 container Application toolbar
+		149 container Help/zoom toolbar
+			150 toolbar Help/zoom toolbar
+				151 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+					152 image
+
+The focused UI element is 37 button HSL Units 5 variables

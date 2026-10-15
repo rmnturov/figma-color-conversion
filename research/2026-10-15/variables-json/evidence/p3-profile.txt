@@ -1,0 +1,26 @@
+Browser tab: 1749231610, Title: "Variables JSON Tests — P3 – Figma", URL: "https://www.figma.com/design/PXk72dBHVjOUSecPK8U8hG/Variables-JSON-Tests-%25E2%2580%2594-P3?node-id=0-1&p=f&t=IyHsXEnD6JH2CDxU-0".
+0 AXWebArea Variables JSON Tests — P3 – Figma, URL: figma.com/design/PXk72dBHVjOUSecPK8U8hG/Variables-JSON-Tests-%25E2%2580%2594-P3?node-id=0-1&p=f&t=IyHsXEnD6JH2CDxU-0
+	1 container react-page
+		2 container
+			3 menu Edit file menu, ID: :ra:
+				4 Show version history
+				5 Publish library…
+				6 Export…
+				7 (collapsed) Add to sidebar, ID: :r4o:, Secondary Actions: Expand
+					8 text Add to sidebar
+					9 image
+				10 Create branch…
+				11 (expanded) File color profile, ID: :r50:, Secondary Actions: Collapse
+					12 text File color profile
+					13 image
+				14 Duplicate
+				15 Rename
+				16 Move file…
+				17 Move to trash
+			18 menu File color profile, ID: :r4v:
+				19 container File color profile
+					20 text File color profile
+					21 Assign to Display P3, Value: 1
+					22 Assign to sRGB, Value: 0
+
+The focused UI element is 11 (expanded) File color profile, ID: :r50:, Secondary Actions: Collapse

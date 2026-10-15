@@ -1,0 +1,72 @@
+{
+  "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+  "collectionId": "VariableCollectionId:4:2",
+  "modes": [
+    {
+      "name": "Mode 1",
+      "modeId": "4:0"
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:4:3",
+      "name": "degrees-percent",
+      "values": {
+        "4:0": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:4:4",
+      "name": "degrees-unit-sl",
+      "values": {
+        "4:0": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:4:5",
+      "name": "turns-unit-sl",
+      "values": {
+        "4:0": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:4:6",
+      "name": "gray-unit-l",
+      "values": {
+        "4:0": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    },
+    {
+      "id": "VariableID:4:7",
+      "name": "gray-percent-l",
+      "values": {
+        "4:0": {
+          "r": 0.03125,
+          "g": 0.0625,
+          "b": 0.125,
+          "a": 0.75
+        }
+      }
+    }
+  ]
+}

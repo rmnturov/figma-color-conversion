@@ -1,5 +1,7 @@
 # Каталог тестов
 
+Дополнительные опыты **Export modes** и **Import mode** от 15.10.2026 описаны в [Variables JSON](variables-json.md). Их переменные и слои сохранены в [отдельном реестре](../research/2026-10-15/variables-json/test-registry.json).
+
 Каждый из 32 прямоугольников тестового файла связан с проверкой в [test-registry.json](../research/2026-10-14/test-registry.json). Запись содержит ID теста, ID и полный путь слоя, исходный цвет, ID переменной при наличии и ожидаемый результат. [node-registry.json](../research/2026-10-14/node-registry.json) содержит иерархию всех 110 узлов.
 
 Страница — `0:1`. Прямые опыты находятся в FRAME `4:3` **P3 conversion experiments**, обратные — в FRAME `36:2` **OKLCH to P3 variable input**. Профиль Display-P3. Инструкция [восстановления `.fig`](local-figma-copy.md) объясняет замену fileKey в ссылках.

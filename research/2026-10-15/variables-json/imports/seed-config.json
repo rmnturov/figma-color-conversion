@@ -1,0 +1,77 @@
+{
+  "sentinel": {
+    "r": 0.03125,
+    "g": 0.0625,
+    "b": 0.125,
+    "a": 0.75
+  },
+  "collections": [
+    {
+      "name": "P3 Transform Tests",
+      "variables": [
+        "primitive/overlay",
+        "semantic/overlay",
+        "role/overlay",
+        "primitive/light",
+        "semantic/light",
+        "role/light",
+        "primitive/red",
+        "semantic/red",
+        "role/red",
+        "primitive/green",
+        "semantic/green",
+        "role/green",
+        "primitive/gray",
+        "semantic/gray",
+        "role/gray",
+        "primitive/thread",
+        "semantic/thread",
+        "role/thread"
+      ]
+    },
+    {
+      "name": "OKLCH to Figma P3",
+      "variables": [
+        "overlay-p3-hex",
+        "overlay-srgb-hex",
+        "overlay-css-oklch",
+        "thread-p3-hex",
+        "thread-srgb-hex",
+        "thread-css-oklch",
+        "outside-p3-clipped",
+        "outside-srgb-hex",
+        "outside-css-oklch",
+        "outside-p3-mapped"
+      ]
+    },
+    {
+      "name": "Import Probes",
+      "variables": [
+        "srgb-components-only",
+        "srgb-conflicting-hex",
+        "srgb-red-components-blue-hex",
+        "srgb-hex-only",
+        "legacy-hex-string",
+        "p3-components-only",
+        "p3-with-hex",
+        "oklch-components-only",
+        "oklch-with-hex",
+        "hsl-components-only",
+        "hsl-conflicting-hex",
+        "srgb-linear-with-hex",
+        "srgb-alpha-quarter",
+        "srgb-alpha-zero",
+        "srgb-alpha-vs-hex8",
+        "srgb-outside-range",
+        "srgb-precise-channels",
+        "srgb-none-channel",
+        "genuine-srgb-equivalent",
+        "srgb-green",
+        "missing-color-space",
+        "unknown-space-with-hex",
+        "srgb-alias",
+        "srgb-with-original-id"
+      ]
+    }
+  ]
+}

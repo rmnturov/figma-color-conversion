@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Novosibirsk",
+  "browser": "Brave Browser",
+  "browserVersionFromInstalledBundle": "154.1.96.61",
+  "os": "15.7.7",
+  "nodeVersion": "v26.9.0",
+  "colorjsVersion": "0.5.2",
+  "figmaBuild": null,
+  "sourceFileKey": "6K0nZY2orMpyjCl6pxXaU0",
+  "teamChosenByUser": "quaaacks team",
+  "files": {
+    "p3": {
+      "fileKey": "PXk72dBHVjOUSecPK8U8hG",
+      "profile": "Display-P3",
+      "boardId": "7:182",
+      "localFile": "figma/Variables-JSON-Tests-P3.fig",
+      "bytes": 57302,
+      "sha256": "2f1f2f041a359c880c119604b0ad4f614496b6ba3c8c7475355a7bd2a75b9722",
+      "exportedAt": "2026-10-15T00:22:22.346Z",
+      "zipMembers": [
+        "canvas.fig",
+        "thumbnail.png",
+        "meta.json",
+        "images/"
+      ],
+      "zipCRCVerified": true
+    },
+    "srgb": {
+      "fileKey": "g8dNBqaWS0wpDsX0Al8V1K",
+      "profile": "sRGB",
+      "boardId": "6:2",
+      "localFile": "figma/Variables-JSON-Tests-sRGB.fig",
+      "bytes": 56961,
+      "sha256": "e4cce6b7fd49fce509d206ed6fbe40fbfc2a3c01cd717a713d11e4bb900c94cb",
+      "exportedAt": "2026-10-15T00:23:42.419Z",
+      "zipMembers": [
+        "canvas.fig",
+        "thumbnail.png",
+        "meta.json",
+        "images/"
+      ],
+      "zipCRCVerified": true
+    }
+  },
+  "method": "Native Export modes and Import mode through computer-use; Save/Open/Replace handled through macOS dialogs; Plugin API for seeding, reading numeric values and building named diagnostic layers",
+  "scope": "Update existing modes, 28 roundtrip variables plus 24 probes and 5 HSL unit cases in each of two profiles",
+  "notes": [
+    "All native imports were performed through Figma UI, not through a custom JSON parser writing variables.",
+    "Seeded variables use RGBA 0.03125, 0.0625, 0.125, 0.75; unchanged values identify skipped tokens.",
+    "HSL immediate exports were taken before browser reload and without intervening Plugin API calls.",
+    "Separate native .fig copies preserve final states after reload; their reimport was not repeated in this run.",
+    "The reusable board helper was executed and its final layout adjusted; layer IDs and final bounds are archived.",
+    "Installed bundle version is recorded; Figma service build was not available."
+  ]
+}

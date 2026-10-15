@@ -1,0 +1,330 @@
+Browser tab: 1749231610, Title: "Variables JSON Tests — P3 – Figma", URL: "https://www.figma.com/design/PXk72dBHVjOUSecPK8U8hG/Variables-JSON-Tests-%25E2%2580%2594-P3?node-id=0-1&view=variables&p=f&t=IyHsXEnD6JH2CDxU-0".
+0 AXWebArea Variables JSON Tests — P3 – Figma, URL: figma.com/design/PXk72dBHVjOUSecPK8U8hG/Variables-JSON-Tests-%25E2%2580%2594-P3?node-id=0-1&view=variables&p=f&t=IyHsXEnD6JH2CDxU-0
+	1 container
+		2 container react-page
+			3 container
+				4 container fullscreen-root
+					5 container Figma Design
+				6 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .
+				7 container Left sidebar
+					8 toolbar Navigation Bar
+						9 pop up button (collapsed) Description: Main menu, ID: :r6:-trigger, Secondary Actions: Expand
+							10 image
+						11 button (collapsed) Description: File, Secondary Actions: Expand
+							12 image
+							13 text File
+						14 button (collapsed) Description: Agents, Secondary Actions: Expand
+							15 text Agents
+						16 button (collapsed) Description: Assets, Secondary Actions: Expand
+							17 image
+							18 text Assets
+						19 button (collapsed) Description: Tools, Secondary Actions: Expand
+							20 image
+							21 text Tools
+						22 button (expanded) Description: Variables, Secondary Actions: Collapse
+							23 image
+							24 text Variables
+					25 container left-panel-container
+						26 container
+							27 button Variables JSON Tests — P3
+								28 heading Variables JSON Tests — P3, Value: 2
+									29 text Variables JSON Tests — P3
+							30 button Hide panel
+							31 container
+								32 container Variable collections
+									33 text Collections
+									34 pop up button (collapsed) Description: Collections options, ID: :r59:, Secondary Actions: Expand
+									35 button Create collection
+									36 table
+										37 row Import Probes 24 variables
+											38 cell
+												39 button Import Probes 24 variables
+													40 container Import Probes
+														41 text Import Probes
+													42 text 24 variables
+										43 row OKLCH to Figma P3 10 variables
+											44 cell
+												45 button OKLCH to Figma P3 10 variables
+													46 container OKLCH to Figma P3
+														47 text OKLCH to Figma P3
+													48 text 10 variables
+										49 row P3 Transform Tests 18 variables
+											50 cell
+												51 button P3 Transform Tests 18 variables
+													52 container P3 Transform Tests
+														53 text P3 Transform Tests
+													54 text 18 variables
+								55 button (expanded) Groups, Secondary Actions: Collapse
+								430 button Collapse groups
+								56 container :r5s:
+									57 table
+										58 row All 18 variables, ID: variable-group-all
+											59 cell
+												60 container
+													61 button All
+														62 container All
+															63 text All
+													64 text 18 variables
+										431 row primitive 6 variables, ID: variable-group-primitive/
+											432 cell
+												433 container
+													434 button primitive
+														435 container primitive
+															436 text primitive
+													437 text 6 variables
+										438 row semantic 6 variables, ID: variable-group-semantic/
+											439 cell
+												440 container
+													441 button semantic
+														442 container semantic
+															443 text semantic
+													444 text 6 variables
+										445 row role 6 variables, ID: variable-group-role/
+											446 cell
+												447 container
+													448 button role
+														449 container role
+															450 text role
+													451 text 6 variables
+						65 slider Description: Resize handle, Value: 240
+				66 heading Description: P3 Transform Tests, Value: 2
+					452 button P3 Transform Tests
+				68 container Search and filter
+					69 image
+					70 text field (settable) Search
+					71 pop up button (collapsed) Description: Filter, ID: :r65:, Secondary Actions: Expand
+				72 checkbox (settable, integer) Description: Minimize, Value: 0, ID: :r68:
+				73 text Minimize
+				74 button Share
+				75 container
+					76 table
+						77 container
+							78 row
+								79 cell
+									80 text Name
+								453 cell
+									454 container Value
+										455 text Value
+								84 cell
+									85 button New variable mode
+							456 row
+								457 cell
+									458 button primitive
+							459 row
+								460 cell
+									461 image
+									462 container overlay
+										463 text overlay
+								464 cell
+									465 container
+										466 button Solid color hex: 1D2D6B
+										467 combo box (collapsed, settable) Value: 1D2D6B, ID: :reg:, Secondary Actions: Expand
+								471 cell
+									472 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							473 row
+								474 cell
+									475 image
+									476 container light
+										477 text light
+								478 cell
+									479 container
+										480 button Solid color hex: C4DBFC
+										481 combo box (collapsed, settable) Value: C4DBFC, ID: :ren:, Secondary Actions: Expand
+								485 cell
+									486 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							487 row
+								488 cell
+									489 image
+									490 container red
+										491 text red
+								492 cell
+									493 container
+										494 button Solid color hex: E53333
+										495 combo box (collapsed, settable) Value: E53333, ID: :reu:, Secondary Actions: Expand
+								499 cell
+									500 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							501 row
+								502 cell
+									503 image
+									504 container green
+										505 text green
+								506 cell
+									507 container
+										508 button Solid color hex: 00FF00
+										509 combo box (collapsed, settable) Value: 00FF00, ID: :rf5:, Secondary Actions: Expand
+								513 cell
+									514 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							515 row
+								516 cell
+									517 image
+									518 container gray
+										519 text gray
+								520 cell
+									521 container
+										522 button Solid color hex: 808080
+										523 combo box (collapsed, settable) Value: 808080, ID: :rfc:, Secondary Actions: Expand
+								527 cell
+									528 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							529 row
+								530 cell
+									531 image
+									532 container thread
+										533 text thread
+								534 cell
+									535 container
+										536 button Solid color hex: F0B9B9
+										537 combo box (collapsed, settable) Value: F0B9B9, ID: :rfj:, Secondary Actions: Expand
+								541 cell
+									542 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							543 row
+								544 cell
+									545 button semantic
+							546 row
+								547 cell
+									548 image
+									549 container overlay
+										550 text overlay
+								551 cell
+									717 button primitive/overlay, variable pill with value #1D2D6B
+										718 container primitive/overlay
+											719 text primitive/overlay
+								558 cell
+									559 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							560 row
+								561 cell
+									562 image
+									563 container light
+										564 text light
+								565 cell
+									720 button primitive/light, variable pill with value #C4DBFC
+										721 container primitive/light
+											722 text primitive/light
+								572 cell
+									573 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							574 row
+								575 cell
+									576 image
+									577 container red
+										578 text red
+								579 cell
+									723 button primitive/red, variable pill with value #E53333
+										724 container primitive/red
+											725 text primitive/red
+								586 cell
+									587 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							588 row
+								589 cell
+									590 image
+									591 container green
+										592 text green
+								593 cell
+									726 button primitive/green, variable pill with value #00FF00
+										727 container primitive/green
+											728 text primitive/green
+								600 cell
+									601 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							602 row
+								603 cell
+									604 image
+									605 container gray
+										606 text gray
+								607 cell
+									729 button primitive/gray, variable pill with value #808080
+										730 container primitive/gray
+											731 text primitive/gray
+								614 cell
+									615 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							616 row
+								617 cell
+									618 image
+									619 container thread
+										620 text thread
+								621 cell
+									732 button primitive/thread, variable pill with value #F0B9B9
+										733 container primitive/thread
+											734 text primitive/thread
+								628 cell
+									629 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							630 row
+								631 cell
+									632 button role
+							633 row
+								634 cell
+									635 image
+									636 container overlay
+										637 text overlay
+								638 cell
+									735 button semantic/overlay, variable pill with value #1D2D6B
+										736 container semantic/overlay
+											737 text semantic/overlay
+								645 cell
+									646 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							647 row
+								648 cell
+									649 image
+									650 container light
+										651 text light
+								652 cell
+									738 button semantic/light, variable pill with value #C4DBFC
+										739 container semantic/light
+											740 text semantic/light
+								659 cell
+									660 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							661 row
+								662 cell
+									663 image
+									664 container red
+										665 text red
+								666 cell
+									741 button semantic/red, variable pill with value #E53333
+										742 container semantic/red
+											743 text semantic/red
+								673 cell
+									674 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							675 row
+								676 cell
+									677 image
+									678 container green
+										679 text green
+								680 cell
+									744 button semantic/green, variable pill with value #00FF00
+										745 container semantic/green
+											746 text semantic/green
+								687 cell
+									688 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							689 row
+								690 cell
+									691 image
+									692 container gray
+										693 text gray
+								694 cell
+									747 button semantic/gray, variable pill with value #808080
+										748 container semantic/gray
+											749 text semantic/gray
+								701 cell
+									702 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+							703 row
+								704 cell
+									705 image
+									706 container thread
+										707 text thread
+								708 cell
+									750 button semantic/thread, variable pill with value #F0B9B9
+										751 container semantic/thread
+											752 text semantic/thread
+								715 cell
+									716 pop up button (collapsed) Description: Edit variable, Secondary Actions: Expand
+					422 button (collapsed) Description: Create variable button, Secondary Actions: Expand
+						423 image
+						424 text Create variable
+			425 container Application toolbar
+			426 container Help/zoom toolbar
+				427 toolbar Help/zoom toolbar
+					428 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+						429 image
+			753 container
+				754 container
+					755 image
+					756 text 18 variables updated
+
+The focused UI element is 5 container Figma Design

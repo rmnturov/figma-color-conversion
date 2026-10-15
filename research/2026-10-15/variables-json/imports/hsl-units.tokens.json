@@ -1,0 +1,57 @@
+{
+  "degrees-percent": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "hsl",
+      "components": [
+        266,
+        50,
+        30
+      ]
+    }
+  },
+  "degrees-unit-sl": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "hsl",
+      "components": [
+        266,
+        0.5,
+        0.3
+      ]
+    }
+  },
+  "turns-unit-sl": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "hsl",
+      "components": [
+        0.7388888888888889,
+        0.5,
+        0.3
+      ]
+    }
+  },
+  "gray-unit-l": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "hsl",
+      "components": [
+        0,
+        0,
+        0.5
+      ]
+    }
+  },
+  "gray-percent-l": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "hsl",
+      "components": [
+        0,
+        0,
+        50
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+Browser tab: 1749231601, Title: "Codex-Color-P3-Transforms – Figma", URL: "https://www.figma.com/design/6K0nZY2orMpyjCl6pxXaU0/Codex-Color-P3-Transforms?node-id=4-11&t=BBjaPoumvUAhMWt5-0".
+0 AXWebArea Codex-Color-P3-Transforms – Figma, URL: figma.com/design/6K0nZY2orMpyjCl6pxXaU0/Codex-Color-P3-Transforms?node-id=4-11&t=BBjaPoumvUAhMWt5-0
+	1 container react-page
+		2 container
+			3 container fullscreen-root
+				4 container Figma Design, 1 item selected
+		5 container
+			6 menu Edit file menu, ID: :re2:
+				7 Show version history
+				8 Publish library…
+				9 Export…
+				10 (collapsed) Add to sidebar, ID: :rje:, Secondary Actions: Expand
+					11 text Add to sidebar
+					12 image
+				13 Create branch…
+				14 (expanded) File color profile, ID: :rjm:, Secondary Actions: Collapse
+					15 text File color profile
+					16 image
+				17 Duplicate
+				18 Rename
+				19 Move file…
+				20 Move to trash
+			21 menu File color profile, ID: :rjl:
+				22 container File color profile
+					23 text File color profile
+					24 Assign to Display P3, Value: 1
+					25 Assign to sRGB, Value: 0
+
+The focused UI element is 24 Assign to Display P3, Value: 1
